@@ -9,14 +9,12 @@ Hieronder staat een korte checklist van alle stappen die een dataprovider dient 
 <li>Bij enkele thema’s gelden vereisten ten aanzien van woordenlijsten en taxonomieën. Check of dergelijke aanvullende vereisten gelden voor het betreffende thema (zie 5.1 t/m 10.1).</li>
 </ol>
 </li>
-</ol>
 <br/>
 <ol><li>Maak de metadata in orde en publiceer deze volgens de vereisten:
   <ol><li>Zorg dat de metadata voldoet aan de algemene metadata-vereisten die voor alle datasets gelden die onder HVD vallen (zie <a href='#650CD6EF'>4.2</a>).</li>
 <li>Check de vereisten die aan de metadata worden gesteld bij het betreffende HVD-thema (zie 5.2 t/m 10.2). Zorg dat de metadata ook aan die vereisten voldoet.</li>
 </ol>
 </li>
-</ol>
 <br/>
 <ol><li>Stel de dataset en bijbehorende documentatie beschikbaar volgens de vereisten:
   <ol><li>Zorg dat wordt voldaan aan de algemene vereisten die gelden voor alle datasets van alle thema’s (zie <a href='#37E1B35B'>4.3</a>).</li>
