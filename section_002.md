@@ -73,7 +73,7 @@ Het inrichten van de organisatie en het exacte werkproces zal per organisatie en
 
 HVD is namelijk geen project, maar onderdeel van het dagelijkse werkproces!
 
-### 2.3.1 Afstemmen binnen Nederland {#4D2A049F}
+### Afstemmen binnen Nederland {#4D2A049F}
 
 In Nederland wordt een operationeel overleg HVD ingericht. Vanaf 2024 zal dit overleg met een vaste frequentie worden ingepland.<br/>
 

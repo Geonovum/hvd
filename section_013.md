@@ -1,5 +1,12 @@
-#  {#757F4DEB}
+# Bijlage {#757F4DEB}
 
+<img src='media/Screenshot Milieurichtlijnen1.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot Milieurichtlijnen2.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot Milieurichtlijnen3.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot Milieurichtlijnen4.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot Milieurichtlijnen5.png' alt='' style='width: 100%;'></img>
+
+<!--
 <table style='width: 100%;'><caption></caption>
 <colgroup><col id='col1' style='width: 11.724902939545203%;'>
 <col id='col2' style='width: 15.041597337770382%;'>
@@ -361,4 +368,5 @@
 </tr>
 </tbody>
 </table>
+-->
 
