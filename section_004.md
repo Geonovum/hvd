@@ -72,6 +72,7 @@ Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.eu
 Dit kan als volgt worden opgenomen in de metadata:<br/>
 <br/>
 <code>
+<pre class="xml">
 <span style='color: #000080;'>
 &lt;gmd:MD_Keywords&gt;<br/>
   &lt;gmd:keyword&gt;<br/>
@@ -84,7 +85,7 @@ Dit kan als volgt worden opgenomen in de metadata:<br/>
   &lt;/gmd:keyword&gt;<br/>
   &lt;gmd:thesaurusName&gt;<br/>
     &lt;gmd:CI_Citation&gt;<br/>
-      &ensp; &lt;gmd:title&gt;<br/>
+      &lt;gmd:title&gt;<br/>
         &lt;gmx:Anchor xlink:href=`"http://publications.europa.eu/resource/dataset/high-value-dataset-category"`&gt;High-value dataset categories &lt;/gmx:Anchor&gt;&gt;<br/>
       &lt;/gmd:title&gt;<br/>
       &lt;gmd:date&gt;<br/>
@@ -99,7 +100,7 @@ Dit kan als volgt worden opgenomen in de metadata:<br/>
       &lt;/gmd:date&gt;<br/>
     &lt;/gmd:CI_Citation&gt;<br/>
   &lt;/gmd:thesaurusName&gt;<br/>
-</span></code><br/>
+</span></pre></code><br/>
 <br/>
 
 <B><I>Contactinformatie</I></B>
