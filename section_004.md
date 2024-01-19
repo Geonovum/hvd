@@ -73,32 +73,32 @@ Dit kan als volgt worden opgenomen in de metadata:<br/>
 <br/>
 <code>
 <span style='color: #000080;'>
-&lt;gmd:MD_Keywords&gt;
-  &lt;gmd:keyword&gt;
+&lt;gmd:MD_Keywords&gt;<br/>
+  &lt;gmd:keyword&gt;<br/>
     &lt;gmx:Anchor xlink:href=`"http://data.europa.eu/eli/reg_impl/2023/138/oj"`&gt;HVD&lt;/gmx:Anchor&gt;<br/>
-  &lt;/gmd:keyword&gt;
-&lt;/gmd:MD_Keywords&gt;
-&lt;gmd:MD_Keywords&gt;
-  &lt;gmd:keyword&gt;>
-    &lt;gmx:Anchor xlink:href=`"https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"`&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;
-  &lt;/gmd:keyword&gt;<
-  &lt;gmd:thesaurusName&gt;<
-    &lt;gmd:CI_Citation&gt;
-      &ensp; &lt;gmd:title&gt;
-        &lt;gmx:Anchor xlink:href=`"http://publications.europa.eu/resource/dataset/high-value-dataset-category"`&gt;High-value dataset categories &lt;/gmx:Anchor&gt;&gt;
-      &lt;/gmd:title&gt;>
-      &lt;gmd:date&gt;>
+  &lt;/gmd:keyword&gt;<br/>
+&lt;/gmd:MD_Keywords&gt;<br/>
+&lt;gmd:MD_Keywords&gt;<br/>
+  &lt;gmd:keyword&gt;<br/>
+    &lt;gmx:Anchor xlink:href=`"https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"`&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;<br/>
+  &lt;/gmd:keyword&gt;<br/>
+  &lt;gmd:thesaurusName&gt;<br/>
+    &lt;gmd:CI_Citation&gt;<br/>
+      &ensp; &lt;gmd:title&gt;<br/>
+        &lt;gmx:Anchor xlink:href=`"http://publications.europa.eu/resource/dataset/high-value-dataset-category"`&gt;High-value dataset categories &lt;/gmx:Anchor&gt;&gt;<br/>
+      &lt;/gmd:title&gt;<br/>
+      &lt;gmd:date&gt;<br/>
         &lt;gmd:CI_Date&gt;
-          &lt;gmd:date&gt;
-            &lt;gco:Date&gt;2023-09-27&lt;/gco:Date&gt;
-          &lt;/gmd:date&gt;
-          &lt;gmd:dateType&gt;
-            &lt;gmd:CI_DateTypeCode codeList=`"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"`codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;
-          &lt;/gmd:dateType&gt;>
-        &lt;/gmd:CI_Date&gt;
-      &lt;/gmd:date&gt;
-    &lt;/gmd:CI_Citation&gt;
-  &lt;/gmd:thesaurusName&gt;
+          &lt;gmd:date&gt;<br/>
+            &lt;gco:Date&gt;2023-09-27&lt;/gco:Date&gt;<br/>
+          &lt;/gmd:date&gt;<br/>
+          &lt;gmd:dateType&gt;<br/>
+            &lt;gmd:CI_DateTypeCode codeList=`"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"`codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;<br/>
+          &lt;/gmd:dateType&gt;<br/>
+        &lt;/gmd:CI_Date&gt;<br/>
+      &lt;/gmd:date&gt;<br/>
+    &lt;/gmd:CI_Citation&gt;<br/>
+  &lt;/gmd:thesaurusName&gt;<br/>
 </span></code><br/>
 <br/>
 
