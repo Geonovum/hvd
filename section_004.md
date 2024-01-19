@@ -22,12 +22,12 @@ De Open Data richtlijn geeft aan dat dataproviders hun data beschikbaar stellen 
 
 In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metadata beschreven:<br/>
 <ul><li>De dataset is in de metadata aangeduid als ‘high value dataset’ (artikel 3, lid 5); </li>
-<li>De metadata op internet beschikbaar volgens bestaande normen zoals één register of opendatacatalogus. (bijvoorbeeld NGR of data.overheid.nl) (artikel 5, lid 3a). </li>
+<li>De metadata zijn op internet beschikbaar volgens bestaande normen zoals één register of opendatacatalogus. (bijvoorbeeld NGR of data.overheid.nl) (artikel 5, lid 3a). </li>
 </ul>
 
-In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel dat geen harde vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br/>
+In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel het geen expliciete vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br/>
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
-<li>Een verwijzing naar de verplichte documentatie (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).</li>
+<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  <li>in de Europese metadata werkgroep rondom het ontsluiten van HVD (DCAT-AP-HVD), wordt er ook vanuit gegaan dat deze informatie via de metadata ontsloten wordt.</li></li>
 </ul>
 
 ### Metadata standaarden {#2E19E63B}
