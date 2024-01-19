@@ -69,7 +69,7 @@ Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.euro
 
 Het trefwoord voor het HVD thema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.
 
-Dit kan als volgt worden opgenomen in de metadata:<br/>
+Dit kan als volgt worden opgenomen in de metadata:
 <code>
 <pre class="xml">
 <span style='color: #000080;'>
@@ -138,9 +138,9 @@ Als er voor de HVD, data van verschillende generalisatieniveaus,  granulariteit,
 ### API {#289E9E05}
 
 Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverordening (artikel 3, lid 1) staat dat de datasets die onder HVD vallen, via een Application Programming interface (API) beschikbaar gesteld moeten worden. Een API is in Open Data richtlijn gedefinieerd als "een set functies, procedures, definities en protocollen voor communicatie tussen machines en de naadloze uitwisseling van data." Er is geen technische verordening voor de functionaliteit en techniek voor API’s opgesteld. Er wordt dus geen ‘technische’ keuze of API stijl voor API’s voorgeschreven. Voor de thema’s geodata, aardobservatie en milieu en mobiliteit is aangegeven dat het gaat om een API “zoals direct access download services op basis van Richtlijn 2007/2/EG” (INSPIRE). De INSPIRE direct access download service implementatie maakt het mogelijk om slechts een deel van de dataset door eigen selecties te downloaden. INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
-<table style='width: 275pt;'><caption></caption>
-<colgroup><col id='col1' style='width: 74.5%;'>
-<col id='col2' style='width: 25.5%;'>
+<table style='width: 280pt;'><caption></caption>
+<colgroup><col id='col1' style='width: 75%;'>
+<col id='col2' style='width: 25%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>INSPIRE ‘network service’<br/>
 </td>
@@ -173,7 +173,7 @@ Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, ku
 Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulksdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br/>
 
 INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HDV: <br/>
-<table style='width: 286pt;'><caption></caption>
+<table style='width: 300pt;'><caption></caption>
 <colgroup><col id='col1' style='width: 65%;'>
 <col id='col2' style='width: 35%;'>
 </colgroup>
