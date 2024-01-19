@@ -103,6 +103,20 @@ dd{margin-left:0}
 img.license{float:left;padding-right:5px}
 </style>
 <style>
+.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;background:#fafafa}
+.hljs-comment,.hljs-quote{color:#717277;font-style:italic}
+.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4}
+.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;font-weight:700}
+.hljs-literal{color:#0b76c5}
+.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c}
+.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01}
+.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801}
+.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3}
+.hljs-emphasis{font-style:italic}
+.hljs-strong{font-weight:700}
+.hljs-link{text-decoration:underline}
+</style>
+<style>
 
   .sidelabel {
     position: fixed;
@@ -503,36 +517,62 @@ img.license{float:left;padding-right:5px}
 <p>Het trefwoord voor het HVD thema moet een waarde zijn uit <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" target="_blank">https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category</a>.</p>
 <p>Dit kan als volgt worden opgenomen in de metadata:<br>
 <br>
-<code>
-<span style="color: #000080;">
-&lt;gmd:MD_Keywords&gt;<br>
-  &lt;gmd:keyword&gt;<br>
-    &lt;gmx:Anchor xlink:href=<code>"http://data.europa.eu/eli/reg_impl/2023/138/oj"</code>&gt;HVD&lt;/gmx:Anchor&gt;<br>
-  &lt;/gmd:keyword&gt;<br>
-&lt;/gmd:MD_Keywords&gt;<br>
-&lt;gmd:MD_Keywords&gt;<br>
-  &lt;gmd:keyword&gt;<br>
-    &lt;gmx:Anchor xlink:href=<code>"https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/bna/c_dd313021"</code>&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;<br>
-  &lt;/gmd:keyword&gt;<br>
-  &lt;gmd:thesaurusName&gt;<br>
-    &lt;gmd:CI_Citation&gt;<br>
-        &lt;gmd:title&gt;<br>
-        &lt;gmx:Anchor xlink:href=<code>"http://publications.europa.eu/resource/dataset/high-value-dataset-category"</code>&gt;High-value dataset categories &lt;/gmx:Anchor&gt;&gt;<br>
-      &lt;/gmd:title&gt;<br>
-      &lt;gmd:date&gt;<br>
-        &lt;gmd:CI_Date&gt;
-          &lt;gmd:date&gt;<br>
-            &lt;gco:Date&gt;2023-09-27&lt;/gco:Date&gt;<br>
-          &lt;/gmd:date&gt;<br>
-          &lt;gmd:dateType&gt;<br>
-            &lt;gmd:CI_DateTypeCode codeList=<code>"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"</code>codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;<br>
-          &lt;/gmd:dateType&gt;<br>
-        &lt;/gmd:CI_Date&gt;<br>
-      &lt;/gmd:date&gt;<br>
-    &lt;/gmd:CI_Citation&gt;<br>
-  &lt;/gmd:thesaurusName&gt;<br>
-</span></code><br>
-<br></p>
+<code></code></p><code>
+<pre aria-busy="false"><code class="hljs xml">
+<span class="hljs-tag">&lt;<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">gmd:keyword</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=`"<span class="hljs-attr">http:</span>//<span class="hljs-attr">data.europa.eu</span>/<span class="hljs-attr">eli</span>/<span class="hljs-attr">reg_impl</span>/<span class="hljs-attr">2023</span>/<span class="hljs-attr">138</span>/<span class="hljs-attr">oj</span>"`&gt;</span>HVD<span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:keyword</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">gmd:keyword</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=`"<span class="hljs-attr">https:</span>//<span class="hljs-attr">op.europa.eu</span>/<span class="hljs-attr">web</span>/<span class="hljs-attr">eu-vocabularies</span>/<span class="hljs-attr">concept</span>/<span class="hljs-attr">-</span>/<span class="hljs-attr">resource</span>?<span class="hljs-attr">uri</span>=<span class="hljs-string">http://data.europa.eu/bna/c_dd313021</span>"`&gt;</span> Aardobservatie en milieu<span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:keyword</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">gmd:thesaurusName</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_Citation</span>&gt;</span>
+
+      <span class="hljs-tag">&lt;<span class="hljs-name">gmd:title</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=`"<span class="hljs-attr">http:</span>//<span class="hljs-attr">publications.europa.eu</span>/<span class="hljs-attr">resource</span>/<span class="hljs-attr">dataset</span>/<span class="hljs-attr">high-value-dataset-category</span>"`&gt;</span>High-value dataset categories <span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;&gt;</span>
+
+      <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:title</span>&gt;</span>
+
+      <span class="hljs-tag">&lt;<span class="hljs-name">gmd:date</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_Date</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">gmd:date</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">gco:Date</span>&gt;</span>2023-09-27<span class="hljs-tag">&lt;/<span class="hljs-name">gco:Date</span>&gt;</span>
+
+          <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:date</span>&gt;</span>
+
+          <span class="hljs-tag">&lt;<span class="hljs-name">gmd:dateType</span>&gt;</span>
+
+            <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_DateTypeCode</span> <span class="hljs-attr">codeList</span>=`"<span class="hljs-attr">http:</span>//<span class="hljs-attr">standards.iso.org</span>/<span class="hljs-attr">ittf</span>/<span class="hljs-attr">PubliclyAvailableStandards</span>/<span class="hljs-attr">ISO_19139_Schemas</span>/<span class="hljs-attr">resources</span>/<span class="hljs-attr">Codelist</span>/<span class="hljs-attr">ML_gmxCodelists.xml</span>#<span class="hljs-attr">CI_DateTypeCode</span>"`<span class="hljs-attr">codeListValue</span>=<span class="hljs-string">"publication"</span>&gt;</span>publication<span class="hljs-tag">&lt;/<span class="hljs-name">gmd:CI_DateTypeCode</span>&gt;</span>
+
+          <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:dateType</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:CI_Date</span>&gt;</span>
+
+      <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:date</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:CI_Citation</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:thesaurusName</span>&gt;</span>
+
+</code></pre></code><br>
+<br>
+
 <p><b><i>Contactinformatie</i></b></p>
 <p>De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.<br>
 <br></p>
