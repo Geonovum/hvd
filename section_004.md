@@ -59,8 +59,9 @@ Een Nederlands applicatie profiel op DCAT is in ontwikkeling. Hierin wordt op ba
 Ruimtelijke data en dataservices (API’s) waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 en het  Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Het is dan wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
 
 Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd is momenteel nog niet beschikbaar. Het is mogelijk dat daarin van andere ISO metadata elementen uitgegaan worden om HVD vereisten in DCAT te ontsluiten. Zolang de gevraagde informatie in de juiste DCAT elementen ontsloten wordt, zal dit niet tot problemen leiden.<br/>
+<br/>
 
-<B>De aanduiding 'high value dataset'</B>
+<B><I>De aanduiding 'high value dataset'</i></B>
 
 Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema in het metadata element trefwoord te voldoen.<br/>
 
@@ -73,8 +74,10 @@ Dit kan als volgt worden opgenomen in de metadata:<br/>
 <code>
 <span style='color: #000080;'>
 &lt;gmd:MD_Keywords&gt;<br/>
-&nbsp; &lt;gmd:keyword&gt;<br/>
-&ensp; &lt;gmx:Anchor xlink:href=`"http://data.europa.eu/eli/reg_impl/2023/138/oj"`&gt;HVD&lt;/gmx:Anchor&gt;<br/>
+<!-- &nbsp; &lt;gmd:keyword&gt;<br/> 
+&ensp; &lt;gmx:Anchor xlink:href=`"http://data.europa.eu/eli/reg_impl/2023/138/oj"`&gt;HVD&lt;/gmx:Anchor&gt;<br/> -->
+  &lt;gmd:keyword&gt;<br/>
+    &ensp; &lt;gmx:Anchor xlink:href=`"http://data.europa.eu/eli/reg_impl/2023/138/oj"`&gt;HVD&lt;/gmx:Anchor&gt;<br/>
 &nbsp; &lt;/gmd:keyword&gt;<br/>
 &lt;/gmd:MD_Keywords&gt;<br/>
 &lt;gmd:MD_Keywords&gt;<br/>
@@ -98,30 +101,36 @@ Dit kan als volgt worden opgenomen in de metadata:<br/>
 &lt;/gmd:date&gt;<br/>
 &lt;/gmd:CI_Citation&gt;<br/>
 &lt;/gmd:thesaurusName&gt;<br/>
-</span></code>
+</span></code><br/>
+<br/>
 
-#### Contactinformatie
-De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.
+<B><I>Contactinformatie</I></B>
+De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.<br/>
+<br/>
 
-#### De gebruiksvoorwaarden
+<B><I>De gebruiksvoorwaarden</I></B>
 
-De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridische toegangsrestricties” in de metadata. Deze moet echter wel een Creative Commons Public Domain Dedication (CC0) licentie of een Creative Commons BY 4.0-licentie of een gelijkwaardige of minder beperkende open licentie zijn.
+De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridische toegangsrestricties” in de metadata. Deze moet echter wel een Creative Commons Public Domain Dedication (CC0) licentie of een Creative Commons BY 4.0-licentie of een gelijkwaardige of minder beperkende open licentie zijn.<br/>
+<br/>
 
-#### Documentatie van de dataset 
+<B><I>Documentatie van de dataset</I></B> 
 
-Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datasets waarin ten minste de gegevensstructuur en -semantiek is opgenomen. De link naar deze documentatie kan, zoals al gebruikelijk is, in de metadata opgenomen worden bij het element “specificatie” met bijbehorende conformiteitsindicatie.
+Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datasets waarin ten minste de gegevensstructuur en -semantiek is opgenomen. De link naar deze documentatie kan, zoals al gebruikelijk is, in de metadata opgenomen worden bij het element “specificatie” met bijbehorende conformiteitsindicatie.<br/>
+<br/>
 
-#### De kwaliteit van de dienstverlening
+<B><I>De kwaliteit van de dienstverlening</I></B>
 
 Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Een optie is om de kwaliteit van de dienstverlening als “Algemene beschrijving herkomst” op te nemen in de ISO metadata. Dit is een metadata element waarin ook kwaliteitsinformatie kan worden opgenomen. Dit element is echter nog niet opgenomen in het Nederlands metadata profiel op ISO 19119, maar heeft als voordeel dat het eenduidig is te transformeren naar DCAT. Het opnemen in het element “specificatie” met bijbehorende conformiteitsindicatie, heeft een nadeel dat dit niet eenduidig te transformeren is naar DCAT.<br/> 
 
-Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.
+Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br/>
+<br/>
 
-#### API documentatie 
+<B><I>API documentatie</I></B>
 
-Voor de API moet de documentatie over de API zelf gepubliceerd worden. Deze documentatie geeft specifieke details over het endpoint. Dit komt overeen met wat er vastgelegd wordt in een capabilities document van een WFS of de open API specificatie op een OGC: API features. De link naar deze documentatie wordt in de metadata gelegd in het element URL. 
+Voor de API moet de documentatie over de API zelf gepubliceerd worden. Deze documentatie geeft specifieke details over het endpoint. Dit komt overeen met wat er vastgelegd wordt in een capabilities document van een WFS of de open API specificatie op een OGC: API features. De link naar deze documentatie wordt in de metadata gelegd in het element URL.<br/>
+<br/>
 
-#### Overige metadata
+<B><I>Overige metadata</I></B>
 
 Als er voor de HVD, data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.
 
