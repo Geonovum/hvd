@@ -104,7 +104,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 
 <B><I>Contactinformatie</I></B>
 
-De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken.<br/>
+De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld servicedesk@xxx.nl, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br/>
 <br/>
 
 <B><I>De gebruiksvoorwaarden</I></B>
