@@ -1,4 +1,4 @@
-# Vereisen thema Statistieken {#457E4791}
+# Vereisten thema Statistieken {#457E4791}
 
 Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HDV</a>, gelden voor het thema Statistieken een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
 
