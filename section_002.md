@@ -7,11 +7,11 @@ De uitvoeringsverordening HVD bepaalt in haar <a href='https://eur-lex.europa.eu
 Het ministerie van BZK stelt een gefaseerde implementatie voor, gebaseerd op de te verwachtte inspanning die nodig is voor ontsluiting conform de HVD vereisten. <br/>
 ### Data met een API en/of bulkdownload {#3F2D5E2B}
 
-In Nederland zijn veel datasets, die in de uitvoeringsverordening HVD zijn opgenomen, al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. Focus eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning is om deze dataset uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
+In Nederland zijn veel datasets die in de uitvoeringsverordening HVD zijn opgenomen al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. De focus ligt eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning is om deze datasets uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
 
 ### Data die nog geen API of bulkdownload (atom) heeft {#07542A6B}
 
-Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload wordt ontsloten, wordt een andere tijdslijn gehanteerd. Aangezien hier een grotere inspanning verwacht kan worden voor de ontsluiting conform HVD vereisten kan hier, als nodig, de ruimte benut worden die er is tussen de officiële implementatie deadline en de eerste rapportage over HVD, uiterlijk 9 februari 2025.
+Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload wordt ontsloten, wordt een andere tijdslijn gehanteerd. Aangezien hier een grotere inspanning verwacht kan worden voor de ontsluiting conform HVD vereisten kan hier, als nodig, de ruimte benut worden die er is tussen de officiële implementatie-deadline en de eerste rapportage over HVD, uiterlijk 9 februari 2025.
 
 ### Milieurichtlijnen  {#000BEA28}
 
