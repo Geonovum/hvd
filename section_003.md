@@ -8,7 +8,7 @@ De uitvoeringsverordening HVD en de bijlage hierin, moeten gelezen worden in het
 
 ## Verbinding met andere Europese richtlijnen<span style='color: #auto;'></span><span style='color: #auto;'></span><span style='color: #auto;'></span> {#5A325F91}
 
-De <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data-strategie</a> geeft informatie over de (aankomende) Europese Verordeningen en Richtlijnen rond de Digitale Strategie en de Data Strategie. Hierin is ook een hoofdstuk over de Open Data richtlijn opgenomen en over high value datasets die zijn benoemd in deze richtlijn.<br/>
+De <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data-strategie</a> geeft informatie over de (aankomende) Europese Verordeningen en Richtlijnen rond de Digitale Strategie en de Data Strategie. Hierin is ook een hoofdstuk over de Open Data richtlijn opgenomen en over high value datasets die in deze richtlijn benoemd zijn.<br/>
 
 ### INSPIRE richtlijn {#1547CDD1}
 
@@ -51,7 +51,7 @@ De Commissie heeft aangegeven (d.d. 8 november 2022) dat de benadering van histo
 
 Bij het HVD thema Statistieken wordt uitgegaan van de vereisten zoals genoemd in de desbetreffende wetgeving en een startdatum voor tijdsreeksen uiterlijk op de datum waarop deze van toepassing is. Advies is om deze vereisten te volgen, en indien machine leesbare gegevens die verder teruggaan voorhanden zijn, ook die beschikbaar te stellen.<br/>
 
-Voor de gevalideerde klimaat observaties uit het HVDL-thema Meteorologische data en het HVDL-thema aardobservatie en milieu zijn geen wettelijke kaders gegeven. Aangezien het beheer van de gegevens door de overheidsinstanties verschillend is en niet aangepast hoeft te worden, kan de data op eenzelfde manier worden ontsloten als in de lidstaat wordt gedaan waarbij wordt geadviseerd om voor het thema milieu en aardobservatie wel overeenstemming te bereiken op EU-niveau om hergebruik gemakkelijker te maken.
+Voor de gevalideerde klimaat observaties uit het HVD-thema Meteorologische data en het HVD-thema aardobservatie en milieu zijn geen wettelijke kaders gegeven. Aangezien het beheer van de gegevens door de overheidsinstanties verschillend is en niet aangepast hoeft te worden, kan de data op eenzelfde manier worden ontsloten als in de lidstaat wordt gedaan. Daarbij wordt geadviseerd om voor het thema aardobservatie en milieu wel overeenstemming te bereiken op EU-niveau om hergebruik gemakkelijker te maken.
 
 ## Schaalniveau/resolutie {#3357033D}
 
@@ -63,7 +63,7 @@ Bij drie van de zes thema’s beschreven in de uitvoeringsverordening HVD zijn v
 
 Voor de HVD thema’s Geodata en Aardobservatie en milieu staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br/>
 
-Voor HVD thema Meteorologische data geldt bij 1 sub thema, namelijk gegevens uit modellen inzake numerieke weersverwachting (NWP-model), een resolutie vereiste. Ook hier is opgenomen dat indien het vereiste rasterniveau van 2,5 km niet gehaald kan worden, het best beschikbare raster gebruikt moet worden.
+Voor HVD thema Meteorologische data geldt bij 1 subthema, namelijk gegevens uit modellen inzake numerieke weersverwachting (NWP-model), een resolutie vereiste. Ook hier is opgenomen dat indien het vereiste rasterniveau van 2,5 km niet gehaald kan worden, het best beschikbare raster gebruikt moet worden.
 
 ## Persoonsgegevens {#5D2970DF}
 
