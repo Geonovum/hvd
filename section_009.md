@@ -1,6 +1,6 @@
 # Vereisten thema Bedrijven {#338F707A}
 
-Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HDV</a>, gelden voor het thema Bedrijven en eigendom van bedrijven een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
+Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Bedrijven en eigendom van bedrijven een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
 
 ## Data {#09E5F961}
 
