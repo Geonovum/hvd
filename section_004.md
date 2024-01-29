@@ -8,9 +8,9 @@ De technische vereisten die aan de datasets van elk thema worden gesteld, zijn v
 
 Over het formaat waarin de data beschikbaar gesteld dient te worden, staat in de Open Data richtlijn dat dataproviders hun documenten beschikbaar stellen in de reeds bestaande formaten of talen en, indien mogelijk en passend, elektronisch, in formaten die open, machineleesbaar, toegankelijk, vindbaar en herbruikbaar zijn. Daarnaast dient het formaat zo veel mogelijk aan formele open standaarden te voldoen (artikel 5 (1)). <br/>
 
-In de uitvoeringsverordening HVD staat het wat specifieker, namelijk dat het een machineleesbaar formaat dient te zijn dat in de Unie of internationaal erkend is en dat beantwoorden aan de redelijke behoeften van hergebruikers (artikel 3 (1)).<br/>
+In de uitvoeringsverordening HVD staat het wat specifieker, namelijk dat het een machineleesbaar formaat dient te zijn dat in de Unie of internationaal erkend is. Ook moet het formaat beantwoorden aan de redelijke behoeften van hergebruikers (artikel 3 (1)).<br/>
 
-In de bijlage van de uitvoeringsverordening wordt bij alle thema’s, met uitzondering van sub thema Binnenwateren (van thema Mobiliteit), ook vermeld dat het een open formaat moet zijn. Daarnaast worden in de bijlage bij enkele thema’s specifieke formaten als voorbeelden genoemd. Het is niet verplicht deze specifieke formaten te gebruiken, maar het wordt wel geadviseerd.<br/>
+In de bijlage van de uitvoeringsverordening wordt bij alle thema’s, met uitzondering van subthema Binnenwateren (van thema Mobiliteit), ook vermeld dat het een open formaat moet zijn. Daarnaast worden in de bijlage bij enkele thema’s specifieke formaten als voorbeelden genoemd. Het is niet verplicht deze specifieke formaten te gebruiken, maar het wordt wel geadviseerd.<br/>
 
 ### Licenties {#0A0CAE2E}
 
@@ -27,38 +27,38 @@ In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metad
 
 In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel het geen expliciete vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br/>
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
-<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  <ul><li>in de Europese metadata werkgroep rondom het ontsluiten van HVD (DCAT-AP-HVD), wordt er ook vanuit gegaan dat deze informatie via de metadata ontsloten wordt.</li></ul></li>
+<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  <ul><li>In de Europese metadata werkgroep rondom het ontsluiten van HVD (DCAT-AP-HVD), wordt er ook vanuit gegaan dat deze informatie via de metadata ontsloten wordt.</li></ul></li>
 </ul>
 
 ### Metadata standaarden {#2E19E63B}
 
-Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt wordt volgens bestaande normen. <br/>
+Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. <br/>
 
-Voor het beschrijven van ruimtelijke data en dataservices, wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br/>
+Voor het beschrijven van ruimtelijke data en dataservices wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br/>
 
 Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opgesteld. De vereisten uit het INSPIRE profiel zijn opgenomen in deze Nederlandse profielen zodat, door te voldoen aan het Nederlandse profiel, tevens aan de Europese INSPIRE vereisten voldaan kan worden.<br/>
 
 Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'>Pas-toe-of-leg-uit-lijst</a> van het College Standaardisatie.<br/>
 
-Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk. (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br/>
+Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br/>
 
 De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
-In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.0/' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/ dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
+In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.0/' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
 
-Er is voor het geo en het statistische domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP. Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt; <a href='https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/' target='_blank'>DCAT-AP-HVD</a> zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan. Een update van geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar.<br/>
+Er is voor het geo-domein en het statistische-domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP. Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan. Een update van geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar.<br/>
 
 ### DCAT-AP-NL {#6E5518C4}
 
-Een Nederlands applicatie profiel op DCAT is in ontwikkeling. Hierin wordt op basis van het Europese DCAT-AP, specifiekere afspraken gemaakt die beter aansluiten op de situatie in Nederland. Dit profiel gaat gebruikt worden voor de uitwisseling van metadata tussen Europese en Nederlandse data portalen. In een aantal domeinen en bijbehorende portalen, wordt DCAT als standaard gebruikt om de metadata in vast te leggen. Daar kan het Nederlandse profiel ook gebruikt gaan worden zodat de metadata die wordt vastgelegd beter aansluit bij de Nederlandse wensen en eisen op dit gebied.<br/>
+Een Nederlands applicatie profiel op DCAT is in ontwikkeling. Hierin wordt op basis van het Europese DCAT-AP, specifiekere afspraken gemaakt die beter aansluiten op de situatie in Nederland. Dit profiel gaat gebruikt worden voor de uitwisseling van metadata tussen Europese en Nederlandse data portalen. In een aantal domeinen en bijbehorende portalen wordt DCAT als standaard gebruikt om de metadata in vast te leggen. Daar kan het Nederlandse profiel ook gebruikt gaan worden zodat de metadata die wordt vastgelegd beter aansluit bij de Nederlandse wensen en eisen op dit gebied.<br/>
 
 ### Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE) {#409368F9}
 
 Ruimtelijke data en dataservices (API’s) waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 en het  Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Het is dan wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
 
-Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd is momenteel nog niet beschikbaar. Het is mogelijk dat daarin van andere ISO metadata elementen uitgegaan gaat worden om HVD vereisten in DCAT te ontsluiten. Zolang de gevraagde informatie in de juiste DCAT elementen ontsloten wordt, zal dit niet tot problemen leiden.<br/>
+Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar. Het is mogelijk dat daarin van andere ISO metadata elementen uitgegaan gaat worden om HVD vereisten in DCAT te ontsluiten. Zolang de gevraagde informatie in de juiste DCAT elementen ontsloten wordt, zal dit niet tot problemen leiden.<br/>
 <br/>
 
 <B><I>De aanduiding 'high value dataset'</i></B>
@@ -104,7 +104,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 
 <B><I>Contactinformatie</I></B>
 
-De contactinformatie voor vragen over de API kan in de metadata- elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Daarbij als rol pointOfContact gebruiken. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld servicedesk@xxx.nl, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br/>
+De contactinformatie voor vragen over de API kan in de metadata elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Gebrui daarbij als rol: pointOfContact. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld servicedesk@xxx.nl, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br/>
 <br/>
 
 <B><I>De gebruiksvoorwaarden</I></B>
@@ -131,7 +131,7 @@ Voor de API moet de documentatie over de API zelf gepubliceerd worden. Deze docu
 
 <B><I>Overige metadata</I></B>
 
-Als er voor de HVD, data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.
+Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.
 
 ## Beschikbaar stellen {#37E1B35B}
 
@@ -164,9 +164,9 @@ Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverorden
 </tbody>
 </table>
 
-De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href='https://docs.geostandaarden.nl/api/API-Strategie/' target='_blank'>Nederlandse API strategie</a> van de overheid toegepast.<br/>
+De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s, zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href='https://docs.geostandaarden.nl/api/API-Strategie/' target='_blank'>Nederlandse API strategie</a> van de overheid toegepast.<br/>
 
-Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, kunnen eveneens als HDV API’s worden ingezet. Er zijn geen voorgeschreven technische implementatieregels vanuit ODD en HDV, maar wel een verwachting dat API’s  meegroeien met de redelijke wensen van hergebruikers. Om te voldoen aan de behoefte van hergebruikers is het advies om het gebruik van REST API’s conform de Nederlandse API-strategie en conform de OGC API standaarden zoals STA en OGC API Features (INSPIRE Good Practises) te implementeren en stimuleren. Deze nieuwe generatie API's zijn voor een veel breder publiek toegankelijk voor hergebruik. Daarnaast is het advies om de brede Europese ontwikkelingen op het gebied van API implementatie te volgen en te zorgen dat de Nederlandse API belangen worden gewaarborgd.  
+Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, kunnen eveneens als HDV API’s worden ingezet. Er zijn geen voorgeschreven technische implementatieregels vanuit ODD en HVD, maar wel een verwachting dat API’s  meegroeien met de redelijke wensen van hergebruikers. Om te voldoen aan de behoefte van hergebruikers is het advies om het gebruik van REST API’s conform de Nederlandse API strategie en conform de OGC API standaarden zoals STA en OGC API Features (INSPIRE Good Practises) te implementeren en stimuleren. Deze nieuwe generatie API's zijn voor een veel breder publiek toegankelijk voor hergebruik. Daarnaast is het advies om de brede Europese ontwikkelingen op het gebied van API implementatie te volgen en te zorgen dat de Nederlandse API belangen worden gewaarborgd.  
 
 ### Bulkdownload {#420E7103}
 
@@ -205,10 +205,10 @@ INSPIRE dataproviders met HDV datasets kunnen de INSPIRE ‘network services’ 
 In de uitvoeringsverordening is beschreven dat ten behoeve van hergebruik verschillende documentatie beschikbaar gesteld dient te worden.<br/>
 <ul><li>Naast de API zelf moeten de gebruiksvoorwaarden van de API worden vastgesteld en worden gepubliceerd in een open, voor de mens en machineleesbaar formaat (artikel 3, lid 2).</li>
 <li><span style='color: #000000;'>De criteria inzake de kwaliteit van de dienstverlening moet eveneens worden vastgesteld en gepubliceerd. Het betreft hier de prestaties, de capaciteit en de beschikbaarheid van de services (</span>artikel 3, lid 2)<span style='color: #000000;'>. </span></li>
-<li>Tenslotte wordt ook de API-documentatie gepubliceerd in een open, voor de mens en machineleesbaar formaat dat in de Unie of internationaal erkend is (artikel 3, lid 3).</li>
+<li>Tenslotte wordt ook de API documentatie gepubliceerd in een open, voor de mens en machineleesbaar formaat dat in de Unie of internationaal erkend is (artikel 3, lid 3).</li>
 </ul>
 
 ### Contactpunt {#14E940CF}
 
-Alle dataproviders die over high value datasets beschikken wijzen een contactpunt aan voor vragen en kwesties in verband met de API. Dit heeft als doel de beschikbaarheid en het onderhoud van de API te waarborgen en draagt uiteindelijk bij aan de vlotte en doeltreffende publicatie van de datasets (uitvoeringsverordening artikel 3, lid 4). Het advies is hiervoor een helpdesk-punt te gebruiken.
+Alle dataproviders die over high value datasets beschikken, wijzen een contactpunt aan voor vragen en kwesties in verband met de API. Dit heeft als doel de beschikbaarheid en het onderhoud van de API te waarborgen en draagt uiteindelijk bij aan de vlotte en doeltreffende publicatie van de datasets (uitvoeringsverordening artikel 3, lid 4). Het advies is hiervoor een helpdesk-punt te gebruiken.
 
