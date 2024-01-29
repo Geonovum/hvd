@@ -18,6 +18,6 @@ De metadata waarmee de datasets worden beschreven die onder INSPIRE vallen, beva
 
 ## Beschikbaar stellen {#6C6CD0B6}
 
-De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads, behalve de historische versies van datasets onder dit thema. Daarvoor geldt dat ze via API’s <i>of</i> via bulkdownload beschikbaar worden gesteld.
+De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksdownload, behalve de historische versies van datasets onder dit thema. Daarvoor geldt dat ze via API’s <i>of</i> via bulkdownload beschikbaar worden gesteld.
 
 De volledige documentatie van de datasets onder dit thema moet online gepubliceerd worden en openbaar toegankelijk zijn. Hierin wordt tenminste de gegevensstructuur en -semantiek beschreven.<br/>
