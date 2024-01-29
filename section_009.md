@@ -18,14 +18,14 @@ De datasets dienen gebruik te maken van in de Unie of internationaal erkende en 
 
 ## Metadata {#569CAE7E}
 
-Voor de volledige metadata die de datasets beschrijven geldt:<br/>
-<ul><li>Voor documenten die binnen het toepassingsgebied van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R1437' target='_blank'>Gedelegeerde Verordening (EU) 2016/1437</a> vallen, de in die verordening gespecificeerde metagegevens, indien van toepassing;</li>
-<li>Voor andere documenten, de metagegevens die zijn voorgeschreven bij het toepasselijke EU-recht, indien van toepassing. </li>
+In onderstaande twee gevallen gelden aanvullende vereisten ten aanzien van de volledige metadata die de datasets beschrijven.<br/>
+<ul><li>Voor documenten die binnen het toepassingsgebied van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R1437' target='_blank'>Gedelegeerde Verordening (EU) 2016/1437</a> vallen, geldt dat de in die verordening gespecificeerde metagegevens opgenomen moeten worden, indien van toepassing.</li>
+<li>Voor andere documenten geldt dat de metagegevens opgenomen moeten worden die zijn voorgeschreven bij het toepasselijke EU-recht, indien van toepassing. </li>
 </ul>
 
 ## Beschikbaar stellen {#53DEF0B6}
 
-De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads.<br/>
+De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br/>
 
 De volledige documentatie van de datasets onder dit thema moet online gepubliceerd worden en openbaar toegankelijk zijn. Hierin wordt tenminste de gegevensstructuur en -semantiek beschreven.
 
