@@ -14,7 +14,7 @@ De metadata waarmee de datasets worden beschreven die ook onder INSPIRE vallen, 
 
 ## Beschikbaar stellen {#3EEAEDCB}
 
-De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads.<br/>
+De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br/>
 
 Bij de datasets betreffende referentie- en landbouwpercelen dient rekening gehouden te worden met de lopende uitvoering van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32007L0002' target='_blank'>Richtlijn 2007/2/EG</a> en met de verplichting van artikel 67, leden 3 en 5, van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32021R2116' target='_blank'>Verordening (EU) 2021/2116</a>.
 
