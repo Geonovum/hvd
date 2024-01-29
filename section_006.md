@@ -2,7 +2,7 @@
 
 In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1' target='_blank'> bijlage van de uitvoeringsverordening</a> worden de INSPIRE thema’s benoemd die onder het thema Aardobservatie en milieu van HVD vallen. Het betreft datasets van 19 verschillende INSPIRE thema’s. Daarnaast vallen datasets die zijn geproduceerd of gegenereerd in het kader van een dertigtal milieurichtlijnen onder dit HVD thema.<br/>
 
-Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HDV</a>, gelden voor het thema Aardobservatie en milieu een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd waarbij ze zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
+Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Aardobservatie en milieu een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd waarbij ze zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
 
 ## Data {#382BA63C}
 
