@@ -16,7 +16,7 @@ De metadata waarin de datasets zijn beschreven, is beschikbaar in een goed uitge
 
 ## Beschikbaar stellen {#07622FCB}
 
-De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads.<br/>
+De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br/>
 
 De volledige documentatie van de datasets onder dit thema moet online gepubliceerd worden en openbaar toegankelijk zijn. Hierin wordt tenminste de gegevensstructuur en -semantiek beschreven.
 
