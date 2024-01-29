@@ -14,7 +14,7 @@ De metadata die de datasets van dit thema beschrijven moet volledig zijn en op i
 
 ## Beschikbaar stellen {#046BBC26}
 
-De datasets moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads. Met uitzondering van de dataset “Gegevens van het NWP-model” (gegevens uit modellen inzake numerieke weersverwachting), die alleen via API’s beschikbaar wordt gesteld.<br/>
+De datasets moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload. Met uitzondering van de dataset “Gegevens van het NWP-model” (gegevens uit modellen inzake numerieke weersverwachting), die alleen via API’s beschikbaar wordt gesteld.<br/>
 
 De volledige documentatie van de datasets onder dit thema moet online gepubliceerd worden en openbaar toegankelijk zijn. Hierin wordt tenminste de gegevensstructuur en -semantiek beschreven.
 
