@@ -18,7 +18,7 @@ Onder partijen die verantwoordelijk zijn voor de uitvoering verstaan wij die per
 
 ### Beleidsmakers {#21BEA824}
 
-De handreiking is daarmee momenteel meer technisch dan organisatorisch ingestoken. Ook beleidmakers en managers krijgen met HVD te maken. Zij zullen ook praktisch met HVD aan de slag gaan, maar op een andere manier dan de technische beheerders, GIS-specialisten en ICT'ers. Toch kan het verhelderend zijn de handreiking te lezen om een idee te krijgen van het type werk, dat voor HVD moet worden uitgevoerd.<br/>
+De handreiking is daarmee momenteel meer technisch dan organisatorisch ingestoken. Ook beleidmakers en managers krijgen met HVD te maken. Zij zullen ook praktisch met HVD aan de slag gaan, maar op een andere manier dan de technische beheerders, GIS-specialisten en ICT'ers. Toch kan het verhelderend zijn de handreiking te lezen om een idee te krijgen van het type werk dat voor HVD moet worden uitgevoerd.<br/>
 
 ## Processtappen {#6E27898C}
 

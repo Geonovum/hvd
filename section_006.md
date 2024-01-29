@@ -1,4 +1,4 @@
-# Vereisen thema Aardobservatie en milieu {#5C0050A5}
+# Vereisten thema Aardobservatie en milieu {#5C0050A5}
 
 In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1' target='_blank'> bijlage van de uitvoeringsverordening</a> worden de INSPIRE thema’s benoemd die onder het thema Aardobservatie en milieu van HVD vallen. Het betreft datasets van 19 verschillende INSPIRE thema’s. Daarnaast vallen datasets die zijn geproduceerd of gegenereerd in het kader van een dertigtal milieurichtlijnen onder dit HVD thema.<br/>
 

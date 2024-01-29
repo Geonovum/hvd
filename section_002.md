@@ -4,14 +4,14 @@ De uitvoeringsverordening HVD bepaalt in haar <a href='https://eur-lex.europa.eu
 
 ## Nederlandse ambitie HVD {#3280DEA1}
 
-Het ministerie van BZK stelt een gefaseerde implementatie voor, gebaseerd op de te verwachtte inspanning die nodig is voor ontsluiting conform de HVD vereisten. <br/>
+Het ministerie van BZK stelt een gefaseerde implementatie voor, gebaseerd op de verwachte inspanning die nodig is voor ontsluiting conform de HVD vereisten. <br/>
 ### Data met een API en/of bulkdownload {#3F2D5E2B}
 
-In Nederland zijn veel datasets, die in de uitvoeringsverordening HVD zijn opgenomen, al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. Focus eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning is om deze dataset uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
+In Nederland zijn veel datasets die in de uitvoeringsverordening HVD zijn opgenomen al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. De focus ligt eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning is om deze datasets uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
 
 ### Data die nog geen API of bulkdownload (atom) heeft {#07542A6B}
 
-Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload wordt ontsloten, wordt een andere tijdslijn gehanteerd. Aangezien hier een grotere inspanning verwacht kan worden voor de ontsluiting conform HVD vereisten kan hier, als nodig, de ruimte benut worden die er is tussen de officiële implementatie deadline en de eerste rapportage over HVD, uiterlijk 9 februari 2025.
+Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload wordt ontsloten, wordt een andere tijdslijn gehanteerd. Aangezien hier een grotere inspanning verwacht kan worden voor de ontsluiting conform HVD vereisten kan hier, als nodig, de ruimte benut worden die er is tussen de officiële implementatie-deadline en de eerste rapportage over HVD, uiterlijk 9 februari 2025.
 
 ### Milieurichtlijnen  {#000BEA28}
 
@@ -19,7 +19,7 @@ In de eerste helft van 2024 zal er voor de dertigtal milieurichtlijnen, vallende
 
 ### Overige data onder INSPIRE thema’s {#1C790CF7}
 
-Voor de data die onder de, in de HVD genoemde INSPIRE thema’s valt, gaat het om de voor INSPIRE aangemerkte data: zowel de geharmoniseerde dataset als de rijkere brondata. Daarnaast gaat het om de overige data die onder de INSPIRE thema’s valt (aanvullend op de meest geschikte INSPIRE dataset). Niet al deze data is al bij de dataproviders in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor geldt de implementatietermijn tot uiterlijk 9 februari 2025.
+Datasets die in de HVD genoemd worden en onder INSPIRE thema’s vallen, betreffen datasets die voor INSPIRE zijn aangemerkt: het gaat zowel om geharmoniseerde datasets als om rijkere brondata. Daarnaast gaat het om de overige data die onder de INSPIRE thema’s valt (aanvullend op de meest geschikte INSPIRE dataset). Niet al deze data is al bij de dataproviders in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor geldt de implementatietermijn tot uiterlijk 9 februari 2025.
 
 ### Historie en meerdere schaalniveaus {#313A749C}
 
@@ -31,7 +31,7 @@ In de uitvoeringsverordening HVD wordt ingezet op het beschikbaar maken voor her
 
 ## Aanmerken {#35938FAC}
 
-In Nederland is het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) verantwoordelijk voor de invoering van HVD. Indien een (overheids-)partij beschikt over een dataset die past binnen een HVD thema, is deze partij verplicht deze gegevens conform de uitvoeringsverordening HVD te ontsluiten.<br/>
+In Nederland is het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK) verantwoordelijk voor de invoering van HVD. Indien een (overheids)partij beschikt over een dataset die past binnen een HVD thema, is deze partij verplicht deze gegevens conform de uitvoeringsverordening HVD te ontsluiten.<br/>
 
 Het ministerie zal deze partij (de dataprovider) aanmerken als HVD dataprovider. De dataproviders zorgen ervoor dat gegevens conform de eisen uit de uitvoeringsverordening HVD vindbaar, toegankelijk en beschikbaar worden gesteld.<br/>
 
@@ -40,28 +40,22 @@ Het ministerie zal deze partij (de dataprovider) aanmerken als HVD dataprovider.
 Om inzicht te bieden in welke Nederlandse datasets voor HVD zijn aangemerkt, stelt het Ministerie van BZK het <a href='https://aanmerking.nl/' target='_blank'>Aanmerkingsregister</a> beschikbaar. Het register is openbaar en online toegankelijk. In dit register wordt naast de HVD aanmerking ook de INSPIRE aanmerking bijgehouden.<br/>
 
 Het doel van het aanmerkingsregister is meervoudig:<br/>
-<ul><li>In het aanmerkingsregister worden de aanmerkingen en wijzigingen op de aanmerkingen bijgehouden door het ministerie van BZK.</li>
-<li>Via het aanmerkingsregister kan iedereen de voortgang van de HVD (en INSPIRE) implementatie volgen.</li>
+<ul><li>In het aanmerkingsregister worden de aanmerkingen en wijzigingen op de aanmerkingen bijgehouden door het ministerie van BZK;</li>
+<li>Via het aanmerkingsregister kan iedereen de voortgang van de HVD (en INSPIRE) implementatie volgen;</li>
 <li>Vanuit het aanmerkingsregister is er ook een directe link naar de publicatie van de metadata van betreffende dataset in het <a href='http://www.nationaalgeoregister.nl/' target='_blank'>Nationaal Georegister (NGR)</a> en <a href='https://data.overheid.nl/ 'target='_blank'>data.overheid.nl</a>. De dataset zelf is via de metadata te raadplegen.</li>
 </ul>
 
 In het openbare gedeelte kan de bezoeker de <a href='https://aanmerking.nl/aanmerkingsregister' target='_blank'>aanmerkingen</a> bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset <a href='https://aanmerking.nl/aanmelden-dataset' target='_blank'>aanmelden</a> als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br/>
 
-Naast een openbaar gedeelte heeft het aanmerkingregister ook een gesloten gedeelte voor de dataproviders. De gesloten omgeving voorziet in extra functionaliteit om het aanmerkings- en implementatieproces te ondersteunen. Binnen deze omgeving kunnen dataproviders per dataset:<br/>
-
-<ul><li>de directe link naar de publicatie van de metadata van betreffende dataset in het NGR of andere metadata registers opnemen;</li>
-<li>of een wijzigingsverzoek indienen.</li>
-</ul>
-
-Daarnaast kan de dataprovider alle eigen datasets exporteren naar een Excel-bestand.
+Naast een openbaar gedeelte heeft het aanmerkingregister ook een gesloten gedeelte voor de dataproviders. De gesloten omgeving voorziet in extra functionaliteit om het aanmerkings- en implementatieproces te ondersteunen. Binnen deze omgeving kunnen dataproviders per dataset de directe link opnemen naar de publicatie van de metadata van betreffende dataset in het NGR of andere metadata registers. Ook kan de dataprovider een wijzigingsverzoek indienen. Daarnaast kan de dataprovider alle eigen datasets exporteren naar een Excel-bestand.<br/>
 
 ### Wijziging van de aanmerking {#3045D0CB}
 
-In sommige gevallen kan een aangemerkte organisatie niet langer optreden als dataprovider voor een of meer HVD thema’s, of onderdelen daarvan. Dit kan om verschillende redenen, bijvoorbeeld omdat:<br/>
+In sommige gevallen kan een aangemerkte organisatie niet langer optreden als dataprovider voor een of meer HVD thema’s, of onderdelen daarvan. Dit kan om verschillende redenen, bijvoorbeeld:<br/>
 
-<ul><li>de dataset onvolledig is;</li>
-<li>de dataset niet langer beheerd wordt door veranderend beleid of wettelijke verplichting;</li>
-<li>een andere organisatie de dataset gaat beheren of beschikbaar stellen.</li>
+<ul><li>De dataset is onvolledig;</li>
+<li>Door veranderend beleid of wettelijke verplichting wordt de dataset niet langer beheerd;</li>
+<li>Een andere organisatie gaat de dataset beheren of beschikbaar stellen.</li>
 </ul>
 
 <!-- In de onderstaande figuur staat welke stappen doorlopen moeten worden om een aanmerking te wijzigen. Via het gesloten gedeelte van het  aanmerkingsregister kan de dataprovider een wijzigingsverzoek indienen. -->
