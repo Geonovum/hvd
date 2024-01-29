@@ -14,11 +14,11 @@ Voor datasets over binnenwateren geldt, in afwijking van wat staat beschreven bi
 
 Voor datasets over vervoersnetwerken geldt dat de metadata ten minste de metagegevenselementen moet bevatten zoals uiteengezet in <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32008R1205' target='_blank'>Verordening (EG) nr. 1205/2008</a>.<br/>
 
-Voor datasets over binnenwateren geldt dat de metadata volledig, en op internet beschikbaar moet zijn, in een open en machineleesbaar formaat dat in de Unie of internationaal erkend is.<br/>
+Voor datasets over binnenwateren geldt dat de metadata volledig en op internet beschikbaar moet zijn, in een open en machineleesbaar formaat dat in de Unie of internationaal erkend is.<br/>
 
 ## Beschikbaar stellen {#7F1DD93B}
 
-De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulksgewijze downloads.<br/>
+De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br/>
 
 Voor datasets over vervoersnetwerken geldt dat de online documentatie van de datasets volledig en openbaar toegankelijk moet zijn. Hierin moet ten minste de gegevensstructuur en -semantiek worden beschreven.
 
