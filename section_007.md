@@ -1,6 +1,6 @@
 # Vereisten thema Meteorologische data {#5B36A649}
 
-Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HDV</a>, gelden voor het thema Meteorologische data een aantal aanvullende technische vereisten. Deze aanvullende vereisten zijn hieronder benoemd, onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
+Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Meteorologische data een aantal aanvullende technische vereisten. Deze aanvullende vereisten zijn hieronder benoemd, onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
 
 ## Data {#35D6B842}
 
