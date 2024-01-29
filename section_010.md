@@ -1,6 +1,6 @@
 # Vereisten thema Mobiliteit {#3855C198}
 
-Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HDV</a>, gelden voor het thema Mobiliteit een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
+Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Mobiliteit een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
 
 ## Data {#2AC56743}
 
