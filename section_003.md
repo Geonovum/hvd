@@ -55,13 +55,14 @@ Voor de gevalideerde klimaat observaties uit het HVD-thema Meteorologische data 
 
 ## Schaalniveau/resolutie {#3357033D}
 
-Bij drie van de zes thema’s beschreven in de uitvoeringsverordening HVD zijn verschillende schaalniveaus vereist. Het betreft de HVD thema’s: <br/>
+Bij vier van de zes thema’s beschreven in de uitvoeringsverordening HVD zijn verschillende schaalniveaus vereist. Het betreft de HVD thema’s: <br/>
 <ul><li>Geodata</li>
 <li>Aardobservatie en milieu</li>
-<li><span style='color: #000000;'>Meteorologische data</span></li>
+<li>Mobiliteit - Vervoersnetwerken</li>  
+<li>Meteorologische data</li>
 </ul>
 
-Voor de HVD thema’s Geodata en Aardobservatie en milieu staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br/>
+De uitvoeringsverordening omvat voor de meeste datasets van de HVD thema’s Geodata, Aardobservatie en milieu, en het subthema Vervoersnetwerken van het thema Mobiliteit, alle generalisatieniveaus die beschikbaar zijn tot de schaal van 1 op 5 000. Daarbij staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br/>
 
 Voor HVD thema Meteorologische data geldt bij 1 subthema, namelijk gegevens uit modellen inzake numerieke weersverwachting (NWP-model), een resolutie vereiste. Ook hier is opgenomen dat indien het vereiste rasterniveau van 2,5 km niet gehaald kan worden, het best beschikbare raster gebruikt moet worden.
 
