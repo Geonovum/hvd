@@ -62,7 +62,7 @@ Bij vier van de zes thema’s beschreven in de uitvoeringsverordening HVD zijn v
 <li>Meteorologische data</li>
 </ul>
 
-De uitvoeringsverordening omvat voor de meeste datasets van de HVD thema’s Geodata, Aardobservatie en milieu, en het subthema Vervoersnetwerken van het thema Mobiliteit, alle generalisatieniveaus die beschikbaar zijn tot de schaal van 1 op 5 000. Daarbij staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br/>
+Voor de meeste datasets van de HVD thema’s Geodata, Aardobservatie en milieu, en het subthema Vervoersnetwerken van het thema Mobiliteit, geldt: alle generalisatieniveaus die beschikbaar zijn tot de schaal van 1 op 5 000. Daarbij staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br/>
 
 Voor HVD thema Meteorologische data geldt bij 1 subthema, namelijk gegevens uit modellen inzake numerieke weersverwachting (NWP-model), een resolutie vereiste. Ook hier is opgenomen dat indien het vereiste rasterniveau van 2,5 km niet gehaald kan worden, het best beschikbare raster gebruikt moet worden.
 
