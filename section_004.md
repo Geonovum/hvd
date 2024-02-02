@@ -1,6 +1,6 @@
 # Algemene vereisten HVD {#207C051B}
 
-De technische vereisten die aan de datasets van elk thema worden gesteld, zijn vastgesteld in de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>Open Data richtlijn</a>, de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a> en in de bijlage van deze uitvoeringsverordening. Op basis van deze documenten zijn in dit hoofdstuk de technische afspraken opgenomen die voor alle thema’s en alle datasets gelden die onder HVD vallen. De vereisten zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.
+De technische vereisten die aan de datasets van elk thema worden gesteld, zijn vastgesteld in de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024' target='_blank'>Open Data richtlijn</a>, de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a> en in de bijlage van deze uitvoeringsverordening. Dit zijn de officiele documenten waarin de volledige vereisten zijn opgenomen. Op basis van deze documenten zijn in dit hoofdstuk de technische afspraken opgenomen die voor alle thema’s en alle datasets gelden die onder HVD vallen. Dit dient als hulpmiddel bij de implementatie. De vereisten zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen. 
 
 ## Data {#37B269C7}
 
