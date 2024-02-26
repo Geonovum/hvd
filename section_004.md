@@ -99,6 +99,7 @@ Dit kan als volgt worden opgenomen in de metadata:
       &lt;/gmd:date&gt;
     &lt;/gmd:CI_Citation&gt;
   &lt;/gmd:thesaurusName&gt;
+&lt;/gmd:MD_Keywords&gt;
 </span></pre></code>
 <br/>
 
