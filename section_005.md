@@ -1,6 +1,6 @@
-# Vereisten thema Geodata {#7BE46384}
+# Vereisten thema Geospatiale data {#7BE46384}
 
-Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Geodata een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd waarbij ze zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
+Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Geospatiale data een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd waarbij ze zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br/>
 
 ## Data {#1128D4E8}
 
