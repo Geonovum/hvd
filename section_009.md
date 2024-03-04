@@ -1,4 +1,4 @@
-# Vereisten thema Bedrijven {#338F707A}
+# Vereisten thema Bedrijven en eigendom van bedrijven {#338F707A}
 
 Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='#207C051B'>Algemene vereisten HVD</a>, gelden voor het thema Bedrijven en eigendom van bedrijven een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br/>
 
@@ -6,7 +6,7 @@ Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href='
 
 In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1' target='_blank'>bijlage van de uitvoeringverordening</a> staat vermeld welke datasets onder dit thema vallen en staan de specificaties van de datasets benoemd. Bij dit thema gelden specificaties over actualisering en sleutelkenmerken.<br/>
 
-De datasets worden beschikbaar gesteld onder de, bij <a href='#0A0CAE2E'>Algemeene vereisten HVD</a> genoemde licentie, in voorkomend geval met aanvullende voorwaarden voor het hergebruik van persoonsgegevens.<br/>
+De datasets worden beschikbaar gesteld onder de, bij <a href='#0A0CAE2E'>Algemene vereisten HVD</a> genoemde licentie, in voorkomend geval met aanvullende voorwaarden voor het hergebruik van persoonsgegevens.<br/>
 
 De datasets hebben een formaat zoals beschreven bij <a href='#120E3368'>Algemene vereisten HVD</a> met daarnaast de specificaties: <br/>
 <ul><li>XHTML formaat voor documenten die binnen het toepassingsgebied van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019R0815' target='_blank'>Gedelegeerde Verordening (EU) 2018/815</a> van de Commissie vallen;</li>
