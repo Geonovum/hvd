@@ -105,7 +105,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 
 <B><I>Contactinformatie</I></B>
 
-De contactinformatie voor vragen over de API kan in de metadata elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Gebrui daarbij als rol: pointOfContact. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld servicedesk@xxx.nl, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br/>
+De contactinformatie voor vragen over de API kan in de metadata elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Gebruik daarbij als rol: pointOfContact. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld servicedesk@xxx.nl, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br/>
 <br/>
 
 <B><I>De gebruiksvoorwaarden</I></B>
@@ -138,7 +138,7 @@ Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, 
 
 ### API {#289E9E05}
 
-Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverordening (artikel 3, lid 1) staat dat de datasets die onder HVD vallen, via een Application Programming interface (API) beschikbaar gesteld moeten worden. Een API is in Open Data richtlijn gedefinieerd als "een set functies, procedures, definities en protocollen voor communicatie tussen machines en de naadloze uitwisseling van data." Er is geen technische verordening voor de functionaliteit en techniek voor API’s opgesteld. Er wordt dus geen ‘technische’ keuze of API stijl voor API’s voorgeschreven. Voor de thema’s geodata, aardobservatie en milieu en mobiliteit is aangegeven dat het gaat om een API “zoals direct access download services op basis van Richtlijn 2007/2/EG” (INSPIRE). De INSPIRE direct access download service implementatie maakt het mogelijk om slechts een deel van de dataset door eigen selecties te downloaden. INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br/>
+Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverordening (artikel 3, lid 1) staat dat de datasets die onder HVD vallen, via een Application Programming interface (API) beschikbaar gesteld moeten worden. Een API is in Open Data richtlijn gedefinieerd als "een set functies, procedures, definities en protocollen voor communicatie tussen machines en de naadloze uitwisseling van data." Er is geen technische verordening voor de functionaliteit en techniek voor API’s opgesteld. Er wordt dus geen ‘technische’ keuze of API stijl voor API’s voorgeschreven. Voor de thema’s Geospatiale data, Aardobservatie en milieu en Mobiliteit is aangegeven dat het gaat om een API “zoals direct access download services op basis van Richtlijn 2007/2/EG” (INSPIRE). De INSPIRE direct access download service implementatie maakt het mogelijk om slechts een deel van de dataset door eigen selecties te downloaden. INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br/>
 <table style='width: 290pt;'><caption></caption>
 <colgroup><col id='col1' style='width: 76%;'>
 <col id='col2' style='width: 24%;'>
