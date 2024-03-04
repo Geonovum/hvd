@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "Handreiking implementatie HVD",
+  title: "Handreiking implementatie High Value Datasets (HVD)",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
@@ -69,7 +69,12 @@ let respecConfig = {
       name: "Ine de Visser",
       company: "Geonovum",
       companyURL: "https://www.Geonovum.nl/"
-      }
+      },
+    {
+      name: "Yvette van Turnhout-Ellenkamp",
+      company: "Geonovum",
+      companyURL: "https://www.Geonovum.nl/"
+     }    
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/hvd",
