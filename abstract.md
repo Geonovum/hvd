@@ -1,1 +1,1 @@
-TODO: vul in abstract.md een abstract in.
+Deze handreiking High Value Datasets (HVD) is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten.
