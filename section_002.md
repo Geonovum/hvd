@@ -37,7 +37,7 @@ Het ministerie zal deze partij (de dataprovider) aanmerken als HVD dataprovider.
 
 ### Aanmerkingsregister {#62E0F336}
 
-Om inzicht te bieden in welke Nederlandse datasets voor HVD zijn aangemerkt, stelt het Ministerie van BZK het <a href='https://aanmerking.nl/' target='_blank'>Aanmerkingsregister</a> beschikbaar. Het register is openbaar en online toegankelijk. In dit register wordt naast de HVD aanmerking ook de INSPIRE aanmerking bijgehouden.<br/>
+Om inzicht te bieden in welke Nederlandse datasets voor HVD zijn aangemerkt, stelt het Ministerie van BZK het <a href='https://www.aanmerking.nl/' target='_blank'>Aanmerkingsregister</a> beschikbaar. Het register is openbaar en online toegankelijk. In dit register wordt naast de HVD aanmerking ook de INSPIRE aanmerking bijgehouden.<br/>
 
 Het doel van het aanmerkingsregister is meervoudig:<br/>
 <ul><li>In het aanmerkingsregister worden de aanmerkingen en wijzigingen op de aanmerkingen bijgehouden door het ministerie van BZK;</li>
@@ -45,7 +45,7 @@ Het doel van het aanmerkingsregister is meervoudig:<br/>
 <li>Vanuit het aanmerkingsregister is er ook een directe link naar de publicatie van de metadata van betreffende dataset in het <a href='http://www.nationaalgeoregister.nl/' target='_blank'>Nationaal Georegister (NGR)</a> en <a href='https://data.overheid.nl/ 'target='_blank'>data.overheid.nl</a>. De dataset zelf is via de metadata te raadplegen.</li>
 </ul>
 
-In het openbare gedeelte kan de bezoeker de <a href='https://aanmerking.nl/aanmerkingsregister' target='_blank'>aanmerkingen</a> bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset <a href='https://aanmerking.nl/aanmelden-dataset' target='_blank'>aanmelden</a> als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br/>
+In het openbare gedeelte kan de bezoeker de <a href='https://www.aanmerking.nl/aanmerkingsregister' target='_blank'>aanmerkingen</a> bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset <a href='https://www.aanmerking.nl/aanmelden-dataset' target='_blank'>aanmelden</a> als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br/>
 
 Naast een openbaar gedeelte heeft het aanmerkingregister ook een gesloten gedeelte voor de dataproviders. De gesloten omgeving voorziet in extra functionaliteit om het aanmerkings- en implementatieproces te ondersteunen. Binnen deze omgeving kunnen dataproviders per dataset de directe link opnemen naar de publicatie van de metadata van betreffende dataset in het NGR of andere metadata registers. Ook kan de dataprovider een wijzigingsverzoek indienen. Daarnaast kan de dataprovider alle eigen datasets exporteren naar een Excel-bestand.<br/>
 
