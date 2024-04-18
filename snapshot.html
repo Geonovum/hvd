@@ -29,6 +29,7 @@ dfn{cursor:pointer}
   
   
   
+  
 <script>document.title = respecConfig.title</script>
 <title>Handreiking implementatie High Value Datasets (HVD)</title>
   
@@ -129,7 +130,7 @@ img.license{float:left;padding-right:5px}
     color: white;
     white-space: nowrap;
     z-index: 1;
-    background-color: #FF0000;
+    background-color: #80CC28;
   }
 </style>
 <script type="text/javascript">
@@ -197,6 +198,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Candidate recommendation",
       "vv": "Proposed recommendation",
       "def": "Recommendation",
+      "ld": "Living document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standard",
@@ -213,6 +215,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Consultatieversie",
       "vv": "Versie ter vaststelling",
       "def": "Vastgestelde versie",
+      "ld": "Levend document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standaard",
@@ -232,7 +235,8 @@ img.license{float:left;padding-right:5px}
       "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
       "cv": "Dit is een consultatieversie. Commentaar over dit document kan gestuurd worden naar ",
       "vv": "Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
-      "basis": "Dit is een document zonder officiële status."
+      "basis": "Dit is een document zonder officiële status.",
+      "ld": "Dit is een levend document dat regelmatig gewijzigd wordt."
     },
     "en": {
       "sotd": "Status of this document",
@@ -240,7 +244,8 @@ img.license{float:left;padding-right:5px}
       "wv": "This is a working draft that can be changed, removed or replaced by other documents at any time. It is not a stable document.",
       "cv": "This is a stable draft, published for public comment. Comments regarding this document may be sent to ",
       "vv": "This is the final draft of this document. Edits resulting from consultations have been applied.",
-      "basis": "This document has no official standing."
+      "basis": "This document has no official standing.",
+      "ld": "This is a living document, which is updated regularly."
     }
   },
   "labelColor": {
@@ -248,7 +253,8 @@ img.license{float:left;padding-right:5px}
     "wv": "#FF0000",
     "cv": "#045D9F",
     "vv": "#045D9F",
-    "basis": "#80CC28"
+    "basis": "#80CC28",
+    "ld": "#80CC28"
   },
   "licenses": {
     "cc0": {
@@ -281,12 +287,14 @@ img.license{float:left;padding-right:5px}
     }
   },
   "title": "Handreiking implementatie High Value Datasets (HVD)",
-  "specStatus": "wv",
+  "specStatus": "ld",
   "specType": "HR",
   "pubDomain": "eu",
   "licence": "cc-by",
   "shortName": "handreiking-HVD",
-  "publishDate": "2024-01-18",
+  "publishDate": "2024-04-18",
+  "previousPublishDate": "2014-03-11",
+  "previousMaturity": "WV",
   "editors": [
     {
       "name": "Ine de Visser",
@@ -326,18 +334,18 @@ img.license{float:left;padding-right:5px}
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
 
-<body class="h-entry informative toc-inline"><div class="head">
+<body class="h-entry informative"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Handreiking implementatie High Value Datasets (HVD)</h1>
     
     <h2>
       Geonovum Handreiking<br>
-      Werkversie
-      <time class="dt-published" datetime="2024-01-18">17 april 2024</time>
+      Levend document
+      <time class="dt-published" datetime="2024-04-18">18 april 2024</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://geonovum.github.io/hvd/">https://geonovum.github.io/hvd/</a>
+              <a class="u-url status" href="https://docs.geostandaarden.nl/eu/ld-hr-handreiking-hvd-20240418">https://docs.geostandaarden.nl/eu/ld-hr-handreiking-hvd-20240418</a>
             </dd>
       <dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://docs.geostandaarden.nl/eu/handreiking-hvd/">https://docs.geostandaarden.nl/eu/handreiking-hvd/</a>
@@ -346,7 +354,7 @@ img.license{float:left;padding-right:5px}
       
       
       
-      
+      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/eu/wv-hr-handreiking-hvd-20140311">https://docs.geostandaarden.nl/eu/wv-hr-handreiking-hvd-20140311</a></dd>
       
       <dt>Redacteur:</dt>
       <dd class="editor p-author h-card vcard">
@@ -386,7 +394,7 @@ img.license{float:left;padding-right:5px}
   </div>
 <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Deze handreiking High Value Datasets (HVD) is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten.</p>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#06C37D5F"><bdi class="secno">1. </bdi>Introductie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#10AF0A77"><bdi class="secno">1.1 </bdi>Doelgroep</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4814E9DB"><bdi class="secno">1.1.1 </bdi>Uitvoerders</a></li><li class="tocline"><a class="tocxref" href="#21BEA824"><bdi class="secno">1.1.2 </bdi>Beleidsmakers</a></li></ol></li><li class="tocline"><a class="tocxref" href="#6E27898C"><bdi class="secno">1.2 </bdi>Processtappen</a></li><li class="tocline"><a class="tocxref" href="#55C1B036"><bdi class="secno">1.3 </bdi>Deadlines</a></li><li class="tocline"><a class="tocxref" href="#6A547147"><bdi class="secno">1.4 </bdi>Bronnen</a></li><li class="tocline"><a class="tocxref" href="#375880A5"><bdi class="secno">1.5 </bdi>Over deze handreiking</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3567F8EA"><bdi class="secno">1.5.1 </bdi>HVD is nog steeds in beweging</a></li><li class="tocline"><a class="tocxref" href="#2BBF3ADD"><bdi class="secno">1.5.2 </bdi>HVD Helpdesk</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#7F3DC99C"><bdi class="secno">2. </bdi>Nederlandse HVD data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3280DEA1"><bdi class="secno">2.1 </bdi>Nederlandse ambitie HVD</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3F2D5E2B"><bdi class="secno">2.1.1 </bdi>Data met een API en/of bulkdownload</a></li><li class="tocline"><a class="tocxref" href="#07542A6B"><bdi class="secno">2.1.2 </bdi>Data die nog geen API of bulkdownload (atom) heeft</a></li><li class="tocline"><a class="tocxref" href="#000BEA28"><bdi class="secno">2.1.3 </bdi>Milieurichtlijnen </a></li><li class="tocline"><a class="tocxref" href="#1C790CF7"><bdi class="secno">2.1.4 </bdi>Overige data onder INSPIRE thema’s</a></li><li class="tocline"><a class="tocxref" href="#313A749C"><bdi class="secno">2.1.5 </bdi>Historie en meerdere schaalniveaus</a></li><li class="tocline"><a class="tocxref" href="#720A4DBC"><bdi class="secno">2.1.6 </bdi>Optimalisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#35938FAC"><bdi class="secno">2.2 </bdi>Aanmerken</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#62E0F336"><bdi class="secno">2.2.1 </bdi>Aanmerkingsregister</a></li><li class="tocline"><a class="tocxref" href="#3045D0CB"><bdi class="secno">2.2.2 </bdi>Wijziging van de aanmerking</a></li></ol></li><li class="tocline"><a class="tocxref" href="#32E2A2CE"><bdi class="secno">2.3 </bdi>Organisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4D2A049F"><bdi class="secno">2.3.1 </bdi>Afstemmen binnen Nederland</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#658AA99F"><bdi class="secno">3. </bdi>Toelichting uitvoeringsverordening</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#6B73DD84"><bdi class="secno">3.1 </bdi>Hoe de uitvoeringsverordening te lezen</a></li><li class="tocline"><a class="tocxref" href="#5A325F91"><bdi class="secno">3.2 </bdi>Verbinding met andere Europese richtlijnen<span style="color: #auto;"></span><span style="color: #auto;"></span><span style="color: #auto;"></span></a><ol class="toc"><li class="tocline"><a class="tocxref" href="#1547CDD1"><bdi class="secno">3.2.1 </bdi>INSPIRE richtlijn</a></li><li class="tocline"><a class="tocxref" href="#1BC3F1EC"><bdi class="secno">3.2.2 </bdi>Verordening inzake Gemeenschappelijk Landbouwbeleid (GLB)</a></li><li class="tocline"><a class="tocxref" href="#2406B737"><bdi class="secno">3.2.3 </bdi>Europese richtlijn milieu-informatie</a></li><li class="tocline"><a class="tocxref" href="#1A27368A"><bdi class="secno">3.2.4 </bdi>Data ontstaan door monitoring- en rapportageverplichtingen</a></li><li class="tocline"><a class="tocxref" href="#7AFE4A28"><bdi class="secno">3.2.5 </bdi>Richtlijnen bedrijfsdocumenten en -rekeningen</a></li><li class="tocline"><a class="tocxref" href="#247BFB0E"><bdi class="secno">3.2.6 </bdi>Richtlijn betreffende binnenwateren</a></li></ol></li><li class="tocline"><a class="tocxref" href="#4CFA719E"><bdi class="secno">3.3 </bdi>Historische data</a></li><li class="tocline"><a class="tocxref" href="#3357033D"><bdi class="secno">3.4 </bdi>Schaalniveau/resolutie</a></li><li class="tocline"><a class="tocxref" href="#5D2970DF"><bdi class="secno">3.5 </bdi>Persoonsgegevens</a></li></ol></li><li class="tocline"><a class="tocxref" href="#207C051B"><bdi class="secno">4. </bdi>Algemene vereisten HVD</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#37B269C7"><bdi class="secno">4.1 </bdi>Data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#120E3368"><bdi class="secno">4.1.1 </bdi>Formaat</a></li><li class="tocline"><a class="tocxref" href="#0A0CAE2E"><bdi class="secno">4.1.2 </bdi>Licenties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#650CD6EF"><bdi class="secno">4.2 </bdi>Metadata</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#2E19E63B"><bdi class="secno">4.2.1 </bdi>Metadata standaarden</a></li><li class="tocline"><a class="tocxref" href="#65FBDE9D"><bdi class="secno">4.2.2 </bdi>Standaard voor het uitwisselen van metadata tussen metadata portalen</a></li><li class="tocline"><a class="tocxref" href="#6E5518C4"><bdi class="secno">4.2.3 </bdi>DCAT-AP-NL</a></li><li class="tocline"><a class="tocxref" href="#409368F9"><bdi class="secno">4.2.4 </bdi>Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#37E1B35B"><bdi class="secno">4.3 </bdi>Beschikbaar stellen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#289E9E05"><bdi class="secno">4.3.1 </bdi>API</a></li><li class="tocline"><a class="tocxref" href="#420E7103"><bdi class="secno">4.3.2 </bdi>Bulkdownload</a></li><li class="tocline"><a class="tocxref" href="#41325C33"><bdi class="secno">4.3.3 </bdi>Overige documentatie</a></li><li class="tocline"><a class="tocxref" href="#14E940CF"><bdi class="secno">4.3.4 </bdi>Contactpunt</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#7BE46384"><bdi class="secno">5. </bdi>Vereisten thema Geospatiale data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#1128D4E8"><bdi class="secno">5.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#3C8F1C2E"><bdi class="secno">5.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#3EEAEDCB"><bdi class="secno">5.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#5C0050A5"><bdi class="secno">6. </bdi>Vereisten thema Aardobservatie en milieu</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#382BA63C"><bdi class="secno">6.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#3022960A"><bdi class="secno">6.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#6C6CD0B6"><bdi class="secno">6.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#5B36A649"><bdi class="secno">7. </bdi>Vereisten thema Meteorologische data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#35D6B842"><bdi class="secno">7.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#156F18BD"><bdi class="secno">7.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#046BBC26"><bdi class="secno">7.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#457E4791"><bdi class="secno">8. </bdi>Vereisten thema Statistiek</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#15102A3E"><bdi class="secno">8.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#283153A2"><bdi class="secno">8.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#07622FCB"><bdi class="secno">8.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#338F707A"><bdi class="secno">9. </bdi>Vereisten thema Bedrijven en eigendom van bedrijven</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#09E5F961"><bdi class="secno">9.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#569CAE7E"><bdi class="secno">9.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#53DEF0B6"><bdi class="secno">9.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#3855C198"><bdi class="secno">10. </bdi>Vereisten thema Mobiliteit</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#2AC56743"><bdi class="secno">10.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#72173374"><bdi class="secno">10.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#7F1DD93B"><bdi class="secno">10.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#04CFC1BA"><bdi class="secno">11. </bdi>Rapportage</a></li><li class="tocline"><a class="tocxref" href="#2831FFFB"><bdi class="secno">12. </bdi>Checklist</a></li><li class="tocline"><a class="tocxref" href="#757F4DEB"><bdi class="secno">13. </bdi>Bijlage</a></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een levend document dat regelmatig gewijzigd wordt.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#06C37D5F"><bdi class="secno">1. </bdi>Introductie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#10AF0A77"><bdi class="secno">1.1 </bdi>Doelgroep</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4814E9DB"><bdi class="secno">1.1.1 </bdi>Uitvoerders</a></li><li class="tocline"><a class="tocxref" href="#21BEA824"><bdi class="secno">1.1.2 </bdi>Beleidsmakers</a></li></ol></li><li class="tocline"><a class="tocxref" href="#6E27898C"><bdi class="secno">1.2 </bdi>Processtappen</a></li><li class="tocline"><a class="tocxref" href="#55C1B036"><bdi class="secno">1.3 </bdi>Deadlines</a></li><li class="tocline"><a class="tocxref" href="#6A547147"><bdi class="secno">1.4 </bdi>Bronnen</a></li><li class="tocline"><a class="tocxref" href="#375880A5"><bdi class="secno">1.5 </bdi>Over deze handreiking</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3567F8EA"><bdi class="secno">1.5.1 </bdi>HVD is nog steeds in beweging</a></li><li class="tocline"><a class="tocxref" href="#2BBF3ADD"><bdi class="secno">1.5.2 </bdi>HVD Helpdesk</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#7F3DC99C"><bdi class="secno">2. </bdi>Nederlandse HVD data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3280DEA1"><bdi class="secno">2.1 </bdi>Nederlandse ambitie HVD</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#3F2D5E2B"><bdi class="secno">2.1.1 </bdi>Data met een API en/of bulkdownload</a></li><li class="tocline"><a class="tocxref" href="#07542A6B"><bdi class="secno">2.1.2 </bdi>Data die nog geen API of bulkdownload (atom) heeft</a></li><li class="tocline"><a class="tocxref" href="#000BEA28"><bdi class="secno">2.1.3 </bdi>Milieurichtlijnen </a></li><li class="tocline"><a class="tocxref" href="#1C790CF7"><bdi class="secno">2.1.4 </bdi>Overige data onder INSPIRE thema’s</a></li><li class="tocline"><a class="tocxref" href="#313A749C"><bdi class="secno">2.1.5 </bdi>Historie en meerdere schaalniveaus</a></li><li class="tocline"><a class="tocxref" href="#720A4DBC"><bdi class="secno">2.1.6 </bdi>Optimalisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#35938FAC"><bdi class="secno">2.2 </bdi>Aanmerken</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#62E0F336"><bdi class="secno">2.2.1 </bdi>Aanmerkingsregister</a></li><li class="tocline"><a class="tocxref" href="#3045D0CB"><bdi class="secno">2.2.2 </bdi>Wijziging van de aanmerking</a></li></ol></li><li class="tocline"><a class="tocxref" href="#32E2A2CE"><bdi class="secno">2.3 </bdi>Organisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#4D2A049F"><bdi class="secno">2.3.1 </bdi>Afstemmen binnen Nederland</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#658AA99F"><bdi class="secno">3. </bdi>Toelichting uitvoeringsverordening</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#6B73DD84"><bdi class="secno">3.1 </bdi>Hoe de uitvoeringsverordening te lezen</a></li><li class="tocline"><a class="tocxref" href="#5A325F91"><bdi class="secno">3.2 </bdi>Verbinding met andere Europese richtlijnen<span style="color: #auto;"></span><span style="color: #auto;"></span><span style="color: #auto;"></span></a><ol class="toc"><li class="tocline"><a class="tocxref" href="#1547CDD1"><bdi class="secno">3.2.1 </bdi>INSPIRE richtlijn</a></li><li class="tocline"><a class="tocxref" href="#1BC3F1EC"><bdi class="secno">3.2.2 </bdi>Verordening inzake Gemeenschappelijk Landbouwbeleid (GLB)</a></li><li class="tocline"><a class="tocxref" href="#2406B737"><bdi class="secno">3.2.3 </bdi>Europese richtlijn milieu-informatie</a></li><li class="tocline"><a class="tocxref" href="#1A27368A"><bdi class="secno">3.2.4 </bdi>Data ontstaan door monitoring- en rapportageverplichtingen</a></li><li class="tocline"><a class="tocxref" href="#7AFE4A28"><bdi class="secno">3.2.5 </bdi>Richtlijnen bedrijfsdocumenten en -rekeningen</a></li><li class="tocline"><a class="tocxref" href="#247BFB0E"><bdi class="secno">3.2.6 </bdi>Richtlijn betreffende binnenwateren</a></li></ol></li><li class="tocline"><a class="tocxref" href="#4CFA719E"><bdi class="secno">3.3 </bdi>Historische data</a></li><li class="tocline"><a class="tocxref" href="#3357033D"><bdi class="secno">3.4 </bdi>Schaalniveau/resolutie</a></li><li class="tocline"><a class="tocxref" href="#5D2970DF"><bdi class="secno">3.5 </bdi>Persoonsgegevens</a></li></ol></li><li class="tocline"><a class="tocxref" href="#207C051B"><bdi class="secno">4. </bdi>Algemene vereisten HVD</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#37B269C7"><bdi class="secno">4.1 </bdi>Data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#120E3368"><bdi class="secno">4.1.1 </bdi>Formaat</a></li><li class="tocline"><a class="tocxref" href="#0A0CAE2E"><bdi class="secno">4.1.2 </bdi>Licenties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#650CD6EF"><bdi class="secno">4.2 </bdi>Metadata</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#2E19E63B"><bdi class="secno">4.2.1 </bdi>Metadata standaarden</a></li><li class="tocline"><a class="tocxref" href="#65FBDE9D"><bdi class="secno">4.2.2 </bdi>Standaard voor het uitwisselen van metadata tussen metadata portalen</a></li><li class="tocline"><a class="tocxref" href="#6E5518C4"><bdi class="secno">4.2.3 </bdi>DCAT-AP-NL</a></li><li class="tocline"><a class="tocxref" href="#409368F9"><bdi class="secno">4.2.4 </bdi>Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE)</a></li></ol></li><li class="tocline"><a class="tocxref" href="#37E1B35B"><bdi class="secno">4.3 </bdi>Beschikbaar stellen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#289E9E05"><bdi class="secno">4.3.1 </bdi>API</a></li><li class="tocline"><a class="tocxref" href="#420E7103"><bdi class="secno">4.3.2 </bdi>Bulkdownload</a></li><li class="tocline"><a class="tocxref" href="#41325C33"><bdi class="secno">4.3.3 </bdi>Overige documentatie</a></li><li class="tocline"><a class="tocxref" href="#14E940CF"><bdi class="secno">4.3.4 </bdi>Contactpunt</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#7BE46384"><bdi class="secno">5. </bdi>Vereisten thema Geospatiale data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#1128D4E8"><bdi class="secno">5.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#3C8F1C2E"><bdi class="secno">5.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#3EEAEDCB"><bdi class="secno">5.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#5C0050A5"><bdi class="secno">6. </bdi>Vereisten thema Aardobservatie en milieu</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#382BA63C"><bdi class="secno">6.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#3022960A"><bdi class="secno">6.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#6C6CD0B6"><bdi class="secno">6.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#5B36A649"><bdi class="secno">7. </bdi>Vereisten thema Meteorologische data</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#35D6B842"><bdi class="secno">7.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#156F18BD"><bdi class="secno">7.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#046BBC26"><bdi class="secno">7.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#457E4791"><bdi class="secno">8. </bdi>Vereisten thema Statistiek</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#15102A3E"><bdi class="secno">8.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#283153A2"><bdi class="secno">8.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#07622FCB"><bdi class="secno">8.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#338F707A"><bdi class="secno">9. </bdi>Vereisten thema Bedrijven en eigendom van bedrijven</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#09E5F961"><bdi class="secno">9.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#569CAE7E"><bdi class="secno">9.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#53DEF0B6"><bdi class="secno">9.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#3855C198"><bdi class="secno">10. </bdi>Vereisten thema Mobiliteit</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#2AC56743"><bdi class="secno">10.1 </bdi>Data</a></li><li class="tocline"><a class="tocxref" href="#72173374"><bdi class="secno">10.2 </bdi>Metadata</a></li><li class="tocline"><a class="tocxref" href="#7F1DD93B"><bdi class="secno">10.3 </bdi>Beschikbaar stellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#04CFC1BA"><bdi class="secno">11. </bdi>Rapportage</a></li><li class="tocline"><a class="tocxref" href="#2831FFFB"><bdi class="secno">12. </bdi>Checklist</a></li><li class="tocline"><a class="tocxref" href="#757F4DEB"><bdi class="secno">13. </bdi>Bijlage</a></li></ol></nav>
 
   
   <section id="introductie"><div class="header-wrapper"><h2 id="06C37D5F"><bdi class="secno">1. </bdi>Introductie</h2><a class="self-link" href="#06C37D5F" aria-label="Permalink for Section 1."></a></div><p>In de Europese Open Data Richtlijn (EU) 2019/1024 wijst de Europese Commissie een lijst met thematische categorieën van hoogwaardige datasets (de ‘High Value Datasets’ (HVD)) aan. Hoofddoel van de HVD is om ervoor te zorgen dat overheidsgegevens met een groot sociaaleconomisch potentieel bij minimale wettelijke en technische beperkingen kosteloos beschikbaar worden gesteld voor hergebruik. Op 21 december 2022 is de Uitvoeringsverordening HVD besloten die wettelijke verplichtingen oplegt betreffende de high value datasets.<br></p>
@@ -738,6 +746,44 @@ img.license{float:left;padding-right:5px}
   
   
 
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
 
 
 <p role="navigation" id="back-to-top">
@@ -964,4 +1010,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Handreiking - Werkversie</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Handreiking - Levend document</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
