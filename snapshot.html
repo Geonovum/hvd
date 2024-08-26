@@ -1,16 +1,16 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 34.1.4">
+<meta name="generator" content="ReSpec 35.1.1">
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
-.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
-.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
+.dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;border-bottom-color:var(--indextable-hover-bg,#fff);top:0}
+.dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1;border-bottom-color:var(--indextable-hover-bg,#a2a9b1)}
 .dfn-panel *{margin:0}
-.dfn-panel b{display:block;color:#000;margin-top:.25em}
-.dfn-panel ul a[href]{color:#333}
+.dfn-panel b{display:block;color:#000;color:var(--text,#000);margin-top:.25em}
+.dfn-panel ul a[href]{color:#333;color:var(--text,#333)}
 .dfn-panel>div{display:flex}
 .dfn-panel a.self-link{font-weight:700;margin-right:auto}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
@@ -48,8 +48,6 @@ div.imageinfo img {max-width: none;}
 25%{transform:scale(1.25,1.25);opacity:.75}
 100%{transform:scale(1,1)}
 }
-:is(h1,h2,h3,h4,h5,h6,a) abbr{border:none}
-dfn{font-weight:700}
 a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}
 a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}
 a.bibref{text-decoration:none}
@@ -63,20 +61,8 @@ a.bibref{text-decoration:none}
 cite .bibref{font-style:normal}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
-.toc a,.tof a{text-decoration:none}
-a .figno,a .secno{color:#000}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
-table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}
-.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}
-.simple th a{color:#fff;padding:3px 5px;text-align:left}
-.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}
-.simple td{padding:3px 10px;border-top:1px solid #ddd}
-.simple tr:nth-child(even){background:#f0f6ff}
-.section dd>p:first-child{margin-top:0}
-.section dd>p:last-child{margin-bottom:0}
-.section dd{margin-bottom:1em}
-.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}
 #issue-summary>ul{column-count:2}
 #issue-summary li{list-style:none;display:inline-block}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
@@ -104,15 +90,19 @@ img.license{float:left;padding-right:5px}
 </style>
 <meta name="description" content="Deze handreiking High Value Datasets (HVD) is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten.">
 <style>
-.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;background:#fafafa}
-.hljs-comment,.hljs-quote{color:#717277;font-style:italic}
-.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4}
-.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;font-weight:700}
-.hljs-literal{color:#0b76c5}
-.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c}
-.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01}
-.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801}
-.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3}
+.hljs{--base:#fafafa;--mono-1:#383a42;--mono-2:#686b77;--mono-3:#717277;--hue-1:#0b76c5;--hue-2:#336ae3;--hue-3:#a626a4;--hue-4:#42803c;--hue-5:#ca4706;--hue-5-2:#c91243;--hue-6:#986801;--hue-6-2:#9a6a01}
+@media (prefers-color-scheme:dark){
+.hljs{--base:#282c34;--mono-1:#abb2bf;--mono-2:#818896;--mono-3:#5c6370;--hue-1:#56b6c2;--hue-2:#61aeee;--hue-3:#c678dd;--hue-4:#98c379;--hue-5:#e06c75;--hue-5-2:#be5046;--hue-6:#d19a66;--hue-6-2:#e6c07b}
+}
+.hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;color:var(--mono-1,#383a42);background:#fafafa;background:var(--base,#fafafa)}
+.hljs-comment,.hljs-quote{color:#717277;color:var(--mono-3,#717277);font-style:italic}
+.hljs-doctag,.hljs-formula,.hljs-keyword{color:#a626a4;color:var(--hue-3,#a626a4)}
+.hljs-deletion,.hljs-name,.hljs-section,.hljs-selector-tag,.hljs-subst{color:#ca4706;color:var(--hue-5,#ca4706);font-weight:700}
+.hljs-literal{color:#0b76c5;color:var(--hue-1,#0b76c5)}
+.hljs-addition,.hljs-attribute,.hljs-meta-string,.hljs-regexp,.hljs-string{color:#42803c;color:var(--hue-4,#42803c)}
+.hljs-built_in,.hljs-class .hljs-title{color:#9a6a01;color:var(--hue-6-2,#9a6a01)}
+.hljs-attr,.hljs-number,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-pseudo,.hljs-template-variable,.hljs-type,.hljs-variable{color:#986801;color:var(--hue-6,#986801)}
+.hljs-bullet,.hljs-link,.hljs-meta,.hljs-selector-id,.hljs-symbol,.hljs-title{color:#336ae3;color:var(--hue-2,#336ae3)}
 .hljs-emphasis{font-style:italic}
 .hljs-strong{font-weight:700}
 .hljs-link{text-decoration:underline}
@@ -197,6 +187,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Candidate recommendation",
       "vv": "Proposed recommendation",
       "def": "Recommendation",
+      "ld": "Living document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standard",
@@ -213,6 +204,7 @@ img.license{float:left;padding-right:5px}
       "cv": "Consultatieversie",
       "vv": "Versie ter vaststelling",
       "def": "Vastgestelde versie",
+      "ld": "Levend document",
       "basis": "Document",
       "no": "Norm",
       "st": "Standaard",
@@ -232,7 +224,8 @@ img.license{float:left;padding-right:5px}
       "wv": "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
       "cv": "Dit is een consultatieversie. Commentaar over dit document kan gestuurd worden naar ",
       "vv": "Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.",
-      "basis": "Dit is een document zonder officiële status."
+      "basis": "Dit is een document zonder officiële status.",
+      "ld": "Dit is een levend document dat regelmatig gewijzigd wordt."
     },
     "en": {
       "sotd": "Status of this document",
@@ -240,7 +233,8 @@ img.license{float:left;padding-right:5px}
       "wv": "This is a working draft that can be changed, removed or replaced by other documents at any time. It is not a stable document.",
       "cv": "This is a stable draft, published for public comment. Comments regarding this document may be sent to ",
       "vv": "This is the final draft of this document. Edits resulting from consultations have been applied.",
-      "basis": "This document has no official standing."
+      "basis": "This document has no official standing.",
+      "ld": "This is a living document, which is updated regularly."
     }
   },
   "labelColor": {
@@ -248,7 +242,8 @@ img.license{float:left;padding-right:5px}
     "wv": "#FF0000",
     "cv": "#045D9F",
     "vv": "#045D9F",
-    "basis": "#80CC28"
+    "basis": "#80CC28",
+    "ld": "#80CC28"
   },
   "licenses": {
     "cc0": {
@@ -335,7 +330,7 @@ img.license{float:left;padding-right:5px}
     <h2>
       Geonovum Handreiking<br>
       Werkversie
-      <time class="dt-published" datetime="2024-04-18">18 april 2024</time>
+      <time class="dt-published" datetime="2024-04-18">26 augustus 2024</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -459,7 +454,7 @@ img.license{float:left;padding-right:5px}
 <p>Naast het operationeel overleg HVD is er het Tactisch beraad EU informatie. Zie voor meer informatie het dossier<a href="https://www.geonovum.nl/themas/europese-datastrategie" target="_blank"> Europese datastrategie dossier</a> op de Geonovum site.</p>
 </section></section></section>
   <section id="toelichting-uitvoeringsverordening"><div class="header-wrapper"><h2 id="658AA99F"><bdi class="secno">3. </bdi>Toelichting uitvoeringsverordening</h2><a class="self-link" href="#658AA99F" aria-label="Permalink for Section 3."></a></div><section id="hoe-de-uitvoeringsverordening-te-lezen"><div class="header-wrapper"><h3 id="6B73DD84"><bdi class="secno">3.1 </bdi>Hoe de uitvoeringsverordening te lezen</h3><a class="self-link" href="#6B73DD84" aria-label="Permalink for Section 3.1"></a></div><p>De uitvoeringsverordening HVD en de bijlage hierin, moeten gelezen worden in het kader van de Open Data richtlijn (ODD) zoals in het onderstaande figuur schematisch en ter illustratie is weergegeven. De vereisten zijn in de Open Data richtlijn abstract, en richting de tabel in de bijlage van de uitvoeringsverordening telkens concreter beschreven. De concrete beschrijvingen in de tabel in de bijlage vallen binnen de abstracte beschrijving van de Open Data richtlijn.&nbsp;</p>
-<p><figure id="fig-generatedID"><img src="media/image2.jpg" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title"></span></figcaption></figure></p>
+<p><img src="media/image2.jpg" alt="" style="width: 100%;"></p>
 </section><section id="verbinding-met-andere-europese-richtlijnen"><div class="header-wrapper"><h3 id="5A325F91"><bdi class="secno">3.2 </bdi>Verbinding met andere Europese richtlijnen<span style="color: #auto;"></span><span style="color: #auto;"></span><span style="color: #auto;"></span></h3><a class="self-link" href="#5A325F91" aria-label="Permalink for Section 3.2"></a></div><p>De <a href="https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/" target="_blank">Handreiking EU informatie m.b.t. digitale en data-strategie</a> geeft informatie over de (aankomende) Europese Verordeningen en Richtlijnen rond de Digitale Strategie en de Data Strategie. Hierin is ook een hoofdstuk over de Open Data richtlijn opgenomen en over high value datasets die in deze richtlijn benoemd zijn.<br></p>
 <section id="inspire-richtlijn"><div class="header-wrapper"><h4 id="1547CDD1"><bdi class="secno">3.2.1 </bdi>INSPIRE richtlijn</h4><a class="self-link" href="#1547CDD1" aria-label="Permalink for Section 3.2.1"></a></div><p>De uitvoeringsverordening HVD voegt een open data verplichting toe aan een reeks INSPIRE thema’s (25 van de 34) vallend onder de HVD thema’s Geospatiale data, Aardobservatie en milieu en Mobiliteit. Het betreft hier zowel de geharmoniseerde datasets als de rijkere brondatasets. Bij de implementatie van INSPIRE in Nederland is ervoor gekozen alleen de meest geschikte dataset aan te merken voor INSPIRE. Bij HVD gaat het niet alleen om deze meest geschikte dataset, het gaat ook om de overige datasets die onder de INSPIRE thema’s vallen.</p>
 </section><section id="verordening-inzake-gemeenschappelijk-landbouwbeleid-glb"><div class="header-wrapper"><h4 id="1BC3F1EC"><bdi class="secno">3.2.2 </bdi>Verordening inzake Gemeenschappelijk Landbouwbeleid (GLB)</h4><a class="self-link" href="#1BC3F1EC" aria-label="Permalink for Section 3.2.2"></a></div><p>Onder het HVD thema Geospatiale data vallen de referentiepercelen en de landbouwpercelen zoals benoemd in de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32013R1306" target="_blank">Verordening (EU) 1306/2013</a> inzake de financiering, het beheer en de monitoring van het gemeenschappelijk landbouwbeleid (GLB) onder de open data verplichting.<br></p>
@@ -548,7 +543,7 @@ img.license{float:left;padding-right:5px}
               <span class="hljs-tag">&lt;<span class="hljs-name">gco:Date</span>&gt;</span>2023-09-27<span class="hljs-tag">&lt;/<span class="hljs-name">gco:Date</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:date</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">gmd:dateType</span>&gt;</span>
-              <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_DateTypeCode</span> <span class="hljs-attr">codeList</span>=<span class="hljs-string">"http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"</span><span class="hljs-attr">codeListValue</span>=<span class="hljs-string">"publication"</span>&gt;</span>publication<span class="hljs-tag">&lt;/<span class="hljs-name">gmd:CI_DateTypeCode</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_DateTypeCode</span> <span class="hljs-attr">codeList</span>=<span class="hljs-string">"http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"</span> <span class="hljs-attr">codeListValue</span>=<span class="hljs-string">"publication"</span>/&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:dateType</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:CI_Date</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:date</span>&gt;</span>
@@ -578,7 +573,7 @@ img.license{float:left;padding-right:5px}
 <p><b><i>Overige metadata</i></b></p>
 <p>Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.</p>
 </section></section><section id="beschikbaar-stellen"><div class="header-wrapper"><h3 id="37E1B35B"><bdi class="secno">4.3 </bdi>Beschikbaar stellen</h3><a class="self-link" href="#37E1B35B" aria-label="Permalink for Section 4.3"></a></div><section id="api"><div class="header-wrapper"><h4 id="289E9E05"><bdi class="secno">4.3.1 </bdi>API</h4><a class="self-link" href="#289E9E05" aria-label="Permalink for Section 4.3.1"></a></div><p>Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverordening (artikel 3, lid 1) staat dat de datasets die onder HVD vallen, via een Application Programming interface (API) beschikbaar gesteld moeten worden. Een API is in Open Data richtlijn gedefinieerd als "een set functies, procedures, definities en protocollen voor communicatie tussen machines en de naadloze uitwisseling van data." Er is geen technische verordening voor de functionaliteit en techniek voor API’s opgesteld. Er wordt dus geen ‘technische’ keuze of API stijl voor API’s voorgeschreven. Voor de thema’s Geospatiale data, Aardobservatie en milieu en Mobiliteit is aangegeven dat het gaat om een API “zoals direct access download services op basis van Richtlijn 2007/2/EG” (INSPIRE). De INSPIRE direct access download service implementatie maakt het mogelijk om slechts een deel van de dataset door eigen selecties te downloaden. INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br></p>
-<table style="width: 290pt;" class="simple"><caption></caption>
+<table style="width: 290pt;"><caption></caption>
 <colgroup><col id="col1" style="width: 76%;">
 <col id="col2" style="width: 24%;">
 </colgroup>
@@ -608,7 +603,7 @@ img.license{float:left;padding-right:5px}
 <p>Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, kunnen eveneens als HVD API’s worden ingezet. Er zijn geen voorgeschreven technische implementatieregels vanuit ODD en HVD, maar wel een verwachting dat API’s  meegroeien met de redelijke wensen van hergebruikers. Om te voldoen aan de behoefte van hergebruikers is het advies om het gebruik van REST API’s conform de Nederlandse API strategie en conform de OGC API standaarden zoals STA en OGC API Features (INSPIRE Good Practises) te implementeren en stimuleren. Deze nieuwe generatie API's zijn voor een veel breder publiek toegankelijk voor hergebruik. Daarnaast is het advies om de brede Europese ontwikkelingen op het gebied van API implementatie te volgen en te zorgen dat de Nederlandse API belangen worden gewaarborgd.  </p>
 </section><section id="bulkdownload"><div class="header-wrapper"><h4 id="420E7103"><bdi class="secno">4.3.2 </bdi>Bulkdownload</h4><a class="self-link" href="#420E7103" aria-label="Permalink for Section 4.3.2"></a></div><p>Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulkdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br></p>
 <p>INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br></p>
-<table style="width: 320pt;" class="simple"><caption></caption>
+<table style="width: 320pt;"><caption></caption>
 <colgroup><col id="col1" style="width: 67%;">
 <col id="col2" style="width: 33%;">
 </colgroup>
@@ -729,11 +724,11 @@ img.license{float:left;padding-right:5px}
 </ol>
 </li>
 </ol></section>
-  <section id="bijlage"><div class="header-wrapper"><h2 id="757F4DEB"><bdi class="secno">13. </bdi>Bijlage</h2><a class="self-link" href="#757F4DEB" aria-label="Permalink for Section 13."></a></div><p><figure id="fig-generatedID-0"><img src="media/Screenshot Milieurichtlijnen1.png" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID-0">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title"></span></figcaption></figure>
-<figure id="fig-generatedID-1"><img src="media/Screenshot Milieurichtlijnen2.png" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID-1">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title"></span></figcaption></figure>
-<figure id="fig-generatedID-2"><img src="media/Screenshot Milieurichtlijnen3.png" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID-2">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title"></span></figcaption></figure>
-<figure id="fig-generatedID-3"><img src="media/Screenshot Milieurichtlijnen4.png" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID-3">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title"></span></figcaption></figure>
-<figure id="fig-generatedID-4"><img src="media/Screenshot Milieurichtlijnen5.png" alt="" style="width: 100%;"><figcaption><a class="self-link" href="#fig-generatedID-4">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title"></span></figcaption></figure></p>
+  <section id="bijlage"><div class="header-wrapper"><h2 id="757F4DEB"><bdi class="secno">13. </bdi>Bijlage</h2><a class="self-link" href="#757F4DEB" aria-label="Permalink for Section 13."></a></div><p><img src="media/Screenshot Milieurichtlijnen1.png" alt="" style="width: 100%;">
+<img src="media/Screenshot Milieurichtlijnen2.png" alt="" style="width: 100%;">
+<img src="media/Screenshot Milieurichtlijnen3.png" alt="" style="width: 100%;">
+<img src="media/Screenshot Milieurichtlijnen4.png" alt="" style="width: 100%;">
+<img src="media/Screenshot Milieurichtlijnen5.png" alt="" style="width: 100%;"></p>
 </section>
 
   
