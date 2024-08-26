@@ -96,7 +96,7 @@ Dit kan als volgt worden opgenomen in de metadata:
               &lt;gco:Date&gt;2023-09-27&lt;/gco:Date&gt;
             &lt;/gmd:date&gt;
             &lt;gmd:dateType&gt;
-              &lt;gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;
+              &lt;gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/&gt;
             &lt;/gmd:dateType&gt;
           &lt;/gmd:CI_Date&gt;
         &lt;/gmd:date&gt;
