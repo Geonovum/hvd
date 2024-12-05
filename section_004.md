@@ -216,7 +216,7 @@ De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridisch
 
 <B><I>De kwaliteit van de dienstverlening</I></B>
 
-Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Naar een goede optie om de kwaliteit van de dienstverlening op te nemen in de ISO metadata wordt nog gekeken.<br/> 
+Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
 
 Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br/>
 <br/>
