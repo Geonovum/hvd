@@ -77,7 +77,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 <span style='color: #000080;'>
 &lt;gmd:descriptiveKeywords&gt;
   &lt;gmd:MD_Keywords&gt;
-  # HVD aanduiding
+# HVD aanduiding
     &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj"&gt;HVD&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
@@ -169,6 +169,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 <span style='color: #000080;'>
 &lt;gmd:descriptiveKeywords&gt;
   &lt;gmd:MD_Keywords&gt;
+# HVD aanduiding
     &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj"&gt;HVD&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
@@ -176,14 +177,15 @@ Dit kan als volgt worden opgenomen in de metadata:
 &lt;/gmd:descriptiveKeywords&gt; 
 &lt;gmd:descriptiveKeywords&gt;
   &lt;gmd:MD_Keywords&gt;
-<!-- HVD Category -->  
+# HVD thema 
     &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
-<!-- HVD Sub Category -->
+# HVD Sub thema
    &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt; Emissies&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
+# referentie naar de waardelijst voor HVD thema's en subthema's
     &lt;gmd:thesaurusName&gt;
       &lt;gmd:CI_Citation&gt;
         &lt;gmd:title&gt;
