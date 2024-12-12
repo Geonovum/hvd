@@ -330,7 +330,7 @@ img.license{float:left;padding-right:5px}
     <h2>
       Geonovum Handreiking<br>
       Werkversie
-      <time class="dt-published" datetime="2024-08-28">05 december 2024</time>
+      <time class="dt-published" datetime="2024-08-28">12 december 2024</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -523,6 +523,7 @@ img.license{float:left;padding-right:5px}
 <pre aria-busy="false"><code class="hljs xml">
 <span class="hljs-tag">&lt;<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
+  # HVD aanduiding
     <span class="hljs-tag">&lt;<span class="hljs-name">gmd:keyword</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">"http://data.europa.eu/eli/reg_impl/2023/138/oj"</span>&gt;</span>HVD<span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:keyword</span>&gt;</span>
@@ -530,14 +531,15 @@ img.license{float:left;padding-right:5px}
 <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span> 
 <span class="hljs-tag">&lt;<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
-  
+# HVD thema 
     <span class="hljs-tag">&lt;<span class="hljs-name">gmd:keyword</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">"http://data.europa.eu/bna/c_dd313021"</span>&gt;</span> Aardobservatie en milieu<span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:keyword</span>&gt;</span>
-
+# HVD Sub thema
    <span class="hljs-tag">&lt;<span class="hljs-name">gmd:keyword</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">gmx:Anchor</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">"http://data.europa.eu/bna/c_4ba9548e"</span>&gt;</span> Emissies<span class="hljs-tag">&lt;/<span class="hljs-name">gmx:Anchor</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:keyword</span>&gt;</span>
+# referentie naar de waardelijst voor HVD thema's en subthema's
     <span class="hljs-tag">&lt;<span class="hljs-name">gmd:thesaurusName</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">gmd:CI_Citation</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">gmd:title</span>&gt;</span>
@@ -570,7 +572,7 @@ img.license{float:left;padding-right:5px}
 <p>Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datasets waarin ten minste de gegevensstructuur en -semantiek is opgenomen. De link naar deze documentatie kan, zoals al gebruikelijk is, in de metadata opgenomen worden bij het element “specificatie” met bijbehorende conformiteitsindicatie.<br>
 <br></p>
 <p><b><i>De kwaliteit van de dienstverlening</i></b></p>
-<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Naar een goede optie om de kwaliteit van de dienstverlening op te nemen in de ISO metadata wordt nog gekeken. <br> </p>
+<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br> </p>
 <p>Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br>
 <br></p>
 <p><b><i>API documentatie</i></b></p>
