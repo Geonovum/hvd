@@ -77,6 +77,7 @@ Dit kan als volgt worden opgenomen in de metadata:
 <span style='color: #000080;'>
 &lt;gmd:descriptiveKeywords&gt;
   &lt;gmd:MD_Keywords&gt;
+  # HVD aanduiding
     &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj"&gt;HVD&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
@@ -84,14 +85,15 @@ Dit kan als volgt worden opgenomen in de metadata:
 &lt;/gmd:descriptiveKeywords&gt; 
 &lt;gmd:descriptiveKeywords&gt;
   &lt;gmd:MD_Keywords&gt;
-<!-- HVD Category -->  
+# HVD thema 
     &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
-<!-- HVD Sub Category -->
+# HVD Sub thema
    &lt;gmd:keyword&gt;
       &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt; Emissies&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
+# referentie naar de waardelijst voor HVD thema's en subthema's
     &lt;gmd:thesaurusName&gt;
       &lt;gmd:CI_Citation&gt;
         &lt;gmd:title&gt;
@@ -131,7 +133,7 @@ Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datase
 
 <B><I>De kwaliteit van de dienstverlening</I></B>
 
-Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Naar een goede optie om de kwaliteit van de dienstverlening op te nemen in de ISO metadata wordt nog gekeken. <br/> 
+Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
 
 Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br/>
 <br/>
