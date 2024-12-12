@@ -148,7 +148,7 @@ Voor de API moet de documentatie over de API zelf gepubliceerd worden. Deze docu
 Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.
 
 
-### Beschrijven van de HVD specifieke metadata in ISO 19119 (INSPIRE) {#409368F9}
+### Beschrijven van de HVD specifieke metadata in ISO 19119 (INSPIRE) {#409368F9a}
 
 Ruimtelijke dataservices (API’s) waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Het is dan wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
 
@@ -275,7 +275,7 @@ Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als
 
 INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br/>
 <table style='width: 320pt;'><caption></caption>
-<colgroup><col id='col1' style='width: 67%;'>
+<colgroup><col id='col1a' style='width: 67%;'>
 <col id='col2' style='width: 33%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>INSPIRE ‘network service’<br/>

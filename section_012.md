@@ -13,10 +13,10 @@ Hieronder staat een korte checklist van alle stappen die een dataprovider dient 
 <br/>
 <li>Maak de metadata in orde en publiceer deze volgens de vereisten:
   <ol><li>Zorg dat de metadata voldoet aan de algemene metadata vereisten die voor alle datasets gelden die onder HVD vallen (zie <a href='#650CD6EF'>4.2</a>).</li>
-  <li>Check de vereisten die aan de metadata worden gesteld bij het betreffende HVD thema (zie 5.2 t/m 10.2). Zorg dat de metadata ook aan die vereisten voldoet.</li>
+  <li>Check de vereisten die aan de metadata worden gesteld bij het betreffende HVD thema (zie 5.2 t/m 10.2). Zorg dat de metadata ook aan die vereisten voldoet.
+<br/></li>
 </ol>
 </li>
-<br/>
 <li>Stel de dataset en bijbehorende documentatie beschikbaar volgens de vereisten:
   <ol><li>Zorg dat wordt voldaan aan de algemene vereisten die gelden voor alle datasets van alle thema’s (zie <a href='#37E1B35B'>4.3</a>).</li>
 <li>Check bij het betreffende thema of de dataset via een API en bulkdownload of via een van beide beschikbaar gesteld moet worden (zie 5.3 t/m 10.3). </li>

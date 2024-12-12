@@ -1,10 +1,10 @@
 # Bijlage {#757F4DEB}
 
-<img src='media/Screenshot Milieurichtlijnen1.png' alt='' style='width: 100%;'></img>
-<img src='media/Screenshot Milieurichtlijnen2.png' alt='' style='width: 100%;'></img>
-<img src='media/Screenshot Milieurichtlijnen3.png' alt='' style='width: 100%;'></img>
-<img src='media/Screenshot Milieurichtlijnen4.png' alt='' style='width: 100%;'></img>
-<img src='media/Screenshot Milieurichtlijnen5.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot_Milieurichtlijnen1.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot_Milieurichtlijnen2.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot_Milieurichtlijnen3.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot_Milieurichtlijnen4.png' alt='' style='width: 100%;'></img>
+<img src='media/Screenshot_Milieurichtlijnen5.png' alt='' style='width: 100%;'></img>
 
 <!--
 <table style='width: 100%;'><caption></caption>
