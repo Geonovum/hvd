@@ -6,7 +6,7 @@ De uitvoeringsverordening HVD en de bijlage hierin, moeten gelezen worden in het
 
 <img src='media/image2.jpg' alt='' style='width: 100%;'></img>
 
-## Verbinding met andere Europese richtlijnen<span style='color: #auto;'></span><span style='color: #auto;'></span><span style='color: #auto;'></span> {#5A325F91}
+## Verbinding met andere Europese richtlijnen {#5A325F91}
 
 De <a href='https://docs.geostandaarden.nl/eu/handreiking-EU-informatie/' target='_blank'>Handreiking EU informatie m.b.t. digitale en data-strategie</a> geeft informatie over de (aankomende) Europese Verordeningen en Richtlijnen rond de Digitale Strategie en de Data Strategie. Hierin is ook een hoofdstuk over de Open Data richtlijn opgenomen en over high value datasets die in deze richtlijn benoemd zijn.<br/>
 

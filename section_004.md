@@ -276,7 +276,7 @@ Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als
 INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br/>
 <table style='width: 320pt;'><caption></caption>
 <colgroup><col id='col1a' style='width: 67%;'>
-<col id='col2' style='width: 33%;'>
+<col id='col2a' style='width: 33%;'>
 </colgroup>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>INSPIRE ‘network service’<br/>
 </td>
