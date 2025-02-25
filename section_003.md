@@ -2,7 +2,7 @@
 
 ## Hoe de uitvoeringsverordening te lezen {#6B73DD84}
 
-De uitvoeringsverordening HVD en de bijlage hierin, moeten gelezen worden in het kader van de Open Data richtlijn (ODD) zoals in het onderstaande figuur schematisch en ter illustratie is weergegeven. De vereisten zijn in de Open Data richtlijn abstract, en richting de tabel in de bijlage van de uitvoeringsverordening telkens concreter beschreven. De concrete beschrijvingen in de tabel in de bijlage vallen binnen de abstracte beschrijving van de Open Data richtlijn. 
+De uitvoeringsverordening High Value Datasets (HVD) en de bijlage hierin, moeten gelezen worden in het kader van de Open Data richtlijn (ODD) zoals in het onderstaande figuur schematisch en ter illustratie is weergegeven. De vereisten zijn in de Open Data richtlijn abstract, en richting de tabel in de bijlage van de uitvoeringsverordening telkens concreter beschreven. De concrete beschrijvingen in de tabel in de bijlage vallen binnen de abstracte beschrijving van de Open Data richtlijn. 
 
 <img src='media/image2.jpg' alt='' style='width: 100%;'></img>
 
