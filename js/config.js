@@ -4,8 +4,8 @@ let respecConfig = {
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Handreiking implementatie High Value Datasets (HVD)",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "ld",               // Levend document
-  specStatus: "wv",                 // Werkversie
+  specStatus: "ld",               // Levend document
+  //specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
@@ -40,7 +40,7 @@ let respecConfig = {
   //publishVersion: "0.0.2",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2024-08-28",
+  previousPublishDate: "2024-12-12",
   previousMaturity: "ld",
   //-- TODO: de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
