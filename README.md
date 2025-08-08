@@ -1,3 +1,9 @@
+Deze repository is automatisch bijgewerkt naar de nieuwste workflow.
+Voor vragen, neem contact op met [Linda van den Brink](mailto:l.vandenbrink@geonovum.nl) of [Wilko Quak](mailto:w.quak@geonovum.nl).
+
+Als je een nieuwe publicatie wilt starten, lees dan eerst de instructies in de README van de NL-ReSpec-template:
+[https://github.com/Geonovum/NL-ReSpec-template](https://github.com/Geonovum/NL-ReSpec-template).
+
 ## ReSpec template instructies
 
 ReSpec is een tool om html en pdf documenten te genereren op basis van markdown content.
@@ -106,3 +112,4 @@ Als je een bestaand werkdocument wilt omzetten naar de nieuwe ReSpec:
 
 Als je een nieuw werkdocument gaat maken: 
 - gebruik de [template](https://github.com/Geonovum/NL-ReSpec-GN-template). Klik op `Use this template` en kies `Create a new repository`. Er wordt dan een nieuwe repository (dat al wel aangemaakt moet zijn) ingericht op basis van de nieuwe respec, waarmee je direct aan de slag kunt. Pas in `config.js` de titel van je document aan zoals hierboven beschreven. Neem contact op met een van de github beheerders als je zelf geen github repository kan aanmaken. 
+
