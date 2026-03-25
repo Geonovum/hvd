@@ -97,7 +97,7 @@ Dit kan als volgt worden opgenomen in de metadata:
     &lt;gmd:thesaurusName&gt;
       &lt;gmd:CI_Citation&gt;
         &lt;gmd:title&gt;
-          &lt;gmx:Anchor xlink:href="http://publications.europa.eu/resource/dataset/high-value-dataset-category"&gt;High-value dataset categories &lt;/gmx:Anchor&gt;
+          &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75"&gt;High-value dataset categories &lt;/gmx:Anchor&gt;
         &lt;/gmd:title&gt;
         &lt;gmd:date&gt;
           &lt;gmd:CI_Date&gt;
