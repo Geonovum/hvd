@@ -10,8 +10,8 @@
         "target": [
           ".sidelabel"
         ],
-        "html": "<div class=\"sidelabel\">Geonovum Handreiking - Werkversie</div>",
-        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+        "html": "<div class=\"sidelabel\">Geonovum Handreiking - Levend document</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.98 (foreground color: #ffffff, background color: #80cc28, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
       }
     ]
   },
