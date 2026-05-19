@@ -23,7 +23,7 @@ Onder het HVD thema Aardobservatie en milieu is alle milieu-informatie in scope 
 
 ### Data ontstaan door monitoring- en rapportageverplichtingen {#1A27368A}
 
-Onder het HVD thema Aardobservatie en milieu is, naast hierboven genoemde data, ook data in scope die door monitoring- en rapportageverplichtingen ontstaat t.a.v. lucht, klimaat, emissies, natuurbehoud en biodiversiteit, geluid, afval, water, milieuaansprakelijkheid en duurzame beleggingen. In de HVD is expliciet benoemd om welke artikelen uit 31 milieu gerelateerde richtlijnen het gaat. In <a href='#757F4DEB'> Bijlage 1</a> is een overzicht opgenomen van alle milieurichtlijnen en een korte toelichting van de genoemde artikelen.<br/>
+Onder het HVD thema Aardobservatie en milieu is, naast hierboven genoemde data, ook data in scope die door monitoring- en rapportageverplichtingen ontstaat t.a.v. lucht, klimaat, emissies, natuurbehoud en biodiversiteit, geluid, afval, water, milieuaansprakelijkheid en duurzame beleggingen. In de HVD is expliciet benoemd om welke artikelen uit 31 milieu gerelateerde richtlijnen het gaat. In <a href='#757F4DEB'>Bijlage</a> is een overzicht opgenomen van alle milieurichtlijnen en een korte toelichting van de genoemde artikelen.<br/>
 
 Het thema Statistiek omvat datasets die ontstaan bij de rapportageverplichtingen op grond van een reeks statistiek gerelateerde richtlijnen en verordeningen.
 
