@@ -87,17 +87,17 @@ Dit kan als volgt worden opgenomen in de metadata:
   &lt;gmd:MD_Keywords&gt;
 # HVD thema 
     &lt;gmd:keyword&gt;
-      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;
+      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt;Aardobservatie en milieu&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
 # HVD Sub thema
    &lt;gmd:keyword&gt;
-      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt; Emissies&lt;/gmx:Anchor&gt;
+      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt;Emissies&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
 # referentie naar de waardelijst voor HVD thema's en subthema's
     &lt;gmd:thesaurusName&gt;
       &lt;gmd:CI_Citation&gt;
         &lt;gmd:title&gt;
-          &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75"&gt;High-value dataset categories &lt;/gmx:Anchor&gt;
+          &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75"&gt;High-value dataset categories&lt;/gmx:Anchor&gt;
         &lt;/gmd:title&gt;
         &lt;gmd:date&gt;
           &lt;gmd:CI_Date&gt;
