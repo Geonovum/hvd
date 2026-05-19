@@ -46,30 +46,28 @@ De metadata kan voor andere domeinen conform andere bestaande normen (standaarde
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
-In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.0/' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
+In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.1' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
 
-Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.
+Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.
 
-Er is voor het geo-domein en het statistische-domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties.  Een update van het Europees afgestemd <a href='https://raw.githack.com/SEMICeu/GeoDCAT-AP/dev/drafts/latest/index.html' target='_blank'>geoDCAT-AP</a> , waarin een uitbreiding voor specifieke geo metadata elementen op DCAT-AP is vastgelegd, is nu beschikbaar. Hiermee is echter nog niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen. Daar wordt aan gewerkt en dit wordt begin volgend jaar verwacht.<br/>
+Er is voor het geo-domein en het statistische-domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties.  Een update van het Europees afgestemd <a href='https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/' target='_blank'>geoDCAT-AP</a>, waarin een uitbreiding voor specifieke geo metadata elementen op DCAT-AP is vastgelegd, is nu beschikbaar. Hiermee is echter niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen, daarvoor zal de extentie op DCAT-AP voor HVD aanvullend moeten worden toegepast.<br/>
 
 ### DCAT-AP-NL {#6E5518C4}
 
-Het Nederlands applicatie profiel op DCAT 3 <a href='https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/' target='_blank'>DCAT-AP-NL</a> is gereed. Hierin wordt op basis van het Europese DCAT-AP, specifiekere afspraken gemaakt die beter aansluiten op de situatie in Nederland. Dit profiel gaat gebruikt worden voor de uitwisseling van metadata tussen Europese en Nederlandse data portalen. In een aantal domeinen en bijbehorende portalen wordt DCAT als standaard gebruikt om de metadata in vast te leggen. Daar kan het Nederlandse profiel ook gebruikt gaan worden zodat de metadata die wordt vastgelegd beter aansluit bij de Nederlandse wensen en eisen op dit gebied.<br/>
+In het Nederlands applicatie profiel op DCAT 3 <a href='https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/' target='_blank'>DCAT-AP-NL</a> wordt op basis van het Europese DCAT-AP, specifiekere afspraken gemaakt die beter aansluiten op de situatie in Nederland. De extentie voor HVD is onderdeel van dit profiel, geoDCAT echter niet. Dit profiel gaat gebruikt worden voor de uitwisseling van metadata tussen Europese en Nederlandse data portalen. In een aantal domeinen en bijbehorende portalen wordt DCAT als standaard gebruikt om de metadata in vast te leggen. Daar kan het Nederlandse profiel ook gebruikt gaan worden zodat de metadata die wordt vastgelegd beter aansluit bij de Nederlandse wensen en eisen op dit gebied.<br/>
 
 ### Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE) {#409368F9}
 
 Ruimtelijke data waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Dit geldt ook voor de zogenoemde "eenvoudige data service koppeling", waarbij aparte service metadata conform ISO 19119 niet noodzakelijk is. Het is wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
-
-Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar. Het is mogelijk dat daarin van andere ISO metadata elementen uitgegaan gaat worden om HVD vereisten in DCAT te ontsluiten. Zolang de gevraagde informatie in de juiste DCAT elementen ontsloten wordt, zal dit niet tot problemen leiden.<br/>
 <br/>
 
 <B><I>De aanduiding 'high value dataset'</i></B>
 
-Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord te voldoen, Europese afstemming daarover is nog gaande. De aanduiding ‘high value dataset’ en het aangeven van het HVD thema en dataset moet daarvoor als volgt worden opgenomen in de metadata; <br/>
+Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord  moet daarvoor als volgt middels URI's worden opgenomen in de metadata; <br/>
 
 Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.europa.eu/eli/reg_impl/2023/138/oj` opgenomen worden.<br/>
 
-Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>.
+Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
 
 Dit kan als volgt worden opgenomen in de metadata:
 <code>
@@ -152,16 +150,15 @@ Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, 
 
 Ruimtelijke dataservices (API’s) waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Het is dan wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
 
-Een update van een Europees afgestemd geoDCAT-AP, waarin ook de transformatie van ISO metadata naar DCAT-AP-HVD is vastgelegd, is momenteel nog niet beschikbaar. Het is mogelijk dat daarin van andere ISO metadata elementen uitgegaan gaat worden om HVD vereisten in DCAT te ontsluiten. Zolang de gevraagde informatie in de juiste DCAT elementen ontsloten wordt, zal dit niet tot problemen leiden.<br/>
 <br/>
 
 <B><I>De aanduiding 'high value dataset'</i></B>
 
-Vooralsnog lijkt het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord te voldoen, Europese afstemming daarover is nog gaande. De aanduiding ‘high value dataset’ en het aangeven van het HVD thema en dataset moet daarvoor als volgt worden opgenomen in de metadata; <br/>
+Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord  moet daarvoor als volgt middels URI's worden opgenomen in de metadata; <br/>
 
 Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.europa.eu/eli/reg_impl/2023/138/oj` opgenomen worden.<br/>
 
-Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>.
+Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
 
 Dit kan als volgt worden opgenomen in de metadata:
 <code>
@@ -179,17 +176,17 @@ Dit kan als volgt worden opgenomen in de metadata:
   &lt;gmd:MD_Keywords&gt;
 # HVD thema 
     &lt;gmd:keyword&gt;
-      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt; Aardobservatie en milieu&lt;/gmx:Anchor&gt;
+      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021"&gt;Aardobservatie en milieu&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
 # HVD Sub thema
    &lt;gmd:keyword&gt;
-      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt; Emissies&lt;/gmx:Anchor&gt;
+      &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/c_4ba9548e"&gt;Emissies&lt;/gmx:Anchor&gt;
     &lt;/gmd:keyword&gt;
 # referentie naar de waardelijst voor HVD thema's en subthema's
     &lt;gmd:thesaurusName&gt;
       &lt;gmd:CI_Citation&gt;
         &lt;gmd:title&gt;
-          &lt;gmx:Anchor xlink:href="http://publications.europa.eu/resource/dataset/high-value-dataset-category"&gt;High-value dataset categories &lt;/gmx:Anchor&gt;
+          &lt;gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75"&gt;High-value dataset categories&lt;/gmx:Anchor&gt;
         &lt;/gmd:title&gt;
         &lt;gmd:date&gt;
           &lt;gmd:CI_Date&gt;
