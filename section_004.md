@@ -245,19 +245,19 @@ Zowel in de Open Data richtlijn (artikel 5, lid 8) als in de uitvoeringsverorden
 <td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>HVD API<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>OGC Web Services: WFS, WCS, SOS<br/>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D;'>OGC Web Services: WFS, WCS, SOS<br/>
 </td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'><span style='color: #3C3C3C;'>X</span><br/>
-</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>OGC API: STA, API Features<br/>
-</td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'><span style='color: #3C3C3C;'>X</span><br/>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '><span style='color: #3C3C3C;'>X</span><br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>Atom feeds<br/>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>OGC API: STA, API Features<br/>
 </td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'></td>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '><span style='color: #3C3C3C;'>X</span><br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>Atom feeds<br/>
+</td>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '></td>
 </tr>
 </tbody>
 </table>
@@ -280,19 +280,19 @@ INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ 
 <td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: #70AD47;'>HVD Bulkdownload<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>OGC Web Services: WFS, WCS, SOS<br/>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>OGC Web Services: WFS, WCS, SOS<br/>
 </td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>X<br/>
-</td>
-</tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>OGC API: STA, API Features<br/>
-</td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>X<br/>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>X<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>Atom feeds<br/>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>OGC API: STA, API Features<br/>
 </td>
-<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; background-color: none;'>X<br/>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>X<br/>
+</td>
+</tr>
+<tr><td align='left' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>Atom feeds<br/>
+</td>
+<td align='center' style='border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; '>X<br/>
 </td>
 </tr>
 </tbody>
