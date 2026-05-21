@@ -161,7 +161,7 @@ Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.euro
 Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
 
 Dit kan als volgt worden opgenomen in de metadata:
-<code>
+
 <pre class="xml">
 <span style='color: #000080;'>
 &lt;gmd:descriptiveKeywords&gt;
@@ -202,7 +202,7 @@ Dit kan als volgt worden opgenomen in de metadata:
     &lt;/gmd:thesaurusName&gt;
   &lt;/gmd:MD_Keywords&gt;
 &lt;/gmd:descriptiveKeywords&gt; 
-</span></pre></code>
+</span></pre>
 <br/>
 
 <B><I>Contactinformatie</I></B>
