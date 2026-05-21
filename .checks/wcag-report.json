@@ -40,14 +40,14 @@
     "nodes": [
       {
         "target": [
-          "#beschrijven-van-de-hvd-specifieke-metadata-in-iso-19115-inspire > code > pre > .hljs.xml"
+          "#beschrijven-van-de-hvd-specifieke-metadata-in-iso-19115-inspire > pre > .hljs.xml"
         ],
         "html": "<code class=\"hljs xml\">",
         "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
       },
       {
         "target": [
-          "#beschrijven-van-de-hvd-specifieke-metadata-in-iso-19119-inspire > code > pre > .hljs.xml"
+          "#beschrijven-van-de-hvd-specifieke-metadata-in-iso-19119-inspire > pre > .hljs.xml"
         ],
         "html": "<code class=\"hljs xml\">",
         "failureSummary": "Fix any of the following:\n  Element should have focusable content\n  Element should be focusable"
