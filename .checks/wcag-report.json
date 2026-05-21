@@ -17,22 +17,6 @@
   },
   {
     "url": "http://localhost:8080/snapshot.html",
-    "id": "list",
-    "impact": "serious",
-    "description": "Ensure that lists are structured correctly",
-    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/list?application=webdriverjs",
-    "nodes": [
-      {
-        "target": [
-          "#checklist > ol"
-        ],
-        "html": "<ol>",
-        "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: br"
-      }
-    ]
-  },
-  {
-    "url": "http://localhost:8080/snapshot.html",
     "id": "scrollable-region-focusable",
     "impact": "serious",
     "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
