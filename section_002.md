@@ -42,7 +42,7 @@ Om inzicht te bieden in welke Nederlandse datasets voor HVD zijn aangemerkt, ste
 Het doel van het aanmerkingsregister is meervoudig:<br/>
 <ul><li>In het aanmerkingsregister worden de aanmerkingen en wijzigingen op de aanmerkingen bijgehouden door het ministerie van BZK;</li>
 <li>Via het aanmerkingsregister kan iedereen de voortgang van de HVD (en INSPIRE) implementatie volgen;</li>
-<li>Vanuit het aanmerkingsregister is er ook een directe link naar de publicatie van de metadata van betreffende dataset in het <a href='http://www.nationaalgeoregister.nl/' target='_blank'>Nationaal Georegister (NGR)</a> en <a href='https://data.overheid.nl/ 'target='_blank'>data.overheid.nl</a>. De dataset zelf is via de metadata te raadplegen.</li>
+<li>Vanuit het aanmerkingsregister is er ook een directe link naar de publicatie van de metadata van betreffende dataset in het <a href='https://www.nationaalgeoregister.nl/' target='_blank'>Nationaal Georegister (NGR)</a> en <a href='https://data.overheid.nl/ 'target='_blank'>data.overheid.nl</a>. De dataset zelf is via de metadata te raadplegen.</li>
 </ul>
 
 In het openbare gedeelte kan de bezoeker de <a href='https://www.aanmerking.nl/aanmerkingsregister' target='_blank'>aanmerkingen</a> bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset <a href='https://www.aanmerking.nl/aanmelden-dataset' target='_blank'>aanmelden</a> als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br/>
