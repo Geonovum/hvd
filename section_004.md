@@ -27,12 +27,15 @@ In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metad
 
 In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel het geen expliciete vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br/>
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
-<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  <ul><li>In de Europese metadata werkgroep rondom het ontsluiten van HVD (DCAT-AP-HVD), wordt er ook vanuit gegaan dat deze informatie via de metadata ontsloten wordt.</li></ul></li>
+<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  </li>
 </ul>
+Deze elementen zijn ook opgenomen in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Als metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.<br/>
 
 ### Metadata standaarden {#2E19E63B}
 
-Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. <br/>
+Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. 
+Als de metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.
+<br/>
 
 Voor het beschrijven van ruimtelijke data en dataservices wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br/>
 
@@ -40,17 +43,17 @@ Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opge
 
 Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standaarden/' target='_blank'>Pas-toe-of-leg-uit-lijst</a> van het College Standaardisatie.<br/>
 
-Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br/>
+Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie, zoals beschreven in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br/>
 
 De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
-In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.1' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
+In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.1' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van geo metadata en INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br/>
 
-Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.
+Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.
 
-Er is voor het geo-domein en het statistische-domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties.  Een update van het Europees afgestemd <a href='https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/' target='_blank'>geoDCAT-AP</a>, waarin een uitbreiding voor specifieke geo metadata elementen op DCAT-AP is vastgelegd, is nu beschikbaar. Hiermee is echter niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen, daarvoor zal de extentie op DCAT-AP voor HVD aanvullend moeten worden toegepast.<br/>
+Er is voor het geo-domein op Europees niveau ook een applicatie profiel gemaakt; <a href='https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/' target='_blank'>geoDCAT-AP</a> waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties. Hiermee is echter niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen, daarvoor zal de extentie op DCAT-AP voor HVD aanvullend moeten worden toegepast. Ook voor andere domeinen zijn er Europese extenties, zoals voor statistiek, mobility en gezondheid.<br/>
 
 ### DCAT-AP-NL {#6E5518C4}
 
@@ -58,7 +61,7 @@ In het Nederlands applicatie profiel op DCAT 3 <a href='https://docs.geostandaar
 
 ### Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE) {#409368F9}
 
-Ruimtelijke data waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Dit geldt ook voor de zogenoemde "eenvoudige data service koppeling", waarbij aparte service metadata conform ISO 19119 niet noodzakelijk is. Het is wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br/>
+Ruimtelijke data waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Dit geldt ook voor de zogenoemde "eenvoudige data service koppeling", waarbij aparte service metadata conform ISO 19119 niet noodzakelijk is. Het is wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie, zoals beschreven in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Dit kan in bestaande ISO 19115 etadata-elementen opgenomen worden.<br/>
 <br/>
 
 <B><I>De aanduiding 'high value dataset'</i></B>
@@ -67,7 +70,7 @@ Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het H
 
 Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.europa.eu/eli/reg_impl/2023/138/oj` opgenomen worden.<br/>
 
-Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
+Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. Het meest nauwkeurige passende subthema zal daarvoor gekozen moeten worden. Er kunnen ook meerdere thema's of subthema's van toepassing zijn. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
 
 Dit kan als volgt worden opgenomen in de metadata:
 
@@ -131,7 +134,7 @@ Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datase
 
 <B><I>De kwaliteit van de dienstverlening</I></B>
 
-Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
+Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met andere generieke documentatie van de service of een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
 
 Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br/>
 <br/>
@@ -158,7 +161,7 @@ Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het H
 
 Voor de aanduiding ‘high value dataset' moet daarvoor de ELI `http://data.europa.eu/eli/reg_impl/2023/138/oj` opgenomen worden.<br/>
 
-Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
+Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href='https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category' target='_blank'>High-value dataset categories</a>. Het meest nauwkeurige passende subthema zal daarvoor gekozen moeten worden. Er kunnen ook meerdere thema's of subthema's van toepassing zijn.De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.
 
 Dit kan als volgt worden opgenomen in de metadata:
 
@@ -217,7 +220,7 @@ De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridisch
 
 <B><I>De kwaliteit van de dienstverlening</I></B>
 
-Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
+Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met andere generieke documentatie van de service of een eigen specificatie van de kwaliteit van de service worden opgenomen. <br/> 
 
 Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br/>
 <br/>
