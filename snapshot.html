@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.8.0">
+<meta name="generator" content="ReSpec 37.2.0">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -16,6 +16,7 @@ dfn{cursor:pointer}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
 .dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
 .dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel .marker.cddl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
 .dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
 .dfn-panel a[href]:hover{border-bottom-width:1px}
 .dfn-panel ul{padding:0}
@@ -56,13 +57,17 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+@media (prefers-color-scheme:dark){
+#references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
+}
+body:has(input[name=color-scheme][value=dark]:checked) #references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
 cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 #issue-summary>ul{column-count:2}
-#issue-summary li{list-style:none;display:inline-block}
+#issue-summary li{list-style:none}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
 details.respec-tests-details>*{padding-right:2em}
 details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
@@ -71,7 +76,8 @@ details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
 .self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-.header-wrapper{display:flex;align-items:baseline;position:relative;left:-.5em}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2):has(+a.self-link){position:relative;left:-.5em}
 :is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-.7em;font-size:1rem;opacity:.5}
 :is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
 :is(h2,h3)+a.self-link{top:-.2em}
@@ -82,6 +88,8 @@ dd{margin-left:0}
 @media print{
 .removeOnSave{display:none}
 }
+body:has(input[name=color-scheme][value=light]:checked),head:not(:has(meta[name=color-scheme][content~=dark]))+body{color-scheme:light}
+body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 </style>
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px;background:0 0}
@@ -89,9 +97,36 @@ img.license{float:left;padding-right:5px;background:0 0}
 <meta name="color-scheme" content="light">
 <meta name="description" content="Deze handreiking High Value Datasets (HVD) is een handreiking met informatie om te voldoen aan de (technische) HVD-verplichtingen. Deze HVD-handreiking is bedoeld voor de HVD-dataproviders, die datasets voor HVD ontsluiten.">
 <style>
-.hljs{--base:#fafafa;--mono-1:#383a42;--mono-2:#686b77;--mono-3:#717277;--hue-1:#0b76c5;--hue-2:#336ae3;--hue-3:#a626a4;--hue-4:#42803c;--hue-5:#ca4706;--hue-5-2:#c91243;--hue-6:#986801;--hue-6-2:#9a6a01}
+.hljs,body:has(input[name=color-scheme][value=light]:checked) .hljs,head:not(:has(meta[name=color-scheme][content~=dark]))+body .hljs{--base:#fafafa;--mono-1:#383a42;--mono-2:#686b77;--mono-3:#717277;--hue-1:#0b76c5;--hue-2:#336ae3;--hue-3:#a626a4;--hue-4:#42803c;--hue-5:#ca4706;--hue-5-2:#c91243;--hue-6:#986801;--hue-6-2:#9a6a01}
 @media (prefers-color-scheme:dark){
-.hljs{--base:#282c34;--mono-1:#abb2bf;--mono-2:#818896;--mono-3:#5c6370;--hue-1:#56b6c2;--hue-2:#61aeee;--hue-3:#c678dd;--hue-4:#98c379;--hue-5:#e06c75;--hue-5-2:#be5046;--hue-6:#d19a66;--hue-6-2:#e6c07b}
+.hljs{
+  --base: #282c34;
+  --mono-1: #abb2bf;
+  --mono-2: #818896;
+  --mono-3: #5c6370;
+  --hue-1: #56b6c2;
+  --hue-2: #61aeee;
+  --hue-3: #c678dd;
+  --hue-4: #98c379;
+  --hue-5: #e06c75;
+  --hue-5-2: #be5046;
+  --hue-6: #d19a66;
+  --hue-6-2: #e6c07b;
+}
+}
+body:has(input[name=color-scheme][value=dark]:checked) .hljs{
+  --base: #282c34;
+  --mono-1: #abb2bf;
+  --mono-2: #818896;
+  --mono-3: #5c6370;
+  --hue-1: #56b6c2;
+  --hue-2: #61aeee;
+  --hue-3: #c678dd;
+  --hue-4: #98c379;
+  --hue-5: #e06c75;
+  --hue-5-2: #be5046;
+  --hue-6: #d19a66;
+  --hue-6-2: #e6c07b;
 }
 .hljs{display:block;overflow-x:auto;padding:.5em;color:#383a42;color:var(--mono-1,#383a42);background:#fafafa;background:var(--base,#fafafa)}
 .hljs-comment,.hljs-quote{color:#717277;color:var(--mono-3,#717277);font-style:italic}
@@ -1372,7 +1407,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
-<body class="h-entry informative toc-inline"><div class="head">
+<body class="h-entry informative"><div class="head">
     <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://docs.geostandaarden.nl/media/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Handreiking implementatie High Value Datasets (HVD)</h1>
     
@@ -1407,7 +1442,9 @@ img.license{float:left;padding-right:5px;background:0 0}
       <dt>Doe mee:</dt><dd>
     <a href="https://github.com/Geonovum/hvd/">GitHub Geonovum/hvd</a>
   </dd><dd>
-    <a href="https://github.com/Geonovum/hvd/issues/">Dien een melding in</a>
+    <a href="https://github.com/Geonovum/hvd/issues/">All issues</a>
+  </dd><dd>
+    <a href="https://github.com/Geonovum/hvd/issues/new/choose">Dien een melding in</a>
   </dd><dd>
     <a href="https://github.com/Geonovum/hvd/commits/">Revisiehistorie</a>
   </dd><dd>
@@ -1443,9 +1480,7 @@ img.license{float:left;padding-right:5px;background:0 0}
   <li>Bulkdownload</li>
   <li>Overige documentatie</li></ul>
 </li>
-</ul>
-
-<p>In <a href="#207C051B">hoofdstuk 4</a> is informatie over de afzonderlijke stappen die voor alle thema’s en datasets gelden beschreven. In de hoofdstukken daarna zijn dezelfde stappen beschreven met specifieke informatie die alleen geldt voor de respectievelijke thema’s. Per dataset moeten daarom de stappen doorlopen worden uit hoofdstuk 4 plus de stappen uit het betreffende hoofdstuk.<br></p>
+</ul><p>In <a href="#207C051B">hoofdstuk 4</a> is informatie over de afzonderlijke stappen die voor alle thema’s en datasets gelden beschreven. In de hoofdstukken daarna zijn dezelfde stappen beschreven met specifieke informatie die alleen geldt voor de respectievelijke thema’s. Per dataset moeten daarom de stappen doorlopen worden uit hoofdstuk 4 plus de stappen uit het betreffende hoofdstuk.<br></p>
 <p>Bij het publiceren van de uitvoeringsverordening HVD is geen rekening gehouden met processtappen die een technisch data-beheerder of geo-informatie specialist moet ondernemen om de data conform HVD te ontsluiten. Deze handreiking helpt de dataproviders om het werkproces inzichtelijk te maken. In <a href="#2831FFFB">hoofdstuk 12</a> is een checklist opgenomen van alle stappen die een dataprovider dient te doorlopen om een dataset inclusief services en documentatie te publiceren conform HVD vereisten.</p>
 </section><section id="deadlines"><div class="header-wrapper"><h3 id="55C1B036"><bdi class="secno">1.3 </bdi>Deadlines</h3><a class="self-link" href="#55C1B036" aria-label="Permalink for Section 1.3"></a></div><p>Op 21 december 2022 is de Uitvoeringsverordening tot vaststelling van een lijst met specifieke high value datasets en de regelingen voor publicatie en hergebruik van die gegevens besloten. Deze uitvoeringsverordening heeft de kracht van wet ongeacht de omzetting van de Open Data richtlijn in de Nederlandse Wet Hergebruik van Overheidsinformatie. De wettelijke verplichtingen van de high value datasets staan daarmee volledig op zichzelf. De eisen in de uitvoeringsverordening HVD moeten uiterlijk per 9 juni 2024 door iedere lidstaat vervuld zijn. <br></p>
 <p>Het ministerie van Binnenlandse zaken stelt een gefaseerde aanpak voor, zie <a href="#3280DEA1">Nederlandse ambitie HVD</a>.</p>
@@ -1454,9 +1489,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 <ul><li><a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019L1024" target="_blank">EU Open Data richtlijn (ODD)</a></li>
 <li><a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138" target="_blank">Uitvoeringsverordening tot vaststelling van een lijst met specifieke hoogwaardige datasets en de regelingen voor publicatie en hergebruik van die gegevens</a></li>
 <li>Algemene <a href="https://data.europa.eu/nl" target="_blank">website van de EU over open data</a></li>
-</ul>
-
-</section><section id="over-deze-handreiking"><div class="header-wrapper"><h3 id="375880A5"><bdi class="secno">1.5 </bdi>Over deze handreiking</h3><a class="self-link" href="#375880A5" aria-label="Permalink for Section 1.5"></a></div><section id="hvd-is-nog-steeds-in-beweging"><div class="header-wrapper"><h4 id="3567F8EA"><bdi class="secno">1.5.1 </bdi>HVD is nog steeds in beweging</h4><a class="self-link" href="#3567F8EA" aria-label="Permalink for Section 1.5.1"></a></div><p>HVD is nog steeds in beweging. Dat betekent dat nog niet alles over HVD gezegd is. Als er aanpassingen zijn, dan wordt deze handreiking daarop aangepast.<br></p>
+</ul></section><section id="over-deze-handreiking"><div class="header-wrapper"><h3 id="375880A5"><bdi class="secno">1.5 </bdi>Over deze handreiking</h3><a class="self-link" href="#375880A5" aria-label="Permalink for Section 1.5"></a></div><section id="hvd-is-nog-steeds-in-beweging"><div class="header-wrapper"><h4 id="3567F8EA"><bdi class="secno">1.5.1 </bdi>HVD is nog steeds in beweging</h4><a class="self-link" href="#3567F8EA" aria-label="Permalink for Section 1.5.1"></a></div><p>HVD is nog steeds in beweging. Dat betekent dat nog niet alles over HVD gezegd is. Als er aanpassingen zijn, dan wordt deze handreiking daarop aangepast.<br></p>
 <p>Verwacht hier echter niet alles over HVD. De insteek is om&nbsp;<i>die</i>&nbsp;informatie te verstrekken die nodig is om data volgens de uitvoeringsverordening HVD beschikbaar te kunnen stellen. De meest complete bron van informatie is de uitvoeringsverordening zelf. <br></p>
 <p>Het detail van de handreiking slaat het software-niveau over; het is geen&nbsp;<i>how to</i>&nbsp;die uitlegt hoe je in specifieke software bepaalde functionaliteit oproept, of uitvoert. Wel reikt de handreiking principes of mechanismen aan.</p>
 </section><section id="hvd-helpdesk"><div class="header-wrapper"><h4 id="2BBF3ADD"><bdi class="secno">1.5.2 </bdi>HVD Helpdesk</h4><a class="self-link" href="#2BBF3ADD" aria-label="Permalink for Section 1.5.2"></a></div><p>We proberen via deze handreiking zoveel mogelijk informatie over HVD te delen. Heb je toch nog een vraag over HVD, stuur dan een e-mail naar&nbsp;<a href="mailto:HVD@geonovum.nl" target="_blank">HVD@geonovum.nl</a>.<br></p>
@@ -1477,19 +1510,13 @@ img.license{float:left;padding-right:5px;background:0 0}
 <ul><li>In het aanmerkingsregister worden de aanmerkingen en wijzigingen op de aanmerkingen bijgehouden door het ministerie van BZK;</li>
 <li>Via het aanmerkingsregister kan iedereen de voortgang van de HVD (en INSPIRE) implementatie volgen;</li>
 <li>Vanuit het aanmerkingsregister is er ook een directe link naar de publicatie van de metadata van betreffende dataset in het&nbsp;<a href="https://www.nationaalgeoregister.nl/" target="_blank">Nationaal Georegister (NGR)</a> en <a href="https://data.overheid.nl/ " target="_blank">data.overheid.nl</a>. De dataset zelf is via de metadata te raadplegen.</li>
-</ul>
-
-<p>In het openbare gedeelte kan de bezoeker de&nbsp;<a href="https://www.aanmerking.nl/aanmerkingsregister" target="_blank">aanmerkingen</a>&nbsp;bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset&nbsp;<a href="https://www.aanmerking.nl/aanmelden-dataset" target="_blank">aanmelden</a>&nbsp;als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br></p>
+</ul><p>In het openbare gedeelte kan de bezoeker de&nbsp;<a href="https://www.aanmerking.nl/aanmerkingsregister" target="_blank">aanmerkingen</a>&nbsp;bekijken en selecties maken op bijvoorbeeld dataprovider en thema. Ook kan de bezoeker een dataset&nbsp;<a href="https://www.aanmerking.nl/aanmelden-dataset" target="_blank">aanmelden</a>&nbsp;als de bezoeker een dataset mist in het overzicht of denkt dat een bepaalde dataset wel in aanmerking komt voor HVD.<br></p>
 <p>Naast een openbaar gedeelte heeft het aanmerkingregister ook een gesloten gedeelte voor de dataproviders. De gesloten omgeving voorziet in extra functionaliteit om het aanmerkings- en implementatieproces te ondersteunen. Binnen deze omgeving kunnen dataproviders per dataset de directe link opnemen naar de publicatie van de metadata van betreffende dataset in het NGR of andere metadata registers. Ook kan de dataprovider een&nbsp;wijzigingsverzoek&nbsp;indienen. Daarnaast kan de dataprovider alle eigen datasets exporteren naar een Excel-bestand.<br></p>
 </section><section id="wijziging-van-de-aanmerking"><div class="header-wrapper"><h4 id="3045D0CB"><bdi class="secno">2.2.2 </bdi>Wijziging van de aanmerking</h4><a class="self-link" href="#3045D0CB" aria-label="Permalink for Section 2.2.2"></a></div><p>In sommige gevallen kan een aangemerkte organisatie niet langer optreden als dataprovider voor een of meer HVD thema’s, of onderdelen daarvan. Dit kan om verschillende redenen, bijvoorbeeld:<br></p>
 <ul><li>De dataset is onvolledig;</li>
 <li>Door veranderend beleid of wettelijke verplichting wordt de dataset niet langer beheerd;</li>
 <li>Een andere organisatie gaat de dataset beheren of beschikbaar stellen.</li>
 </ul>
-
-
-
-
 </section></section><section id="organisatie"><div class="header-wrapper"><h3 id="32E2A2CE"><bdi class="secno">2.3 </bdi>Organisatie</h3><a class="self-link" href="#32E2A2CE" aria-label="Permalink for Section 2.3"></a></div><p>Het inrichten van de organisatie en het exacte werkproces zal per organisatie en per dataset verschillen. Aandachtspunt is dat HVD niet eenmalig is, maar juist een doorlopend proces. Wanneer de processtappen zijn doorlopen en de dataprovider ‘conform HVD’ opereert, is het belangrijk dat de processtappen in de lijn worden opgenomen en dat de activiteiten van alle processtappen bij het dagelijkse beheer worden opgenomen.</p>
 <p>HVD is namelijk geen project, maar onderdeel van het dagelijkse werkproces!</p>
 <section id="afstemmen-binnen-nederland"><div class="header-wrapper"><h4 id="4D2A049F"><bdi class="secno">2.3.1 </bdi>Afstemmen binnen Nederland</h4><a class="self-link" href="#4D2A049F" aria-label="Permalink for Section 2.3.1"></a></div><p>In Nederland wordt een operationeel overleg HVD ingericht. Vanaf 2024 zal dit overleg met een vaste frequentie worden ingepland.<br></p>
@@ -1509,9 +1536,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 <ul><li>Aardobservatie en milieu</li>
 <li><span style="color: #000000;">Meteorologische data</span></li>
 <li>Statistiek</li>
-</ul>
-
-<p>Voor de datasets die vallen onder het HVD thema&nbsp;Aardobservatie en milieu&nbsp;is het volgende aangegeven: “<i>De meest recente datasets en de historische versies van datasets die beschikbaar zijn.</i>” Bij het HVD thema Meteorologische data staat bij de klimaatgegevens, Gevalideerde observaties: “<i>Alle gedigitaliseerde historische gegevens</i>”. Het HVD thema Statistiek gaat uit van “<i>De tijdsreeksen beginnen uiterlijk op de datum van toepassing van de desbetreffende rechtshandeling die in de tabel is opgenomen</i>”.<br></p>
+</ul><p>Voor de datasets die vallen onder het HVD thema&nbsp;Aardobservatie en milieu&nbsp;is het volgende aangegeven: “<i>De meest recente datasets en de historische versies van datasets die beschikbaar zijn.</i>” Bij het HVD thema Meteorologische data staat bij de klimaatgegevens, Gevalideerde observaties: “<i>Alle gedigitaliseerde historische gegevens</i>”. Het HVD thema Statistiek gaat uit van “<i>De tijdsreeksen beginnen uiterlijk op de datum van toepassing van de desbetreffende rechtshandeling die in de tabel is opgenomen</i>”.<br></p>
 <p>Bij datasets met meetreeksen kan, na afsluiting van een jaar, de data van dat jaar als historische data worden gezien. Bij data waarbij de situatie op een bepaald moment verandert, is de vraag of elke verandering een historische dataset oplevert of dat bij elke verandering een wijzigingsdatum wordt meegegeven en dan per jaar worden opgeslagen. Daarmee wordt ook een historie opgebouwd. <br></p>
 <p>De Commissie heeft aangegeven (d.d. 8 november 2022) dat de benadering van historische gegevens waarschijnlijk per sector/thema zal verschillen. Mogelijk verschilt de benadering ook tussen lidstaten binnen één sector, aangezien de uitvoeringsverordening tot doel heeft de manier waarop relevante overheidsinstanties hun gegevens beheren niet te verstoren. Verschillende fora van relevante sectorale deskundigen zijn een goede ingang om aan te dringen op een meer geharmoniseerde aanpak in de gegeven sectoren.<br></p>
 <p>Bij het HVD thema Statistiek wordt uitgegaan van de vereisten zoals genoemd in de desbetreffende wetgeving en een startdatum voor tijdsreeksen uiterlijk op de datum waarop deze van toepassing is. Advies is om deze vereisten te volgen, en indien machine leesbare gegevens die verder teruggaan voorhanden zijn, ook die beschikbaar te stellen.<br></p>
@@ -1521,9 +1546,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 <li>Aardobservatie en milieu</li>
 <li>Mobiliteit - Vervoersnetwerken</li>  
 <li>Meteorologische data</li>
-</ul>
-
-<p>Voor de meeste datasets van de HVD thema’s Geospatiale data, Aardobservatie en milieu, en het subthema Vervoersnetwerken van het thema Mobiliteit, geldt: alle generalisatieniveaus die beschikbaar zijn tot de schaal van 1 op 5 000. Daarbij staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br></p>
+</ul><p>Voor de meeste datasets van de HVD thema’s Geospatiale data, Aardobservatie en milieu, en het subthema Vervoersnetwerken van het thema Mobiliteit, geldt: alle generalisatieniveaus die beschikbaar zijn tot de schaal van 1 op 5 000. Daarbij staat het volgende nog aanvullend aangegeven: In het geval datasets niet beschikbaar zijn op de in de bijlage van de uitvoeringsverordening HVD vermelde schaal, maar wel in (een) hogere ruimtelijke resolutie(s), moeten zij worden verstrekt in de beschikbare ruimtelijke resolutie.<br></p>
 <p>Voor HVD thema Meteorologische data geldt bij 1 subthema, namelijk gegevens uit modellen inzake numerieke weersverwachting (NWP-model), een resolutie vereiste. Ook hier is opgenomen dat indien het vereiste rasterniveau van 2,5 km niet gehaald kan worden, het best beschikbare raster gebruikt moet worden.</p>
 </section><section id="persoonsgegevens"><div class="header-wrapper"><h3 id="5D2970DF"><bdi class="secno">3.5 </bdi>Persoonsgegevens</h3><a class="self-link" href="#5D2970DF" aria-label="Permalink for Section 3.5"></a></div><p>Wanneer de beschikbaarstelling van HVD voor hergebruik gepaard gaat met de verwerking van persoonsgegevens, moet die verwerking plaatsvinden in overeenstemming met het Unierecht betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens, met name <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679">Verordening (EU) 2016/679</a> van het Europees Parlement en de Raad (AVG). Dit geldt ook voor alle bepalingen van intern recht waarin de toepassing van de AVG nader wordt gespecificeerd. Wanneer dit het geval is, moeten passende methoden en technieken (zoals generalisatie, aggregatie, onderdrukking, anonimisering, differentiële privacy of randomisering) toegepast worden om zoveel mogelijk gegevens beschikbaar te stellen voor hergebruik.</p>
 </section></section>
@@ -1536,29 +1559,28 @@ img.license{float:left;padding-right:5px;background:0 0}
 <p>In de uitvoeringsverordening zijn een aantal aanvullende vereisten voor de metadata beschreven:<br></p>
 <ul><li>De dataset is in de metadata aangeduid als ‘high value dataset’ (artikel 3, lid 5); </li>
 <li>De metadata zijn op internet beschikbaar volgens bestaande normen zoals één register of opendatacatalogus. (bijvoorbeeld NGR of data.overheid.nl) (artikel 5, lid 3a). </li>
-</ul>
-
-<p>In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel het geen expliciete vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br></p>
+</ul><p>In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er een aantal documenten en andere informatie beschikbaar gesteld moeten worden. Hieruit kan worden afgeleid dat in de metadata aanvullende informatie opgenomen moet worden zodat deze aanvullende documenten voor gebruikers vindbaar zijn. Hoewel het geen expliciete vereiste is, wordt geadviseerd ook in de metadata op te nemen:<br></p>
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
-<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  <ul><li>In de Europese metadata werkgroep rondom het ontsluiten van HVD (DCAT-AP-HVD), wordt er ook vanuit gegaan dat deze informatie via de metadata ontsloten wordt.</li></ul></li>
+<li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  </li>
 </ul>
-
-<section id="metadata-standaarden"><div class="header-wrapper"><h4 id="2E19E63B"><bdi class="secno">4.2.1 </bdi>Metadata standaarden</h4><a class="self-link" href="#2E19E63B" aria-label="Permalink for Section 4.2.1"></a></div><p>Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. <br></p>
+Deze elementen zijn ook opgenomen in <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a>. Als metadata conform <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a> is en gepubliceerd is op <a href="[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)" target="_blank">het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.<br><section id="metadata-standaarden"><div class="header-wrapper"><h4 id="2E19E63B"><bdi class="secno">4.2.1 </bdi>Metadata standaarden</h4><a class="self-link" href="#2E19E63B" aria-label="Permalink for Section 4.2.1"></a></div><p>Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. 
+Als de metadata conform <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a> is en gepubliceerd is op <a href="[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)" target="_blank">het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.
+<br></p>
 <p>Voor het beschrijven van ruimtelijke data en dataservices wordt op dit moment het <a href="https://docs.geostandaarden.nl/md/mdprofiel-iso19115/" target="_blank">Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href="https://docs.geostandaarden.nl/md/mdprofiel-iso19119/" target="_blank">Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br></p>
 <p>Ten behoeve van de Europese INSPIRE regelgeving is ook een metadata profiel opgesteld. De vereisten uit het INSPIRE profiel zijn opgenomen in deze Nederlandse profielen zodat, door te voldoen aan het Nederlandse profiel, tevens aan de Europese INSPIRE vereisten voldaan kan worden.<br></p>
 <p>Beide profielen staan op de <a href="https://forumstandaardisatie.nl/open-standaarden/" target="_blank">Pas-toe-of-leg-uit-lijst</a>&nbsp;van het College Standaardisatie.<br></p>
-<p>Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138" target="_blank">Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href="#409368F9">Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br></p>
+<p>Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138" target="_blank">Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie, zoals beschreven in <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a>. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href="#409368F9">Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br></p>
 <p>De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.</p>
-</section><section id="standaard-voor-het-uitwisselen-van-metadata-tussen-metadata-portalen"><div class="header-wrapper"><h4 id="65FBDE9D"><bdi class="secno">4.2.2 </bdi>Standaard voor het uitwisselen van metadata tussen metadata portalen</h4><a class="self-link" href="#65FBDE9D" aria-label="Permalink for Section 4.2.2"></a></div><p>In Europa is het applicatie profiel (<a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1" target="_blank">DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br></p>
-<p>Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/" target="_blank">DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.</p>
-<p>Er is voor het geo-domein en het statistische-domein op Europees niveau ook een applicatie profiel gemaakt, waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties.  Een update van het Europees afgestemd <a href="https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/" target="_blank">geoDCAT-AP</a>, waarin een uitbreiding voor specifieke geo metadata elementen op DCAT-AP is vastgelegd, is nu beschikbaar. Hiermee is echter niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen, daarvoor zal de extentie op DCAT-AP voor HVD aanvullend moeten worden toegepast.<br></p>
+</section><section id="standaard-voor-het-uitwisselen-van-metadata-tussen-metadata-portalen"><div class="header-wrapper"><h4 id="65FBDE9D"><bdi class="secno">4.2.2 </bdi>Standaard voor het uitwisselen van metadata tussen metadata portalen</h4><a class="self-link" href="#65FBDE9D" aria-label="Permalink for Section 4.2.2"></a></div><p>In Europa is het applicatie profiel (<a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1" target="_blank">DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van geo metadata en INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. Individuele beheerders van metadata hoeven hier geen actie op te ondernemen. Dit geldt ook voor de metadata conform het Nederlands profiel op ISO 19119.<br></p>
+<p>Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.</p>
+<p>Er is voor het geo-domein op Europees niveau ook een applicatie profiel gemaakt; <a href="https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/" target="_blank">geoDCAT-AP</a> waarmee het mogelijk wordt om de domein specifieke metadata, zoals de ISO 19115 metadata voor ruimtelijke data, te transformeren naar het generieke DCAT-AP met daarop domein specifieke extenties. Hiermee is echter niet de transformatie voor de specifieke voor HVD vereiste elementen meegenomen, daarvoor zal de extentie op DCAT-AP voor HVD aanvullend moeten worden toegepast. Ook voor andere domeinen zijn er Europese extenties, zoals voor statistiek, mobility en gezondheid.<br></p>
 </section><section id="dcat-ap-nl"><div class="header-wrapper"><h4 id="6E5518C4"><bdi class="secno">4.2.3 </bdi>DCAT-AP-NL</h4><a class="self-link" href="#6E5518C4" aria-label="Permalink for Section 4.2.3"></a></div><p>In het Nederlands applicatie profiel op DCAT 3 <a href="https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/" target="_blank">DCAT-AP-NL</a> wordt op basis van het Europese DCAT-AP, specifiekere afspraken gemaakt die beter aansluiten op de situatie in Nederland. De extentie voor HVD is onderdeel van dit profiel, geoDCAT echter niet. Dit profiel gaat gebruikt worden voor de uitwisseling van metadata tussen Europese en Nederlandse data portalen. In een aantal domeinen en bijbehorende portalen wordt DCAT als standaard gebruikt om de metadata in vast te leggen. Daar kan het Nederlandse profiel ook gebruikt gaan worden zodat de metadata die wordt vastgelegd beter aansluit bij de Nederlandse wensen en eisen op dit gebied.<br></p>
-</section><section id="beschrijven-van-de-hvd-specifieke-metadata-in-iso-19115-inspire"><div class="header-wrapper"><h4 id="409368F9"><bdi class="secno">4.2.4 </bdi>Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE)</h4><a class="self-link" href="#409368F9" aria-label="Permalink for Section 4.2.4"></a></div><p>Ruimtelijke data waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Dit geldt ook voor de zogenoemde "eenvoudige data service koppeling", waarbij aparte service metadata conform ISO 19119 niet noodzakelijk is. Het is wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br>
+</section><section id="beschrijven-van-de-hvd-specifieke-metadata-in-iso-19115-inspire"><div class="header-wrapper"><h4 id="409368F9"><bdi class="secno">4.2.4 </bdi>Beschrijven van de HVD specifieke metadata in ISO 19115 (INSPIRE)</h4><a class="self-link" href="#409368F9" aria-label="Permalink for Section 4.2.4"></a></div><p>Ruimtelijke data waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Dit geldt ook voor de zogenoemde "eenvoudige data service koppeling", waarbij aparte service metadata conform ISO 19119 niet noodzakelijk is. Het is wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie, zoals beschreven in <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/" target="_blank">DCAT-AP-HVD</a>. Dit kan in bestaande ISO 19115 etadata-elementen opgenomen worden.<br>
 <br></p>
 <p><b><i>De aanduiding 'high value dataset'</i></b></p>
 <p>Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord  moet daarvoor als volgt middels URI's worden opgenomen in de metadata; <br></p>
 <p>Voor de aanduiding ‘high value dataset' moet daarvoor de ELI <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code> opgenomen worden.<br></p>
-<p>Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" target="_blank">High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.</p>
+<p>Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" target="_blank">High-value dataset categories</a>. Het meest nauwkeurige passende subthema zal daarvoor gekozen moeten worden. Er kunnen ook meerdere thema's of subthema's van toepassing zijn. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.</p>
 <p>Dit kan als volgt worden opgenomen in de metadata:</p>
 <pre aria-busy="false"><code class="hljs xml">
 <span class="hljs-tag">&lt;<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span>
@@ -1600,9 +1622,7 @@ img.license{float:left;padding-right:5px;background:0 0}
   <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span> 
 </code></pre>
-<br>
-
-<p><b><i>Contactinformatie</i></b></p>
+<br><p><b><i>Contactinformatie</i></b></p>
 <p>De contactinformatie voor vragen over de API, in het geval van de zogenoemde "eenvoudige data service koppeling" kan in de metadata elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Gebruik daarbij als rol: pointOfContact. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld <a href="mailto:servicedesk@xxx.nl">servicedesk@xxx.nl</a>, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br>
 <br></p>
 <p><b><i>De gebruiksvoorwaarden</i></b></p>
@@ -1612,7 +1632,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 <p>Bij diverse HVD thema’s wordt gevraagd om de online documentatie van de datasets waarin ten minste de gegevensstructuur en -semantiek is opgenomen. De link naar deze documentatie kan, zoals al gebruikelijk is, in de metadata opgenomen worden bij het element “specificatie” met bijbehorende conformiteitsindicatie.<br>
 <br></p>
 <p><b><i>De kwaliteit van de dienstverlening</i></b></p>
-<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br> </p>
+<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het geval van de zogenoemde "eenvoudige data service koppeling" zal dit ook in de dataset metadata opgenomen moeten worden. In het Nederlands profiel op ISO 19115 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met andere generieke documentatie van de service of een eigen specificatie van de kwaliteit van de service worden opgenomen. <br> </p>
 <p>Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br>
 <br></p>
 <p><b><i>API documentatie</i></b></p>
@@ -1621,12 +1641,10 @@ img.license{float:left;padding-right:5px;background:0 0}
 <p><b><i>Overige metadata</i></b></p>
 <p>Als er voor de HVD data van verschillende generalisatieniveaus,  granulariteit, actualiseringsfrequentie en – termijnen, tijdreeksen en updatefrequentie wordt gevraagd te leveren, is het ook van belang deze specifieke informatie in de metadata op te nemen in de daarvoor aanwezige metadata elementen. Net als distributie formaat is dit relevante informatie, maar geen verplicht metadata element.</p>
 </section><section id="beschrijven-van-de-hvd-specifieke-metadata-in-iso-19119-inspire"><div class="header-wrapper"><h4 id="409368F9a"><bdi class="secno">4.2.5 </bdi>Beschrijven van de HVD specifieke metadata in ISO 19119 (INSPIRE)</h4><a class="self-link" href="#409368F9a" aria-label="Permalink for Section 4.2.5"></a></div><p>Ruimtelijke dataservices (API’s) waarvan de metadata wordt beschreven conform het Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0 kunnen hiermee voldoen aan vereisten rondom metadata uit de Uitvoeringsverordening HVD. Het is dan wel noodzakelijk dat de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat daarbij in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast onder andere om contactinformatie en de verwijzing naar verplichte documentatie.<br></p>
-<br>
-
-<p><b><i>De aanduiding 'high value dataset'</i></b></p>
+<br><p><b><i>De aanduiding 'high value dataset'</i></b></p>
 <p>Het opnemen van de aanduiding ‘high value dataset’ en het aangeven van het HVD thema en subthema in het metadata element trefwoord  moet daarvoor als volgt middels URI's worden opgenomen in de metadata; <br></p>
 <p>Voor de aanduiding ‘high value dataset' moet daarvoor de ELI <code>http://data.europa.eu/eli/reg_impl/2023/138/oj</code> opgenomen worden.<br></p>
-<p>Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" target="_blank">High-value dataset categories</a>. De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.</p>
+<p>Het trefwoord voor het HVD thema en subthema moet een waarde zijn uit <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category" target="_blank">High-value dataset categories</a>. Het meest nauwkeurige passende subthema zal daarvoor gekozen moeten worden. Er kunnen ook meerdere thema's of subthema's van toepassing zijn.De verwijzing naar deze Taxonomy moet ook middels een URI in de metadata en niet deze link.</p>
 <p>Dit kan als volgt worden opgenomen in de metadata:</p>
 <pre aria-busy="false"><code class="hljs xml">
 <span class="hljs-tag">&lt;<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span>
@@ -1668,16 +1686,14 @@ img.license{float:left;padding-right:5px;background:0 0}
   <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:MD_Keywords</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">gmd:descriptiveKeywords</span>&gt;</span> 
 </code></pre>
-<br>
-
-<p><b><i>Contactinformatie</i></b></p>
+<br><p><b><i>Contactinformatie</i></b></p>
 <p>De contactinformatie voor vragen over de API kan in de metadata elementen behorende bij “Verantwoordelijke organisatie bron” worden opgenomen. Gebruik daarbij als rol: pointOfContact. Het wordt aanbevolen dat contactinformatie de vorm heeft van een (persistent) e-mailadres, bijvoorbeeld <a href="mailto:servicedesk@xxx.nl">servicedesk@xxx.nl</a>, of een link naar een contactformulier op een webpagina, bijvoorbeeld om contact op te nemen met een servicedesk.<br>
 <br></p>
 <p><b><i>De gebruiksvoorwaarden</i></b></p>
 <p>De licentie kan zoals gebruikelijk worden opgenomen bij het element “juridische toegangsrestricties” in de metadata. Deze moet echter wel een Creative Commons Public Domain Dedication (CC0) licentie of een Creative Commons BY 4.0-licentie of een gelijkwaardige of minder beperkende open licentie zijn.<br>
 <br></p>
 <p><b><i>De kwaliteit van de dienstverlening</i></b></p>
-<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met een eigen specificatie van de kwaliteit van de service worden opgenomen. <br> </p>
+<p>Voor de API moet de kwaliteit van de dienstverlening, wat betreft de prestaties, de capaciteit en de beschikbaarheid worden gepubliceerd. In het Nederlands profiel op ISO 19119 zijn daar specifieke metadata elementen voor. DCAT kent deze niet, daar wordt voor deze informatie uitgegaan van een document, waarin deze informatie is opgenomen. Voor INSPIRE netwerkservices is in de verordening ook de minimale kwaliteit van de netwerkdiensten vastgelegd. Door in de ISO metadata de conformiteit met deze specificatie op te nemen kan aan deze eis worden voldaan. Voor andere services kan de conformiteit met andere generieke documentatie van de service of een eigen specificatie van de kwaliteit van de service worden opgenomen. <br> </p>
 <p>Het document met deze specificatie van de kwaliteit van de service zal wel apart online gepubliceerd moeten worden zodat deze direct toegankelijk is. Deze werkwijze sluit ook aan bij de opmerking in DCAT-AP-HVD dat kwaliteitsinformatie over de service wordt gezien als onderdeel van de generieke documentatie van een service.<br>
 <br></p>
 <p><b><i>API documentatie</i></b></p>
@@ -1710,9 +1726,7 @@ img.license{float:left;padding-right:5px;background:0 0}
 <td align="center" style="border-top: 0.5pt solid #A8D08D; border-left: 0.5pt solid #A8D08D; border-bottom: 0.5pt solid #A8D08D; border-right: 0.5pt solid #A8D08D; "></td>
 </tr>
 </tbody>
-</table>
-
-<p>De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s, zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href="https://docs.geostandaarden.nl/api/API-Strategie/" target="_blank">Nederlandse API strategie</a> van de overheid toegepast.<br></p>
+</table><p>De internationale standaarden voor INSPIRE API's zijn door het OGC opgesteld. Deze eerste generatie OWS standaarden, zoals WFS, WCS en SOS, zijn gebaseerd op RPC en XML. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie. Deze nieuwe generatie, de OGC API’s, zijn gebaseerd op algemene Web architectuur, i.e. REST. In de algemene Web architectuur wordt ook de <a href="https://docs.geostandaarden.nl/api/API-Strategie/" target="_blank">Nederlandse API strategie</a> van de overheid toegepast.<br></p>
 <p>Kortom, datasets ontsloten via INSPIRE ‘direct access download services’, kunnen eveneens als HVD API’s worden ingezet. Er zijn geen voorgeschreven technische implementatieregels vanuit ODD en HVD, maar wel een verwachting dat API’s  meegroeien met de redelijke wensen van hergebruikers. Om te voldoen aan de behoefte van hergebruikers is het advies om het gebruik van REST API’s conform de Nederlandse API strategie en conform de OGC API standaarden zoals STA en OGC API Features (INSPIRE Good Practises) te implementeren en stimuleren. Deze nieuwe generatie API's zijn voor een veel breder publiek toegankelijk voor hergebruik. Daarnaast is het advies om de brede Europese ontwikkelingen op het gebied van API implementatie te volgen en te zorgen dat de Nederlandse API belangen worden gewaarborgd.  </p>
 </section><section id="bulkdownload"><div class="header-wrapper"><h4 id="420E7103"><bdi class="secno">4.3.2 </bdi>Bulkdownload</h4><a class="self-link" href="#420E7103" aria-label="Permalink for Section 4.3.2"></a></div><p>Uitzonderingen daargelaten moeten veel van de datasets naast via een API ook als bulkdownload beschikbaar worden gesteld. Bulkdownload wordt in de uitvoeringsverordening gedefinieerd als: “een functie die het mogelijk maakt een volledige dataset in een of meer pakketten te downloaden.”<br></p>
 <p>INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ op de volgende wijze inzetten voor de HVD: <br></p>
@@ -1741,15 +1755,11 @@ img.license{float:left;padding-right:5px;background:0 0}
 </td>
 </tr>
 </tbody>
-</table>
-
-</section><section id="overige-documentatie"><div class="header-wrapper"><h4 id="41325C33"><bdi class="secno">4.3.3 </bdi>Overige documentatie</h4><a class="self-link" href="#41325C33" aria-label="Permalink for Section 4.3.3"></a></div><p>In de uitvoeringsverordening is beschreven dat ten behoeve van hergebruik verschillende documentatie beschikbaar gesteld dient te worden.<br></p>
+</table></section><section id="overige-documentatie"><div class="header-wrapper"><h4 id="41325C33"><bdi class="secno">4.3.3 </bdi>Overige documentatie</h4><a class="self-link" href="#41325C33" aria-label="Permalink for Section 4.3.3"></a></div><p>In de uitvoeringsverordening is beschreven dat ten behoeve van hergebruik verschillende documentatie beschikbaar gesteld dient te worden.<br></p>
 <ul><li>Naast de API zelf moeten de gebruiksvoorwaarden van de API worden vastgesteld en worden gepubliceerd in een open, voor de mens en machineleesbaar formaat (artikel 3, lid 2).</li>
 <li><span style="color: #000000;">De criteria inzake de kwaliteit van de dienstverlening moet eveneens worden vastgesteld en gepubliceerd. Het betreft hier de prestaties, de capaciteit en de beschikbaarheid van de services (</span>artikel 3, lid 2)<span style="color: #000000;">. </span></li>
 <li>Tenslotte wordt ook de API documentatie gepubliceerd in een open, voor de mens en machineleesbaar formaat dat in de Unie of internationaal erkend is (artikel 3, lid 3).</li>
-</ul>
-
-</section><section id="contactpunt"><div class="header-wrapper"><h4 id="14E940CF"><bdi class="secno">4.3.4 </bdi>Contactpunt</h4><a class="self-link" href="#14E940CF" aria-label="Permalink for Section 4.3.4"></a></div><p>Alle dataproviders die over high value datasets beschikken, wijzen een contactpunt aan voor vragen en kwesties in verband met de API. Dit heeft als doel de beschikbaarheid en het onderhoud van de API te waarborgen en draagt uiteindelijk bij aan de vlotte en doeltreffende publicatie van de datasets (uitvoeringsverordening artikel 3, lid 4). Het advies is hiervoor een helpdesk-punt te gebruiken.</p>
+</ul></section><section id="contactpunt"><div class="header-wrapper"><h4 id="14E940CF"><bdi class="secno">4.3.4 </bdi>Contactpunt</h4><a class="self-link" href="#14E940CF" aria-label="Permalink for Section 4.3.4"></a></div><p>Alle dataproviders die over high value datasets beschikken, wijzen een contactpunt aan voor vragen en kwesties in verband met de API. Dit heeft als doel de beschikbaarheid en het onderhoud van de API te waarborgen en draagt uiteindelijk bij aan de vlotte en doeltreffende publicatie van de datasets (uitvoeringsverordening artikel 3, lid 4). Het advies is hiervoor een helpdesk-punt te gebruiken.</p>
 </section></section></section>
   <section id="vereisten-thema-geospatiale-data"><div class="header-wrapper"><h2 id="7BE46384"><bdi class="secno">5. </bdi>Vereisten thema Geospatiale data</h2><a class="self-link" href="#7BE46384" aria-label="Permalink for Section 5."></a></div><p>Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href="#207C051B">Algemene vereisten HVD</a>, gelden voor het thema Geospatiale data een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd waarbij ze zijn onderverdeeld in vereisten voor de data, vereisten voor de metadata en vereisten voor het beschikbaar stellen.<br></p>
 <section id="data-0"><div class="header-wrapper"><h3 id="1128D4E8"><bdi class="secno">5.1 </bdi>Data</h3><a class="self-link" href="#1128D4E8" aria-label="Permalink for Section 5.1"></a></div><p>In de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138#d1e32-48-1" target="_blank">bijlage van de uitvoeringsverordening</a> staat vermeld welke datasets het betreft en de specificaties van de datasets.  Een aantal van deze datasets vallen ook onder INSPIRE thema’s. Bij andere datasets wordt verwezen naar data die is gedefinieerd in de Verordening inzake gemeenschappelijk landbouwbeleid. Bij dit thema gelden specificaties over generalisatieniveaus, de geografische dekking, sleutelkenmerken, actualiteit en vertrouwelijkheid van persoonsgegevens.<br></p>
@@ -1789,15 +1799,11 @@ img.license{float:left;padding-right:5px;background:0 0}
 <ul><li>XHTML formaat voor documenten die binnen het toepassingsgebied van <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019R0815" target="_blank">Gedelegeerde Verordening (EU) 2018/815</a> van de Commissie vallen;</li>
 <li>In andere formaten indien en voor zover voorgeschreven bij het toepasselijke Unierecht;</li>
 <li>Machineleesbaarheid is niet vereist voor gegevens die worden bewaard in niet-machineleesbare formaten (bijvoorbeeld gescande bedrijfsdocumenten) of voor ongestructureerde/niet machineleesbare gegevensvelden die deel uitmaken van machineleesbare documenten.</li>
-</ul>
-
-<p>De datasets dienen gebruik te maken van in de Unie of internationaal erkende en openbaar gedocumenteerde gecontroleerde woordenlijsten en taxonomieën, voor zover beschikbaar (zoals de Core Business Vocabulary).</p>
+</ul><p>De datasets dienen gebruik te maken van in de Unie of internationaal erkende en openbaar gedocumenteerde gecontroleerde woordenlijsten en taxonomieën, voor zover beschikbaar (zoals de Core Business Vocabulary).</p>
 </section><section id="metadata-4"><div class="header-wrapper"><h3 id="569CAE7E"><bdi class="secno">9.2 </bdi>Metadata</h3><a class="self-link" href="#569CAE7E" aria-label="Permalink for Section 9.2"></a></div><p>In onderstaande twee gevallen gelden aanvullende vereisten ten aanzien van de volledige metadata die de datasets beschrijven.<br></p>
 <ul><li>Voor documenten die binnen het toepassingsgebied van <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R1437" target="_blank">Gedelegeerde Verordening (EU) 2016/1437</a> vallen, geldt dat de in die verordening gespecificeerde metagegevens opgenomen moeten worden, indien van toepassing.</li>
 <li>Voor andere documenten geldt dat de metagegevens opgenomen moeten worden die zijn voorgeschreven bij het toepasselijke EU-recht, indien van toepassing. </li>
-</ul>
-
-</section><section id="beschikbaar-stellen-4"><div class="header-wrapper"><h3 id="53DEF0B6"><bdi class="secno">9.3 </bdi>Beschikbaar stellen</h3><a class="self-link" href="#53DEF0B6" aria-label="Permalink for Section 9.3"></a></div><p>De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br></p>
+</ul></section><section id="beschikbaar-stellen-4"><div class="header-wrapper"><h3 id="53DEF0B6"><bdi class="secno">9.3 </bdi>Beschikbaar stellen</h3><a class="self-link" href="#53DEF0B6" aria-label="Permalink for Section 9.3"></a></div><p>De datasets die onder dit thema vallen moeten, naast via API’s, ook beschikbaar worden gesteld middels bulkdownload.<br></p>
 <p>De volledige documentatie van de datasets onder dit thema moet online gepubliceerd worden en openbaar toegankelijk zijn. Hierin wordt tenminste de gegevensstructuur en -semantiek beschreven.</p>
 </section></section>
   <section id="vereisten-thema-mobiliteit"><div class="header-wrapper"><h2 id="3855C198"><bdi class="secno">10. </bdi>Vereisten thema Mobiliteit</h2><a class="self-link" href="#3855C198" aria-label="Permalink for Section 10."></a></div><p>Naast de algemeen geldende vereisten die benoemd zijn in het hoofdstuk <a href="#207C051B">Algemene vereisten HVD</a>, gelden voor het thema Mobiliteit een aantal aanvullende technische vereisten. In sommige gevallen geldt een aanscherping van een algemeen geldende vereiste. Deze aanvullende en aangescherpte vereisten zijn hieronder benoemd.<br></p>
@@ -1829,8 +1835,6 @@ img.license{float:left;padding-right:5px;background:0 0}
 </li></ol>
   <br>
 </li>
-
-
 <li>Stel de dataset en bijbehorende documentatie beschikbaar volgens de vereisten:
   <ol><li>Zorg dat wordt voldaan aan de algemene vereisten die gelden voor alle datasets van alle thema’s (zie <a href="#37E1B35B">4.3</a>).</li>
 <li>Check bij het betreffende thema of de dataset via een API en bulkdownload of via een van beide beschikbaar gesteld moet worden (zie 5.3 t/m 10.3). </li>
@@ -1869,8 +1873,11 @@ function setupPanel() {
 }
 
 function panelListener() {
-  /** @type {HTMLElement} */
+  /** @type {HTMLElement | null} */
   let panel = null;
+  /**
+   * @param {KeyboardEvent|MouseEvent} event
+   */
   return event => {
     const { target, type } = event;
 
@@ -1878,24 +1885,34 @@ function panelListener() {
 
     // For keys, we only care about Enter key to activate the panel
     // otherwise it's activated via a click.
-    if (type === "keydown" && event.key !== "Enter") return;
+    if (
+      type === "keydown" &&
+      /** @type {KeyboardEvent} */ (event).key !== "Enter"
+    )
+      return;
 
     const action = deriveAction(event);
 
     switch (action) {
       case "show": {
         hidePanel(panel);
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const dfn = target.closest("dfn, .index-term");
+        if (!dfn?.id) break;
         panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
-        const coords = deriveCoordinates(event);
+        if (!panel) break;
+        const coords = deriveCoordinates(
+          /** @type {MouseEvent|KeyboardEvent} */ (event)
+        );
         displayPanel(dfn, panel, coords);
         break;
       }
       case "dock": {
-        panel.style.left = null;
-        panel.style.top = null;
-        panel.classList.add("docked");
+        if (panel) {
+          panel.style.left = "";
+          panel.style.top = "";
+          panel.classList.add("docked");
+        }
         break;
       }
       case "hide": {
@@ -1946,7 +1963,8 @@ function deriveAction(event) {
     if (hitALink) {
       return target.classList.contains("self-link") ? "hide" : "dock";
     }
-    const panel = target.closest(".dfn-panel");
+
+    const panel = /** @type {HTMLElement} */ (target.closest(".dfn-panel"));
     return panel.classList.contains("docked") ? "hide" : "none";
   }
   if (document.querySelector(".dfn-panel:not([hidden])")) {
@@ -1990,9 +2008,9 @@ function displayPanel(dfn, panel, { x, y }) {
     const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
     const newCaretOffset = left - newLeft;
     panel.style.left = `${newLeft}px`;
-    /** @type {HTMLElement} */
+    /** @type {HTMLElement | null} */
     const caret = panel.querySelector(".caret");
-    caret.style.left = `${newCaretOffset}px`;
+    if (caret) caret.style.left = `${newCaretOffset}px`;
   }
 
   // As it's a dialog, we trap focus.
@@ -2041,6 +2059,9 @@ function trapFocus(panel, dfn) {
 function createTrapListener(anchors, panel, dfn) {
   const lastIndex = anchors.length - 1;
   let currentIndex = 0;
+  /**
+   * @param {KeyboardEvent} event
+   */
   return event => {
     switch (event.key) {
       // Hitting "Tab" traps us in a nice loop around elements.
@@ -2070,7 +2091,7 @@ function createTrapListener(anchors, panel, dfn) {
   };
 }
 
-/** @param {HTMLElement} panel */
+/** @param {HTMLElement | null} panel */
 function hidePanel(panel) {
   if (!panel) return;
   panel.hidden = true;
