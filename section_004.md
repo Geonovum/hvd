@@ -29,12 +29,12 @@ In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er 
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
 <li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  </li>
 </ul>
-Deze elementen zijn ook opgenomen in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Als metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.<br/>
+Deze elementen zijn ook opgenomen in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Als metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='https://data.europa.eu/' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.<br/>
 
 ### Metadata standaarden {#2E19E63B}
 
 Algemeen geldt dus dat data voorzien dient te worden van metadata, dat de metadata zo veel mogelijk aan formele open standaarden dient te voldoen en dat de metadata op internet beschikbaar wordt gemaakt volgens bestaande normen. 
-Als de metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='[https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/](https://data.europa.eu/)' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.
+Als de metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='https://data.europa.eu/' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.
 <br/>
 
 Voor het beschrijven van ruimtelijke data en dataservices wordt op dit moment het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19115/' target='_blank'>Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0</a> en het <a href='https://docs.geostandaarden.nl/md/mdprofiel-iso19119/' target='_blank'>Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0</a> toegepast.<br/>
