@@ -1,7 +1,7 @@
 # Monitoring en rapportage {#04CFC1BA}
 De implementatie van High Value Datasets (HVD) stopt niet bij het publiceren van datasets. Ook na publicatie is het belangrijk om te controleren of de datasets vindbaar, toegankelijk en bruikbaar blijven en voldoen aan de toepasselijke HVD-vereisten.  
 ## Doel van de monitoring
-Monitoring is bedoeld om inzicht te krijgen in de mate waarin aangemerkte HVD-datasets daadwerkelijk beschikbaar zijn en blijven voldoen aan de vereisten van de HVD-uitvoeringsverordening.
+Monitoring is bedoeld om inzicht te krijgen in de mate waarin aangemerkte HVD-datasets daadwerkelijk beschikbaar zijn en blijven voldoen aan de vereisten van de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138).
 Daarbij wordt onder andere gekeken naar:
 - Vindbaarheid in nationale en Europese dataportalen;
 - Beschikbaarheid en kwaliteit van metadata;
@@ -13,7 +13,7 @@ Daarbij wordt onder andere gekeken naar:
 ## Doorlopende monitoring
 Dataproviders zijn verantwoordelijk voor het beschikbaar houden van hun datasets en de bijbehorende voorzieningen. Het is daarom belangrijk om periodiek te controleren of de datasets, metadata en ontsluitingsdiensten nog correct functioneren.
 
-Een dataset kan correct zijn aangemerkt als HVD, maar toch ontbreken in de Europese monitoring wanneer de metadata niet correct wordt geoogst of niet voldoet aan het toepasselijke DCAT-AP HVD-profiel.
+Een dataset kan correct zijn aangemerkt als HVD, maar toch ontbreken in de Europese monitoring wanneer de metadata niet correct wordt geoogst of niet voldoet aan het toepasselijke [DCAT-AP HVD-profiel](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/).
 
 Bij periodieke controles zijn de volgende punten relevant:
 
@@ -28,7 +28,7 @@ Bij periodieke controles zijn de volgende punten relevant:
 
 ## Europese monitoring
 Op Europees niveau wordt de beschikbaarheid van HVD-datasets gevolgd via het Europese dataportaal [data.europa.eu](https://data.europa.eu/).
-Het High-value dataset dashboard biedt onder andere inzicht in:
+Het [High-value Dataset Dashboard](https://data.europa.eu/en/hvd-dashboard) biedt onder andere inzicht in:
 
 - Het aantal beschikbare HVD-datasets per lidstaat;
 - De verdeling over HVD-categorieën en subcategorieën;
@@ -37,11 +37,14 @@ Het High-value dataset dashboard biedt onder andere inzicht in:
 - De catalogi waarin HVD-datasets zijn opgenomen.
 
 Het dashboard kan worden gebruikt om de Europese vindbaarheid van datasets te controleren en mogelijke ontbrekende datasets of metadataproblemen te signaleren.
+
+Daarnaast biedt het [HVD Reporting Tool](https://data.europa.eu/apps/hvd-reporting-tool/index.html) (bètaversie) inzicht in de HVD-rapportage en controles op metadata, distributies en API's.
 De aanwezigheid van een dataset op het Europese dataportaal betekent niet automatisch dat deze aan alle juridische en technische HVD-vereisten voldoet.
 
 ## Tweejaarlijkse rapportage
-Op grond van de HVD-uitvoeringsverordening rapporteren de EU-lidstaten iedere twee jaar over de uitvoering ervan. De eerste rapportage vond plaats in februari 2025. De volgende rapportage is voorzien voor februari 2027.
+Op grond van [artikel 5 van de HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138) rapporteren de EU-lidstaten iedere twee jaar over de uitvoering ervan. De eerste rapportage vond plaats in februari 2025. De volgende rapportage is voorzien voor februari 2027.
 Op Europees niveau wordt gewerkt aan een meer geautomatiseerde rapportage op basis van metadata die via het Europese dataportaal wordt verzameld.
+De Europese specificatie [DCAT-AP HVD 3.0.1](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/) beschrijft hoe HVD-metadata de verplichte rapportage ondersteunt, onder andere in paragraaf 11.9 over rapportage.
 Voor de rapportage in 2027 is het uitgangspunt dat alleen datasets die correct worden geoogst en voldoen aan de toepasselijke DCAT-AP HVD-vereisten, kunnen worden meegenomen in de geautomatiseerde rapportage.
 Dit maakt correcte metadata, harvesting en Europese vindbaarheid belangrijk voor zowel de implementatie als de rapportage over HVD.
 
