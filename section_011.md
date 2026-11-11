@@ -17,14 +17,21 @@ Een dataset kan correct zijn aangemerkt als HVD, maar toch ontbreken in de Europ
 
 Bij periodieke controles zijn de volgende punten relevant:
 
-1. Opname in het nationale aanmerkingsregister;
-2. Beschikbaarheid en validiteit van metadata;
-3. Correcte harvesting via de nationale catalogus;
-4. Vindbaarheid op het Europese dataportaal;
-5. Correcte HVD-categorie en subcategorie;
-6. Beschikbaarheid van de distributies;
-7. Werking en beschikbaarheid van API's en bulkdownload;
-8. Actualiteit van licenties, documentatie en contactgegevens.
+1. **Metadatakwaliteit:** Beschikbaarheid en validiteit van de metadata volgens de toepasselijke metadatastandaarden en het [DCAT-AP HVD-profiel](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/);
+
+2. **HVD-classificatie:** Correcte aanduiding van de toepasselijke HVD-categorie en de meest specifieke subcategorie volgens [DCAT-AP HVD 3.0.1](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/);
+
+3. **Databeschikbaarheid:** Beschikbaarheid en toegankelijkheid van de distributies volgens de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138);
+
+4. **Nationale vindbaarheid:** Controleren of de HVD-datasets vindbaar zijn in het [Nationaal Georegister (NGR)](https://www.nationaalgeoregister.nl/), voor zover van toepassing, om na te gaan of zij correct zijn opgenomen in de nationale ontsluitingsketen richting het Europese dataportaal;
+
+5. **Europese vindbaarheid:** Controleren of de datasets als HVD vindbaar zijn via de [HVD-zoekfunctie van het Europese dataportaal](https://data.europa.eu/data/datasets?is_hvd=true&locale=en) en het [High-value Dataset Dashboard](https://data.europa.eu/en/hvd-dashboard);
+
+6. **Technische toegankelijkheid:** Werking en beschikbaarheid van API's en, waar vereist, bulkdownload volgens de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138), inclusief de bijbehorende Quality of Service-documentatie en servicevereisten;
+
+7. **Documentatie en voorwaarden:** Actualiteit van licenties, gebruiksvoorwaarden, documentatie en contactgegevens volgens de toepasselijke vereisten en het [DCAT-AP HVD-profiel](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/);
+
+8. **Administratieve registratie:** Controleren of de eigen HVD-datasets correct en actueel zijn opgenomen in het [nationale aanmerkingsregister](https://www.aanmerking.nl/aanmerkingsregister), inclusief verwijzingen naar de bijbehorende metadata.
 
 ## Europese monitoring
 Op Europees niveau wordt de beschikbaarheid van HVD-datasets gevolgd via het Europese dataportaal [data.europa.eu](https://data.europa.eu/).
@@ -52,23 +59,14 @@ Dit maakt correcte metadata, harvesting en Europese vindbaarheid belangrijk voor
 Bij de monitoring en rapportage zijn verschillende partijen betrokken:
 
 **Dataproviders**
-
 Zorgen voor de beschikbaarheid en actualiteit van datasets, metadata, API's, bulkdownload en bijbehorende documentatie. Zij controleren periodiek of de voorzieningen correct werken.
-
 **Beheerders van broncatalogi**
-
 Zorgen voor de correcte opname en doorgifte van metadata richting nationale catalogi.
-
 **Nationale coördinatie**
-
 Ondersteunt het overzicht van aangemerkte HVD-datasets, de voortgang van de implementatie en het signaleren van ontbrekende of niet-vindbare datasets.
-
 **Europees dataportaal**
-
 Verzamelt metadata via harvesting en ondersteunt de Europese vindbaarheid en monitoring van HVD-datasets.
-
 **Verantwoordelijke autoriteiten van de lidstaat**
-
 Dragen zorg voor de formele rapportage aan de Europese Commissie.
 
 De precieze inrichting van de monitoring en de verdeling van operationele taken kunnen verder worden uitgewerkt naarmate de Europese en nationale werkwijzen zich ontwikkelen.
