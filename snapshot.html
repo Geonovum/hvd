@@ -1414,7 +1414,7 @@ body:has(input[name=color-scheme][value=dark]:checked) .hljs{
     <h2>
       Geonovum Handreiking<br>
       Levend document
-      <time class="dt-published" datetime="2026-11-11">11 november 2026</time>
+      <time class="dt-published" datetime="2026-11-12">12 november 2026</time>
     </h2>
     <dl>
       
@@ -1836,7 +1836,14 @@ Daarbij wordt onder andere gekeken naar:</p>
 <ol>
 <li><p><strong>Metadatakwaliteit:</strong> Beschikbaarheid en validiteit van de metadata volgens de toepasselijke metadatastandaarden en het <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/">DCAT-AP HVD-profiel</a>;</p>
 </li>
-<li><p><strong>HVD-classificatie:</strong> Correcte aanduiding van de toepasselijke HVD-categorie en de meest specifieke subcategorie volgens <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/">DCAT-AP HVD 3.0.1</a>;</p>
+<li><p><strong>HVD-classificatie:</strong> Correcte aanduiding van de toepasselijke HVD-categorie en de meest specifieke subcategorie volgens <a href="https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/#hvd-category">DCAT-AP HVD 3.0.1</a>.</p>
+<p>Belangrijke wijzigingen in DCAT-AP HVD 3.0.1:</p>
+<ul>
+<li><strong>HVD-categorie:</strong> Het gebruik van de meest specifieke toepasselijke HVD-categorie voor datasets en API's is gewijzigd van aanbevolen (RECOMMENDED) naar verplicht (MUST).</li>
+<li><strong>DCAT-AP-versie:</strong> De specificatie is afgestemd op DCAT-AP 3.0.1. Oudere versies van DCAT-AP worden niet meer ondersteund.</li>
+<li><strong>Titel en beschrijving:</strong> Deze eigenschappen zijn toegevoegd voor de HVD-rapportage. Een Engelse titel en beschrijving zijn vereist.</li>
+<li><strong>Meertaligheid:</strong> Het datatype van titel en beschrijving is gewijzigd naar <code>rdf:langString</code>, om automatische vertaling te ondersteunen.</li>
+</ul>
 </li>
 <li><p><strong>Databeschikbaarheid:</strong> Beschikbaarheid en toegankelijkheid van de distributies volgens de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138">HVD-uitvoeringsverordening (EU) 2023/138</a>;</p>
 </li>
