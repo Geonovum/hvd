@@ -19,8 +19,15 @@ Bij periodieke controles zijn de volgende punten relevant:
 
 1. **Metadatakwaliteit:** Beschikbaarheid en validiteit van de metadata volgens de toepasselijke metadatastandaarden en het [DCAT-AP HVD-profiel](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/);
 
-2. **HVD-classificatie:** Correcte aanduiding van de toepasselijke HVD-categorie en de meest specifieke subcategorie volgens [DCAT-AP HVD 3.0.1](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/);
+2. **HVD-classificatie:** Correcte aanduiding van de toepasselijke HVD-categorie en de meest specifieke subcategorie volgens [DCAT-AP HVD 3.0.1](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/#hvd-category).
 
+   Belangrijke wijzigingen in DCAT-AP HVD 3.0.1:
+
+   - **HVD-categorie:** Het gebruik van de meest specifieke toepasselijke HVD-categorie voor datasets en API's is gewijzigd van aanbevolen (RECOMMENDED) naar verplicht (MUST).
+   - **DCAT-AP-versie:** De specificatie is afgestemd op DCAT-AP 3.0.1. Oudere versies van DCAT-AP worden niet meer ondersteund.
+   - **Titel en beschrijving:** Deze eigenschappen zijn toegevoegd voor de HVD-rapportage. Een Engelse titel en beschrijving zijn vereist.
+   - **Meertaligheid:** Het datatype van titel en beschrijving is gewijzigd naar `rdf:langString`, om automatische vertaling te ondersteunen.
+   
 3. **Databeschikbaarheid:** Beschikbaarheid en toegankelijkheid van de distributies volgens de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138);
 
 4. **Nationale vindbaarheid:** Controleren of de HVD-datasets vindbaar zijn in het [Nationaal Georegister (NGR)](https://www.nationaalgeoregister.nl/), voor zover van toepassing, om na te gaan of zij correct zijn opgenomen in de nationale ontsluitingsketen richting het Europese dataportaal;
