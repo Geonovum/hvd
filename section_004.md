@@ -29,9 +29,10 @@ In de paragraaf Beschikbaar stellen – Overige documentatie is te lezen dat er 
 <ul><li>Contactpunt voor vragen en kwesties in verband met de API; </li>
 <li>Een verwijzing naar de verplichte documentatie, zoals gebruiksvoorwaarden, kwaliteit van de service, API documentatie, documentatie van de datasets etc.  </li>
 </ul>
-Deze elementen zijn ook opgenomen in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Als metadata conform <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a> is en gepubliceerd is op <a href='https://data.europa.eu/' target='_blank'>het Europese dataportaal</a>, dan kan daarmee worden voldaan aan de rapportage verplichting voor HVD.<br/>
 
-Voor de Europese monitoring en rapportage is het belangrijk dat HVD-datasets op data.europa.eu correct als HVD herkenbaar en vindbaar zijn. Hiervoor moeten de metadata de vereiste HVD-aanduiding en de meest specifieke toepasselijke HVD-categorie bevatten. Ook de titel en beschrijving van de dataset en de verwijzingen naar beschikbare API's en bulkdownloads zijn van belang. Zie hoofdstuk 11 voor meer informatie over de monitoring en rapportage.
+Deze elementen zijn ook opgenomen in [DCAT-AP-HVD](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/). Als de metadata voldoen aan DCAT-AP-HVD en beschikbaar zijn op [het Europese dataportaal](https://data.europa.eu/), wordt voldaan aan de minimale metadata-eisen voor opname in de Europese HVD-rapportage. Dit betekent echter niet automatisch dat aan alle vereisten van de Uitvoeringsverordening HVD is voldaan.
+
+Voor de Europese monitoring en rapportage is het belangrijk dat HVD-datasets op data.europa.eu correct als HVD herkenbaar en vindbaar zijn. Hiervoor moeten de metadata de vereiste HVD-aanduiding en de meest specifieke toepasselijke HVD-categorie bevatten. Ook de titel en beschrijving van de dataset en de verwijzingen naar beschikbare API's en bulkdownloads zijn van belang. Zie hoofdstuk 11 voor meer informatie over de monitoring en rapportage.<br/>
 
 ### Metadata standaarden {#2E19E63B}
 
@@ -45,7 +46,7 @@ Beide profielen staan op de <a href='https://forumstandaardisatie.nl/open-standa
 
 Voor ruimtelijke data en dataservices die conform deze metadata profielen de datasets en services (API’s) beschrijven, kunnen hiermee voldoen aan vereisten rondom metadata uit de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32023R0138' target='_blank'>Uitvoeringsverordening HVD</a>. Daarvoor is het wel noodzakelijk de specifieke extra informatie voor HVD ook in de metadata wordt opgenomen. Het gaat in ieder geval om de aanduiding van ‘high value dataset’ en daarnaast om onder andere contactinformatie en de verwijzing naar verplichte documentatie, zoals beschreven in <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>. Dit kan in bestaande metadata-elementen opgenomen worden, hiervoor is een wijziging van de Nederlandse metadata profielen niet direct noodzakelijk. Op termijn is dit voor een betere aansluiting op DCAT wellicht wel wenselijk (zie ook <a href='#409368F9'>Beschrijven van de HVD specifieke metadata in ISO 19115</a>).<br/>
 
-De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.
+De metadata kan voor andere domeinen conform andere bestaande normen (standaarden en profielen) beschikbaar worden gemaakt. Als er geen gangbare, domein specifieke metadata standaard is, kan de metadata aangemaakt worden conform DCAT-AP-NL.<br/>
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
