@@ -75,7 +75,12 @@ let respecConfig = {
       name: "Yvette van Turnhout-Ellenkamp",
       company: "Geonovum",
       companyURL: "https://www.Geonovum.nl/"
-     }    
+     }  
+	{
+      name: "Coco Musaningabe",
+      company: "Geonovum",
+      companyURL: "https://www.Geonovum.nl/"
+     }  
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/hvd",
