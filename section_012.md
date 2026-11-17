@@ -23,7 +23,7 @@ Hieronder staat een korte checklist van alle stappen die een dataprovider dient 
   <ol><li>Zorg dat wordt voldaan aan de algemene vereisten die gelden voor alle datasets van alle thema’s (zie <a href='#37E1B35B'>4.3</a>).</li>
 <li>Check bij het betreffende thema of de dataset via een API en bulkdownload of via een van beide beschikbaar gesteld moet worden (zie 5.3 t/m 10.3). </li>
   <li>Controleer overige vereisten bij het betreffende thema ten aanzien van het beschikbaar stellen van de dataset (zie 5.3 t/m 10.3).</li>
-  <li>Zorg dat de documenten die worden genoemd bij de het betreffende thema (zie 5.3 t/m 10.3) volgens de vereisten beschikbaar worden gesteld.</li>
+  <li>Zorg dat de documenten die worden genoemd bij het betreffende thema (zie 5.3 t/m 10.3) volgens de vereisten beschikbaar worden gesteld.</li>
 </ol>
 </li>
 </ol>
