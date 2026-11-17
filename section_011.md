@@ -24,8 +24,9 @@ Bij periodieke controles zijn de volgende punten relevant:
    Belangrijke wijzigingen in DCAT-AP HVD 3.0.1:
 
    - **HVD-categorie:** Het gebruik van de meest specifieke toepasselijke HVD-categorie voor datasets en API's is gewijzigd van aanbevolen (RECOMMENDED) naar verplicht (MUST).
-   - **DCAT-AP-versie:** De specificatie is afgestemd op DCAT-AP 3.0.1. Oudere versies van DCAT-AP worden niet meer ondersteund.
-   - **Titel en beschrijving:** Deze eigenschappen zijn toegevoegd voor de HVD-rapportage. Een Engelse titel en beschrijving zijn vereist.
+   - **DCAT-AP-versie:** DCAT-AP HVD 3.0.1 is afgestemd op DCAT-AP 3.0.1 en vormt de basis voor de actuele Europese HVD-rapportagevereisten..
+   - **Titel en beschrijving:** Voor de HVD-rapportage zijn de vereisten voor titel en beschrijving van datasets aangescherpt. Een Engelstalige titel en beschrijving zijn vereist volgens DCAT-AP HVD 3.0.1.
+   - **Bulkdownload**: Voor HVD-bulkdownloads is het gebruik van de eigenschap dcat:downloadURL verplicht volgens DCAT-AP HVD 3.0.1.
    - **Meertaligheid:** Het datatype van titel en beschrijving is gewijzigd naar `rdf:langString`, om automatische vertaling te ondersteunen.
    
 3. **Databeschikbaarheid:** Beschikbaarheid en toegankelijkheid van de distributies volgens de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138);
@@ -59,9 +60,7 @@ De aanwezigheid van een dataset op het Europese dataportaal betekent niet automa
 Op grond van [artikel 5 van de HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138) rapporteren de EU-lidstaten iedere twee jaar over de uitvoering ervan. De eerste rapportage vond plaats in februari 2025. De volgende rapportage is voorzien voor februari 2027.
 Op Europees niveau wordt gewerkt aan een meer geautomatiseerde rapportage op basis van metadata die via het Europese dataportaal wordt verzameld.
 De Europese specificatie [DCAT-AP HVD 3.0.1](https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/) beschrijft hoe HVD-metadata de verplichte rapportage ondersteunt, onder andere in paragraaf 11.9 over rapportage.
-Voor de rapportage in 2027 is het uitgangspunt dat alleen datasets die correct worden geoogst en voldoen aan de toepasselijke DCAT-AP HVD-vereisten, kunnen worden meegenomen in de geautomatiseerde rapportage.
-Dit maakt correcte metadata, harvesting en Europese vindbaarheid belangrijk voor zowel de implementatie als de rapportage over HVD.
-
+Voor de geautomatiseerde rapportage in 2027 is het van belang dat datasets correct worden geoogst en dat de metadata voldoen aan de toepasselijke DCAT-AP HVD-vereisten. Datasets die niet correct worden verwerkt, kunnen daardoor ontbreken in de geautomatiseerde rapportage.
 ## Verantwoordelijkheden
 Bij de monitoring en rapportage zijn verschillende partijen betrokken:
 
