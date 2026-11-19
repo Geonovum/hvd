@@ -24,10 +24,11 @@ Bij periodieke controles zijn de volgende punten relevant:
    Belangrijke wijzigingen in DCAT-AP HVD 3.0.1:
 
    - **HVD-categorie:** Het gebruik van de meest specifieke toepasselijke HVD-categorie voor datasets en API's is gewijzigd van aanbevolen (RECOMMENDED) naar verplicht (MUST).
-   - **DCAT-AP-versie:** DCAT-AP HVD 3.0.1 is afgestemd op DCAT-AP 3.0.1 en vormt de basis voor de actuele Europese HVD-rapportagevereisten..
+   - **DCAT-AP-versie:** DCAT-AP HVD 3.0.1 is afgestemd op DCAT-AP 3.0.1 en vormt de basis voor de actuele Europese HVD-rapportagevereisten.
    - **Titel en beschrijving:** Voor de HVD-rapportage zijn de vereisten voor titel en beschrijving van datasets aangescherpt. Een Engelstalige titel en beschrijving zijn vereist volgens DCAT-AP HVD 3.0.1.
-   - **Bulkdownload**: Voor HVD-bulkdownloads is het gebruik van de eigenschap dcat:downloadURL verplicht volgens DCAT-AP HVD 3.0.1.
+   - **Bulkdownload**: Voor HVD-bulkdownloads is het gebruik van de eigenschap `dcat:downloadURL` verplicht volgens DCAT-AP HVD 3.0.1.
    - **Meertaligheid:** Het datatype van titel en beschrijving is gewijzigd naar `rdf:langString`, om automatische vertaling te ondersteunen.
+   - **API-documentatie:** Voor HVD-API's is de eigenschap `dcat:endpointDescription` verplicht volgens DCAT-AP HVD 3.0.1.
    
 3. **Databeschikbaarheid:** Beschikbaarheid en toegankelijkheid van de distributies volgens de [HVD-uitvoeringsverordening (EU) 2023/138](https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32023R0138);
 
