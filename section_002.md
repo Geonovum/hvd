@@ -4,26 +4,28 @@ De uitvoeringsverordening HVD bepaalt in haar <a href='https://eur-lex.europa.eu
 
 ## Nederlandse ambitie HVD {#3280DEA1}
 
-Het ministerie van BZK stelt een gefaseerde implementatie voor, gebaseerd op de verwachte inspanning die nodig is voor ontsluiting conform de HVD vereisten. <br/>
+Het ministerie van BZK heeft destijds een gefaseerde implementatie voorgesteld, gebaseerd op de verwachte inspanning die nodig was voor ontsluiting conform de HVD vereisten. <br/>
+
 ### Data met een API en/of bulkdownload {#3F2D5E2B}
 
-In Nederland zijn veel datasets die in de uitvoeringsverordening HVD zijn opgenomen al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. De focus ligt eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning is om deze datasets uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
+In Nederland zijn veel datasets die in de uitvoeringsverordening HVD zijn opgenomen al als open data via een API en/of als bulkdownload (Atom) beschikbaar. Dat zijn datasets die al voor INSPIRE worden ontsloten, datasets die al via landelijke voorzieningen worden ontsloten en ook de statistische en meteorologische data. De focus lag eerst op het conform de HVD vereisten beschikbaar maken van deze data. De planning was om deze datasets uiterlijk voor 9 juni 2024 conform HVD vereisten beschikbaar te stellen.
 
 ### Data die nog geen API of bulkdownload (atom) heeft {#07542A6B}
 
-Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload wordt ontsloten, wordt een andere tijdslijn gehanteerd. Aangezien hier een grotere inspanning verwacht kan worden voor de ontsluiting conform HVD vereisten kan hier, als nodig, de ruimte benut worden die er is tussen de officiële implementatie-deadline en de eerste rapportage over HVD, uiterlijk 9 februari 2025.
+Voor data die onder een HVD thema valt, maar die nog niet als open data via API of bulkdownload werd ontsloten, werd een andere tijdslijn gehanteerd. 
+Aangezien hier een grotere inspanning werd verwacht voor de ontsluiting conform HVD vereisten, werd destijds voorgesteld om, waar nodig, de periode tussen de officiële implementatie-deadline van 9 juni 2024 en de eerste rapportage over HVD op 9 februari 2025 te benutten. Dit betrof de Nederlandse implementatieplanning en geen verlenging van de wettelijke implementatietermijn.
 
 ### Milieurichtlijnen  {#000BEA28}
 
-In de eerste helft van 2024 zal er voor de dertigtal milieurichtlijnen, vallende onder het thema Aardobservatie en milieu, verder worden ingezet op het verhelderen welke datasets er voor de HVD ontsloten moeten worden. Deze ketens zijn complex met meerdere stakeholders: een beleidsverantwoordelijke, aanleverende en uitvoerende organisaties. Dit vraagt meer tijd om in beeld te krijgen. Hiervoor geldt de implementatietermijn tot uiterlijk 9 februari 2025.
+Voor de eerste helft van 2024 was voorzien om voor de dertigtal milieurichtlijnen, vallende onder het thema Aardobservatie en milieu, verder in te zetten op het verhelderen welke datasets er voor de HVD ontsloten moeten worden. Deze ketens zijn complex met meerdere stakeholders: een beleidsverantwoordelijke, aanleverende en uitvoerende organisaties. Dit vraagt meer tijd om in beeld te krijgen. Hiervoor werd destijds uitgegaan van een implementatietermijn tot uiterlijk 9 februari 2025.
 
 ### Overige data onder INSPIRE thema’s {#1C790CF7}
 
-Datasets die in de HVD genoemd worden en onder INSPIRE thema’s vallen, betreffen datasets die voor INSPIRE zijn aangemerkt: het gaat zowel om geharmoniseerde datasets als om rijkere brondata. Daarnaast gaat het om de overige data die onder de INSPIRE thema’s valt (aanvullend op de meest geschikte INSPIRE dataset). Niet al deze data is al bij de dataproviders in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor geldt de implementatietermijn tot uiterlijk 9 februari 2025.
+Datasets die in de HVD genoemd worden en onder INSPIRE thema’s vallen, betreffen datasets die voor INSPIRE zijn aangemerkt: het gaat zowel om geharmoniseerde datasets als om rijkere brondata. Daarnaast gaat het om de overige data die onder de INSPIRE thema’s valt (aanvullend op de meest geschikte INSPIRE dataset). Niet al deze data is al bij de dataproviders in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor werd destijds uitgegaan van een implementatietermijn tot uiterlijk 9 februari 2025.
 
 ### Historie en meerdere schaalniveaus {#313A749C}
 
-Het ontsluiten van historische data en data in verschillende schaalniveaus (waar relevant) is vaak nog niet bij de dataprovider in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor geldt de implementatie termijn tot uiterlijk 9 februari 2025. 
+Het ontsluiten van historische data en data in verschillende schaalniveaus (waar relevant) is vaak nog niet bij de dataprovider in scope en vraagt meer tijd om in beeld te krijgen. Hiervoor werd destijds uitgegaan van een implementatietermijn tot uiterlijk 9 februari 2025.
 
 ### Optimalisatie {#720A4DBC}
 
@@ -69,7 +71,7 @@ HVD is namelijk geen project, maar onderdeel van het dagelijkse werkproces!
 
 ### Afstemmen binnen Nederland {#4D2A049F}
 
-In Nederland wordt een operationeel overleg HVD ingericht. Vanaf 2024 zal dit overleg met een vaste frequentie worden ingepland.<br/>
+In Nederland vindt periodiek een operationeel overleg HVD plaats.
 
-Naast het operationeel overleg HVD is er het Tactisch beraad EU informatie. Zie voor meer informatie het dossier<a href='https://www.geonovum.nl/themas/europese-datastrategie' target='_blank'> Europese datastrategie dossier</a> op de Geonovum site.
+Naast het operationeel overleg HVD is er het Tactisch beraad EU informatie. Zie voor meer informatie het dossier <a href='https://www.geonovum.nl/themas/europese-datastrategie' target='_blank'>Europese datastrategie dossier</a> op de Geonovum site.
 
