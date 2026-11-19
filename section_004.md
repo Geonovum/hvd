@@ -50,7 +50,7 @@ De metadata kan voor andere domeinen conform andere bestaande normen (standaarde
 
 ### Standaard voor het uitwisselen van metadata tussen metadata portalen {#65FBDE9D}
 
-In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.1' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van geo metadata en INSPIRE metadata conform het Nederlands profiel op ISO 19115 naar DCAT, wordt uitgevoerd op catalog/dataportaal niveau. De transformatie van geo- en INSPIRE-metadata conform de Nederlandse profielen op ISO 19115 en ISO 19119 naar DCAT wordt uitgevoerd op catalogus- of dataportaalniveau. Individuele metadatabeheerders hoeven deze transformatie niet zelf uit te voeren. Zij blijven wel verantwoordelijk voor het correct en volledig opnemen van de HVD-specifieke informatie in de bronmetadata.
+In Europa is het applicatie profiel (<A href='https://semiceu.github.io/DCAT-AP/releases/3.0.1' target='_blank'>DCAT-AP</a>) ontwikkeld op de internationale DCAT standaard, voor het uitwisselen van metadata tussen Europese dataportalen. De transformatie van geo- en INSPIRE-metadata conform de Nederlandse profielen op ISO 19115 en ISO 19119 naar DCAT wordt uitgevoerd op catalogus- of dataportaalniveau. Individuele metadatabeheerders hoeven deze transformatie niet zelf uit te voeren. Zij blijven wel verantwoordelijk voor het correct en volledig opnemen van de HVD-specifieke informatie in de bronmetadata.
 
 Voor het uitwisselen van de HVD specifieke metadata is een extensie op DCAT-AP gemaakt, <a href='https://semiceu.github.io/DCAT-AP/releases/3.0.1-hvd/' target='_blank'>DCAT-AP-HVD</a>, zodat daarmee ook aan de vereisten vanuit de uitvoeringsverordening voor hoogwaardige datasets kan worden voldaan.
 
@@ -316,6 +316,8 @@ INSPIRE dataproviders met HVD datasets kunnen de INSPIRE ‘network services’ 
 </tr>
 </tbody>
 </table>
+
+Een service voldoet alleen aan de vereisten voor bulkdownload als deze het downloaden van de volledige dataset in één of meer pakketten mogelijk maakt.
 
 ### Overige documentatie {#41325C33}
 
