@@ -9,7 +9,7 @@ In de <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32
 De datasets worden beschikbaar gesteld onder de, bij <a href='#0A0CAE2E'>Algemene vereisten HVD</a> genoemde licentie, in voorkomend geval met aanvullende voorwaarden voor het hergebruik van persoonsgegevens.<br/>
 
 De datasets hebben een formaat zoals beschreven bij <a href='#120E3368'>Algemene vereisten HVD</a> met daarnaast de specificaties: <br/>
-<ul><li>XHTML formaat voor documenten die binnen het toepassingsgebied van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32019R0815' target='_blank'>Gedelegeerde Verordening (EU) 2018/815</a> van de Commissie vallen;</li>
+<ul><li>XHTML formaat voor documenten die binnen het toepassingsgebied van <a href='https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32018R0815' target='_blank'>Gedelegeerde Verordening (EU) 2018/815</a> van de Commissie vallen;</li>
 <li>In andere formaten indien en voor zover voorgeschreven bij het toepasselijke Unierecht;</li>
 <li>Machineleesbaarheid is niet vereist voor gegevens die worden bewaard in niet-machineleesbare formaten (bijvoorbeeld gescande bedrijfsdocumenten) of voor ongestructureerde/niet machineleesbare gegevensvelden die deel uitmaken van machineleesbare documenten.</li>
 </ul>
