@@ -39,9 +39,9 @@ Bij het publiceren van de uitvoeringsverordening HVD is geen rekening gehouden m
 
 ## Deadlines {#55C1B036}
 
-Op 21 december 2022 is de Uitvoeringsverordening tot vaststelling van een lijst met specifieke high value datasets en de regelingen voor publicatie en hergebruik van die gegevens besloten. Deze uitvoeringsverordening heeft de kracht van wet ongeacht de omzetting van de Open Data richtlijn in de Nederlandse Wet Hergebruik van Overheidsinformatie. De wettelijke verplichtingen van de high value datasets staan daarmee volledig op zichzelf. De eisen in de uitvoeringsverordening HVD moeten uiterlijk per 9 juni 2024 door iedere lidstaat vervuld zijn. <br/>
+Op 21 december 2022 is de Uitvoeringsverordening tot vaststelling van een lijst met specifieke high value datasets en de regelingen voor publicatie en hergebruik van die gegevens vastgesteld. Deze uitvoeringsverordening is rechtstreeks van toepassing ongeacht de omzetting van de Open Data richtlijn in de Nederlandse Wet Hergebruik van Overheidsinformatie. De wettelijke verplichtingen voor high value datasets zijn daarmee rechtstreeks van toepassing. De eisen in de uitvoeringsverordening HVD moesten uiterlijk op 9 juni 2024 door iedere lidstaat vervuld zijn. <br/>
 
-Het ministerie van Binnenlandse zaken stelt een gefaseerde aanpak voor, zie <a href='#3280DEA1'>Nederlandse ambitie HVD</a>.
+Het ministerie van Binnenlandse Zaken heeft destijds een gefaseerde aanpak voorgesteld, zie <a href='#3280DEA1'>Nederlandse ambitie HVD</a>.
 
 ## Bronnen {#6A547147}
 
